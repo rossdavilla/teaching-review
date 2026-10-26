@@ -27,7 +27,16 @@ python3 -I scripts/build_site.py                  # regenerates site/index.html 
 python3 -I scripts/commit_seen.py                 # stop these articles reappearing next month
 ```
 
-Publish `site/index.html` to the same artifact URL so the month rail gains the new month.
+The page has two homes, both written by `build_site.py`:
+
+- `site/index.html` — publish to the **Claude artifact** (private): https://claude.ai/artifact/JMBay7gB1Rpi7ZN45Yyij7
+- `docs/index.html` — committed and pushed to **GitHub Pages** (public): https://rossdavilla.github.io/teaching-review/
+
+Keep the `site/` path exactly as it is; the artifact's URL is tied to it, and moving the file would
+create a second artifact. After a month is added, publish the artifact *and* `git push`.
+
+**Never commit the lecture folders or `data/lecture_text/`** — see `.gitignore`. The extracted text
+contains named student responses recorded in class, and the repo is public.
 
 ### The three files a review produces
 

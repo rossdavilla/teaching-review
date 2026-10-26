@@ -1,6 +1,13 @@
-# Journal Scraper
+# Teaching Review
 
 A monthly review of new psychology research, mapped to the lectures of three courses.
+
+**Live:** https://rossdavilla.github.io/teaching-review/
+
+> **Lecture materials are deliberately not in this repo.** The course PDFs and the text extracted
+> from them are gitignored: they are course content, and the extracts contain named student
+> responses recorded in class. Clone this and the scripts run, but `scripts/extract_lectures.py`
+> and the review step need those local folders.
 
 Scans 21 top-tier journals, pulls new articles with abstracts, and produces a report saying which lecture
 each relevant finding belongs in — and which existing slides a new finding should change.
@@ -8,6 +15,7 @@ each relevant finding belongs in — and which existing slides a new finding sho
 ## Use it
 
 ```bash
+export CROSSREF_MAILTO="you@example.com"   # optional: polite rate limits from Crossref/OpenAlex
 python3 -I scripts/fetch_articles.py
 ```
 
@@ -31,6 +39,10 @@ data/lecture_index.json       37 lectures: topics, theories, researchers, key cl
 data/seen_dois.json           dedupe ledger
 reports/YYYY-MM.md            the monthly review
 ```
+
+`scripts/build_site.py` writes the page to **both** `site/index.html` (the Claude artifact publishes
+from this path, so it must not move) and `docs/index.html` (what GitHub Pages serves). Push to `main`
+and the public page redeploys.
 
 `CLAUDE.md` holds the review playbook and the design reasoning.
 
