@@ -116,6 +116,24 @@ ol.items{list-style:none;padding:0;margin:0;display:grid;gap:.7rem}
 li.item{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:1rem 1.05rem;
   display:grid;grid-template-columns:auto 1fr;gap:0 .8rem;min-width:0}
 li.item.sel{border-color:var(--accent);box-shadow:inset 3px 0 0 var(--accent)}
+li.item.is-read{opacity:.5}
+li.item.is-read:hover,li.item.is-read:focus-within{opacity:1}
+li.item.is-dismissed{opacity:.42}
+li.item.is-dismissed h3{text-decoration:line-through}
+.statetag{font-family:var(--body);font-size:.66rem;font-weight:700;text-transform:uppercase;
+  letter-spacing:.06em;border-radius:4px;padding:.15rem .38rem}
+.st-read{background:var(--exa-bg);color:var(--exa)}
+.st-dismissed{background:var(--neutral-bg,#eceef2);color:var(--ink-soft)}
+.btn.on{background:var(--exa);border-color:var(--exa);color:var(--card)}
+.progress{display:flex;flex-wrap:wrap;gap:.3rem .9rem;align-items:center;margin:.55rem 0 0;
+  font-family:var(--mono);font-size:.74rem;color:var(--ink-soft)}
+.bar{flex:1 1 9rem;min-width:7rem;height:5px;border-radius:3px;background:var(--line);overflow:hidden}
+.bar i{display:block;height:100%;background:var(--exa);border-radius:3px}
+.backup{display:flex;flex-wrap:wrap;gap:.4rem;align-items:center;margin-top:.9rem}
+.backup .lbl{font-size:.72rem;text-transform:uppercase;letter-spacing:.07em;color:var(--ink-soft)}
+#restorebox{width:100%;min-height:5rem;font-family:var(--mono);font-size:.72rem;color:var(--ink);
+  background:var(--sunk);border:1px solid var(--line);border-radius:8px;padding:.6rem;margin-top:.5rem;
+  resize:vertical}
 .pickwrap{padding-top:.18rem}
 input.pick{width:1.05rem;height:1.05rem;accent-color:var(--accent);cursor:pointer;margin:0}
 input.pick:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
@@ -180,6 +198,14 @@ footer code{font-family:var(--mono);font-size:.74rem;background:var(--accent-sof
 
   <div class="controls">
     <input id="q" type="search" placeholder="Search title, journal, author, finding…" autocomplete="off" aria-label="Search within this category">
+    <div class="chiprow">
+      <span class="lbl">Show</span>
+      <button class="chip" data-status="unread" aria-pressed="true">Unread</button>
+      <button class="chip" data-status="all" aria-pressed="false">All</button>
+      <button class="chip" data-status="read" aria-pressed="false">Read</button>
+      <button class="chip" data-status="dismissed" aria-pressed="false">Dismissed</button>
+    </div>
+    <div class="progress" id="progress"></div>
     <div class="selbar">
       <span class="cnt" id="selcnt">0 selected</span>
       <button class="btn" id="dlbtn" disabled>Build download instructions</button>
@@ -199,6 +225,15 @@ footer code{font-family:var(--mono);font-size:.74rem;background:var(--accent-sof
 
   <p class="count" id="count"></p>
   <div id="list"></div>
+
+  <div class="backup">
+    <span class="lbl">Reading progress</span>
+    <button class="btn ghost" id="bkcopy">Back up</button>
+    <button class="btn ghost" id="bkrestore">Restore from backup</button>
+    <button class="btn ghost" id="bkreset">Reset all</button>
+  </div>
+  <textarea id="restorebox" hidden spellcheck="false"
+    placeholder="Paste a backup here, then press Restore from backup again."></textarea>
 
   <footer>
     Built from <code>data/curation_*.json</code> + <code>data/refs_*.json</code> + <code>data/slides_*.json</code>
@@ -222,7 +257,17 @@ const COURSE_ORDER=["all","PSY157","PSY170","PSY175"];
 const COURSE_LABEL={all:"All classes",PSY157:"PSY157 \u00b7 Relationships",
                     PSY170:"PSY170 \u00b7 I/O",PSY175:"PSY175 \u00b7 Sexuality"};
 
-let mi=0, cat="priority", fCourse="all", fQ="";
+let mi=0, cat="priority", fCourse="all", fQ="", fStatus="unread";
+
+/* Reading progress. Kept in this browser only — it never leaves the device and never
+   reaches Claude. "Back up" copies it out as text so it can move to another machine. */
+const STATE_KEY="tr-state-v1";
+let itemState={};
+const stateOf=doi=>itemState[doi]||"unread";
+function setState(doi,st){
+  if(st==="unread") delete itemState[doi]; else itemState[doi]=st;
+  try{ localStorage.setItem(STATE_KEY,JSON.stringify(itemState)) }catch(e){}
+}
 const picked=new Set();
 const ls={get(k,d){try{const v=localStorage.getItem(k);return v===null?d:v}catch(e){return d}},
           set(k,v){try{localStorage.setItem(k,v)}catch(e){}}};
@@ -233,6 +278,8 @@ const ls={get(k,d){try{const v=localStorage.getItem(k);return v===null?d:v}catch
   const c=ls.get("tr-cat",null); if(c&&CATS.some(x=>x[0]===c)) cat=c;
   const co=ls.get("tr-course",null); if(co==="all"||(co&&/^PSY1(57|70|75)$/.test(co))) fCourse=co;
   try{JSON.parse(ls.get("tr-picked","[]")).forEach(d=>picked.add(d))}catch(e){}
+  const st=ls.get("tr-status",null); if(["all","unread","read","dismissed"].includes(st)) fStatus=st;
+  try{ itemState=JSON.parse(ls.get(STATE_KEY,"{}"))||{} }catch(e){ itemState={} }
 })();
 
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
@@ -333,13 +380,16 @@ function dlInstructions(items){
 function card(it){
   const on=picked.has(it.doi);
   const s=it.slide;
-  return `<li class="item${on?" sel":""}" data-doi="${esc(it.doi)}">
+  const st=stateOf(it.doi);
+  return `<li class="item${on?" sel":""}${st==="read"?" is-read":""}${st==="dismissed"?" is-dismissed":""}" data-doi="${esc(it.doi)}">
    <div class="pickwrap"><input class="pick" type="checkbox" ${on?"checked":""}
      id="p-${esc(it.doi)}" aria-label="Select ${esc(it.title)}"></div>
    <div class="main">
     <div class="itop">
       ${it.courses.map(c=>`<span class="crs">${esc(c)}</span>`).join("")}
       <span class="lec">${esc(it.lectures)}</span>
+      ${st==="read"?'<span class="statetag st-read">Read</span>':""}
+      ${st==="dismissed"?'<span class="statetag st-dismissed">Dismissed</span>':""}
     </div>
     <h3>${esc(it.title)}</h3>
     <p class="src">${esc(it.authorsShort)} · <em>${esc(it.journal)}</em>${it.year?" · "+it.year:""}</p>
@@ -347,6 +397,10 @@ function card(it){
     <p class="why">${it.why}</p>
     ${it.caution?`<p class="warn"><b>Note</b><span>${esc(it.caution)}</span></p>`:""}
     <div class="acts">
+      ${st==="dismissed"
+        ? `<button class="btn ghost" data-state="unread">Restore</button>`
+        : `<button class="btn ghost${st==="read"?" on":""}" data-state="${st==="read"?"unread":"read"}">${st==="read"?"Read \u2713":"Mark read"}</button>
+           <button class="btn ghost" data-state="dismissed" title="Hide this article. You can bring it back from the Dismissed list.">Dismiss</button>`}
       ${it.abstract?`<button class="btn ghost" data-tog="abs">Abstract</button>`:
         `<button class="btn ghost" disabled title="No abstract published in any open source">No abstract</button>`}
       ${s?`<button class="btn ghost" data-tog="slide">Slide text</button>`:""}
@@ -369,6 +423,9 @@ function visible(){
   return allItems().filter(it=>{
     if(it.cat!==cat) return false;
     if(fCourse!=="all" && !it.courses.includes(fCourse)) return false;
+    const st=stateOf(it.doi);
+    if(fStatus==="all"){ if(st==="dismissed") return false; }
+    else if(st!==fStatus) return false;
     if(fQ){
       const hay=(it.title+" "+it.journal+" "+it.authorsShort+" "+it.finding+" "+it.why+" "+it.lectures+" "+it.doi+" "+(it.abstract||"")).toLowerCase();
       if(!fQ.split(/\s+/).every(w=>hay.includes(w))) return false;
@@ -394,8 +451,26 @@ function renderRail(){
   document.getElementById("catnote").textContent=CATNOTE[cat];
 }
 
+function progressFor(){
+  const pool=allItems().filter(it=>it.cat===cat&&inCourse(it,fCourse));
+  let read=0,dis=0;
+  pool.forEach(it=>{const st=stateOf(it.doi); if(st==="read")read++; else if(st==="dismissed")dis++;});
+  return {total:pool.length,read,dismissed:dis,unread:pool.length-read-dis};
+}
+
+function renderProgress(){
+  const p=progressFor(), el=document.getElementById("progress");
+  if(!p.total){ el.innerHTML=""; return; }
+  const done=p.read+p.dismissed, pct=Math.round(100*done/p.total);
+  el.innerHTML=`<span>${p.unread} unread</span><span>${p.read} read</span>`+
+    (p.dismissed?`<span>${p.dismissed} dismissed</span>`:"")+
+    `<span class="bar" role="img" aria-label="${pct}% cleared"><i style="width:${pct}%"></i></span>`+
+    `<span>${pct}% cleared</span>`;
+}
+
 function render(){
   renderRail();
+  renderProgress();
   const keep=visible(), total=countCat(fCourse,cat);
   document.getElementById("count").textContent =
     total===0 ? "" : `${keep.length} of ${total} shown`;
@@ -403,7 +478,9 @@ function render(){
   if(!keep.length){
     host.innerHTML = total===0
       ? `<div class="empty"><h3>No ${CATS.find(c=>c[0]===cat)[1].toLowerCase()}${fCourse==="all"?"":" for "+fCourse} this month</h3><p>${esc(cat==="retractions"?RETRACT_EMPTY:"Nothing landed in this category for "+(fCourse==="all"?M().label:fCourse+" in "+M().label)+".")}</p></div>`
-      : `<div class="empty"><h3>Nothing matches</h3><p>No article in this category matches the current search or course filter.</p></div>`;
+      : (fStatus==="unread"&&!fQ&&progressFor().unread===0
+          ? `<div class="empty"><h3>All caught up</h3><p>Every article in this category is marked read or dismissed. Switch Show to All to see them again.</p></div>`
+          : `<div class="empty"><h3>Nothing matches</h3><p>No article here matches the current search, course or status filter.</p></div>`);
   } else {
     host.innerHTML=`<ol class="items">${keep.map(card).join("")}</ol>`;
   }
@@ -423,6 +500,14 @@ document.getElementById("cats").addEventListener("click",e=>{
   cat=b.dataset.cat; ls.set("tr-cat",cat); render();
 });
 document.getElementById("q").addEventListener("input",e=>{fQ=e.target.value.trim().toLowerCase();render()});
+document.querySelectorAll(".chip[data-status]").forEach(b=>{
+  b.setAttribute("aria-pressed",String(b.dataset.status===fStatus));
+  b.addEventListener("click",()=>{
+    fStatus=b.dataset.status;
+    document.querySelectorAll(".chip[data-status]").forEach(x=>x.setAttribute("aria-pressed",String(x===b)));
+    ls.set("tr-status",fStatus); render();
+  });
+});
 document.getElementById("classes").addEventListener("click",e=>{
   const b=e.target.closest("button[data-course]"); if(!b) return;
   fCourse=b.dataset.course; ls.set("tr-course",fCourse); render();
@@ -430,6 +515,8 @@ document.getElementById("classes").addEventListener("click",e=>{
 document.getElementById("list").addEventListener("click",e=>{
   const li=e.target.closest("li.item"); if(!li) return;
   const it=allItems().find(x=>x.doi===li.dataset.doi); if(!it) return;
+  const stb=e.target.closest("button[data-state]");
+  if(stb){ setState(it.doi,stb.dataset.state); render(); return; }
   const tog=e.target.closest("button[data-tog]");
   if(tog){ const pane=li.querySelector(`[data-pane="${tog.dataset.tog}"]`);
     if(pane){ pane.hidden=!pane.hidden; tog.setAttribute("aria-expanded",String(!pane.hidden)); } return; }
@@ -466,6 +553,42 @@ document.getElementById("dlclose").addEventListener("click",()=>
 document.getElementById("clrbtn").addEventListener("click",()=>{
   picked.clear(); ls.set("tr-picked","[]");
   document.getElementById("dlpanel").hidden=true; render();
+});
+
+document.getElementById("bkcopy").addEventListener("click",e=>{
+  const n=Object.keys(itemState).length;
+  if(!n){ const o=e.target.textContent; e.target.textContent="Nothing to back up yet";
+          setTimeout(()=>e.target.textContent=o,2000); return; }
+  copyText(JSON.stringify({v:1,saved:new Date().toISOString(),state:itemState}),e.target,
+           `Copied \u2014 ${n} article${n>1?"s":""}`);
+});
+document.getElementById("bkrestore").addEventListener("click",e=>{
+  const box=document.getElementById("restorebox");
+  if(box.hidden){ box.hidden=false; box.focus(); return; }
+  const txt=box.value.trim();
+  if(!txt){ box.hidden=true; return; }
+  let data=null;
+  try{ data=JSON.parse(txt) }catch(err){}
+  const incoming=data&&data.state&&typeof data.state==="object"?data.state:null;
+  if(!incoming){ const o=e.target.textContent; e.target.textContent="That doesn't look like a backup";
+                 setTimeout(()=>e.target.textContent=o,2400); return; }
+  itemState=Object.assign({},itemState,incoming);
+  try{ localStorage.setItem(STATE_KEY,JSON.stringify(itemState)) }catch(err){}
+  box.value=""; box.hidden=true;
+  const o=e.target.textContent; e.target.textContent=`Restored ${Object.keys(incoming).length}`;
+  setTimeout(()=>e.target.textContent=o,2400);
+  render();
+});
+document.getElementById("bkreset").addEventListener("click",e=>{
+  if(e.target.dataset.armed!=="1"){
+    e.target.dataset.armed="1"; const o=e.target.textContent;
+    e.target.textContent="Press again to clear everything";
+    setTimeout(()=>{ e.target.dataset.armed=""; e.target.textContent=o },3500);
+    return;
+  }
+  e.target.dataset.armed=""; itemState={};
+  try{ localStorage.removeItem(STATE_KEY) }catch(err){}
+  e.target.textContent="Reset all"; render();
 });
 
 render();
