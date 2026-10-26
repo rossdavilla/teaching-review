@@ -1,0 +1,15 @@
+# Lecture materials stay local. The PDFs are Ross's own course content, and the extracted
+# text contains named student responses recorded in class — neither belongs in a public repo.
+PSY157 Lectures*/
+PSY170 Lectures*/
+PSY175 Lectures*/
+data/lecture_text/
+data/lecture_index.json
+data/lecture_manifest.json
+
+# local contact for the Crossref/OpenAlex politeness header
+.env
+
+__pycache__/
+*.pyc
+.DS_Store

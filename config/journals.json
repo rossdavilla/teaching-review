@@ -1,0 +1,35 @@
+{
+  "_comment": "Abstract availability verified empirically 2026-10-25. 'abstract_source' is the observed best source; the fetcher cascades Crossref -> Europe PMC -> OpenAlex regardless.",
+  "window_days": 31,
+  "journals": [
+    {"name": "Archives of Sexual Behavior", "issn": "0004-0002", "courses": ["PSY175"], "publisher": "Springer", "abstract_source": "europepmc"},
+    {"name": "Journal of Sex Research", "issn": "0022-4499", "courses": ["PSY175"], "publisher": "Taylor & Francis", "abstract_source": "europepmc"},
+    {"name": "Journal of Sex & Marital Therapy", "issn": "0092-623X", "courses": ["PSY175", "PSY157"], "publisher": "Taylor & Francis", "abstract_source": "europepmc"},
+    {"name": "Psychology of Sexual Orientation and Gender Diversity", "issn": "2329-0382", "courses": ["PSY175"], "publisher": "APA", "abstract_source": "openalex", "coverage_note": "Poorly indexed; expect title-only for many items."},
+
+    {"name": "Journal of Social and Personal Relationships", "issn": "0265-4075", "courses": ["PSY157"], "publisher": "SAGE", "abstract_source": "crossref"},
+    {"name": "Personal Relationships", "issn": "1350-4126", "courses": ["PSY157"], "publisher": "Wiley", "abstract_source": "crossref"},
+    {"name": "Journal of Personality and Social Psychology", "issn": "0022-3514", "courses": ["PSY157", "PSY170"], "publisher": "APA", "abstract_source": "europepmc"},
+    {"name": "Personality and Social Psychology Bulletin", "issn": "0146-1672", "courses": ["PSY157", "PSY170"], "publisher": "SAGE", "abstract_source": "both"},
+    {"name": "Journal of Family Psychology", "issn": "0893-3200", "courses": ["PSY157", "PSY175"], "publisher": "APA", "abstract_source": "europepmc"},
+
+    {"name": "Journal of Applied Psychology", "issn": "0021-9010", "courses": ["PSY170"], "publisher": "APA", "abstract_source": "europepmc"},
+    {"name": "Personnel Psychology", "issn": "0031-5826", "courses": ["PSY170"], "publisher": "Wiley", "abstract_source": "crossref"},
+    {"name": "Journal of Organizational Behavior", "issn": "0894-3796", "courses": ["PSY170"], "publisher": "Wiley", "abstract_source": "crossref"},
+    {"name": "The Leadership Quarterly", "issn": "1048-9843", "courses": ["PSY170"], "publisher": "Elsevier", "abstract_source": "openalex", "coverage_note": "Elsevier deposits no abstracts; partial via OpenAlex."},
+    {"name": "Journal of Vocational Behavior", "issn": "0001-8791", "courses": ["PSY170"], "publisher": "Elsevier", "abstract_source": "openalex", "coverage_note": "Elsevier deposits no abstracts; partial via OpenAlex."},
+
+    {"name": "Annual Review of Psychology", "issn": "0066-4308", "courses": ["PSY157", "PSY170", "PSY175"], "publisher": "Annual Reviews", "abstract_source": "both"},
+    {"name": "Nature Reviews Psychology", "issn": "2731-0574", "courses": ["PSY157", "PSY170", "PSY175"], "publisher": "Nature", "abstract_source": "none", "coverage_note": "No abstracts in any open source; title + authors only."},
+    {"name": "Psychological Science in the Public Interest", "issn": "1529-1006", "courses": ["PSY157", "PSY170", "PSY175"], "publisher": "SAGE", "abstract_source": "both", "coverage_note": "Very low volume (~3/yr) but high teaching value."},
+    {"name": "Psychological Review", "issn": "0033-295X", "courses": ["PSY157", "PSY170", "PSY175"], "publisher": "APA", "abstract_source": "europepmc"},
+    {"name": "Perspectives on Psychological Science", "issn": "1745-6916", "courses": ["PSY157", "PSY170", "PSY175"], "publisher": "SAGE", "abstract_source": "both"},
+    {"name": "Personality and Social Psychology Review", "issn": "1088-8683", "courses": ["PSY157", "PSY170"], "publisher": "SAGE", "abstract_source": "both"},
+    {"name": "Current Opinion in Psychology", "issn": "2352-250X", "courses": ["PSY157", "PSY170", "PSY175"], "publisher": "Elsevier", "abstract_source": "europepmc"}
+  ],
+  "courses": {
+    "PSY157": {"title": "Personal Relationships", "folder": "PSY157 Lectures (2026 Spring)"},
+    "PSY170": {"title": "Industrial/Organizational Psychology", "folder": "PSY170 Lectures (2026 Spring)"},
+    "PSY175": {"title": "Human Sexuality", "folder": "PSY175 Lectures (2026 Spring)"}
+  }
+}

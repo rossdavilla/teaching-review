@@ -1,0 +1,693 @@
+{
+ "month": "2026-10",
+ "label": "Oct 2026",
+ "window": {
+  "since": "2026-09-24",
+  "until": "2026-10-25"
+ },
+ "stats": {
+  "new": 165,
+  "abstracts": 135,
+  "flagged": 58,
+  "journals": 21,
+  "junk": 24
+ },
+ "items": [
+  {
+   "doi": "10.1037/pspp0000619",
+   "category": "priority",
+   "courses": [
+    "PSY157"
+   ],
+   "lectures": "L7 Friendship",
+   "finding": "22,031 day-reconstruction episodes from 2,508 Germans aged 17–95. Being alone predicted state loneliness; people were lonelier at home than at work; TV raised it; self-care and prolonged social contact lowered it.",
+   "why": "Your slides frame loneliness dispositionally (“often have average # of friends”). This makes it a context-driven state with teachable triggers — and <b>lonelier at home than at work</b> is a genuinely counterintuitive opener.",
+   "caution": null
+  },
+  {
+   "doi": "10.1177/02654075261477595",
+   "category": "priority",
+   "courses": [
+    "PSY157"
+   ],
+   "lectures": "L6 Interdependence",
+   "finding": "Two studies (n=426; n=711). Sexual desire and satisfaction and fewer sacrifices predicted relationship happiness but not meaningfulness. Negative self-disclosure predicted meaningfulness only. People preferring meaning over happiness showed higher satisfaction, optimism, closeness and forgiveness.",
+   "why": "Your Social Exchange slides treat satisfaction as one quantity (Outcomes vs. CL). This splits the outcome in two and shows the costs that <b>reduce happiness can build meaning</b> — a direct complication of the rewards/costs ledger.",
+   "caution": null
+  },
+  {
+   "doi": "10.1177/01461672261481957",
+   "category": "priority",
+   "courses": [
+    "PSY157"
+   ],
+   "lectures": "L4 Social Cognition",
+   "finding": "Five studies. Partners accurately read each other’s authenticity after sacrifices and after discussing personal distress — but failed during relationship conflict. Outside observers watching thin-slice videos of those same conflicts succeeded.",
+   "why": "A clean boundary condition for your “Accuracy of Partner Perceptions” slides, and the thin-slice result links back to the <b>0.1-second first impression</b> material earlier in the same lecture.",
+   "caution": null
+  },
+  {
+   "doi": "10.1177/17456916261475589",
+   "category": "priority",
+   "courses": [
+    "PSY157",
+    "PSY170"
+   ],
+   "lectures": "L10 Stresses · L11 Persuasion",
+   "finding": "Connects truth-default theory to misinformation scholarship: TDT predicts findings the misinformation literature found surprising, and its analytic approaches apply to detection tasks and intervention evaluation.",
+   "why": "You already teach truth bias and the finance-lie study where 0% detected deception. This <b>names the theory</b> organizing those findings and bridges to material students care about.",
+   "caution": null
+  },
+  {
+   "doi": "10.1177/02654075261498961",
+   "category": "priority",
+   "courses": [
+    "PSY157"
+   ],
+   "lectures": "L7 Friendship · L4",
+   "finding": "308 dyads; Actor–Partner Interdependence analyses extend prior romantic self-esteem findings to close friends and primary caregivers.",
+   "why": "Your partner-feedback material (self-verification vs. self-enhancement) is romantic-only. This <b>licenses extending it to friendship</b>, where Lecture 7 already lives.",
+   "caution": null
+  },
+  {
+   "doi": "10.1016/j.copsyc.2026.102474",
+   "category": "examples",
+   "courses": [
+    "PSY157"
+   ],
+   "lectures": "L7 Friendship",
+   "finding": "“Many Voices” registered reports: group singing enhanced social bonding significantly more than speaking, across 901 participants speaking 30 languages.",
+   "why": "A strong companion to your ape-grooming and physical-support sequence — and it answers the cross-cultural objection directly.",
+   "caution": null
+  },
+  {
+   "doi": "10.1177/02654075261496338",
+   "category": "examples",
+   "courses": [
+    "PSY157"
+   ],
+   "lectures": "L6 Interdependence",
+   "finding": "N=546. Both perceived partner materialism and personal materialism related to greater loneliness, tracing it to unmet relatedness rather than value mismatch; both also predicted compulsive buying.",
+   "why": "Loneliness inside a relationship is a good way into comparison level and unmet expectations.",
+   "caution": null
+  },
+  {
+   "doi": "10.1037/pspp0000616",
+   "category": "updates",
+   "courses": [
+    "PSY157",
+    "PSY170"
+   ],
+   "lectures": "L4 Narcissism · L8 Dark Triad",
+   "finding": "Preregistered; Chinese undergraduates and offenders; 19,331 and 42,820 ambulatory observations plus four-wave longitudinal samples. Narcissism and aggression predicted each other momentarily but not long-term.",
+   "why": "Refines the blunt “narcissists are aggressive” claim into a <b>within-person, momentary</b> process — and directly answers the WEIRD-sample objection.",
+   "caution": null
+  },
+  {
+   "doi": "10.1177/01461672261485365",
+   "category": "examples",
+   "courses": [
+    "PSY157"
+   ],
+   "lectures": "L14 Maintenance",
+   "finding": "N=19,265 global sample; NLP identified 16 themes, the most common being social relationships. Family and nature themes produced the largest positivity gains.",
+   "why": "A concrete maintenance behavior with large-sample backing for your cognitive-strategies section.",
+   "caution": null
+  },
+  {
+   "doi": "10.1177/17456916261479948",
+   "category": "examples",
+   "courses": [
+    "PSY157",
+    "PSY175",
+    "PSY170"
+   ],
+   "lectures": "L3 Attraction · L8 Arousal",
+   "finding": "Theoretical argument that objectifying others harms the objectifier’s own capacity for close relationships and collaboration, via cognitive load, face–body attentional trade-off, goal-based perception and dehumanization.",
+   "why": "A useful counterweight to lectures built largely around physical mate-preference findings.",
+   "caution": null
+  },
+  {
+   "doi": "10.1111/pere.70091",
+   "category": "examples",
+   "courses": [
+    "PSY157"
+   ],
+   "lectures": "L10 · L14 Forgiveness",
+   "finding": "N=935 in Germany; multi-group CFA supported the Benevolence / Resentment-Avoidance two-factor structure across religious groups.",
+   "why": "Measurement support for the forgiveness construct you teach in two separate lectures.",
+   "caution": null
+  },
+  {
+   "doi": "10.1177/17456916261482033",
+   "category": "updates",
+   "courses": [
+    "PSY157"
+   ],
+   "lectures": "L7 Social Media",
+   "finding": "Argues two analytic practices — ignoring risk elevations and blending heterogeneous exposures and outcomes — lead researchers to underestimate harm.",
+   "why": "<b>Present as a live methodological dispute, not settled fact.</b> This is one side of an active argument about how to analyze the same body of evidence.",
+   "caution": "One side of an active methodological dispute. Present as contested, not settled."
+  },
+  {
+   "doi": "10.1146/annurev-psych-020226-033620",
+   "category": "examples",
+   "courses": [
+    "PSY157",
+    "PSY170"
+   ],
+   "lectures": "L7 Friendship · L8 Groups",
+   "finding": "Integrates social cohesion, social identity and identity fusion into one network model of how self-concept produces group connection.",
+   "why": "Background reading if you want to tighten the belonging material.",
+   "caution": null
+  },
+  {
+   "doi": "10.1177/02654075261496954",
+   "category": "examples",
+   "courses": [
+    "PSY157"
+   ],
+   "lectures": "L8 Love · L5",
+   "finding": "Tests whether perceived dyadic coping mediates links between insecure attachment and social anxiety specific to romantic partner situations.",
+   "why": "<b>N=88 community convenience sample.</b> On-topic for your attachment slides but cite cautiously.",
+   "caution": "N = 88 community convenience sample."
+  },
+  {
+   "doi": "10.1037/apl0001420",
+   "category": "priority",
+   "courses": [
+    "PSY170"
+   ],
+   "lectures": "L2 Selection",
+   "finding": "457 independent samples, 302 studies, N=244,257. SJTs predicted job performance, academic performance, OCB and counterproductive work behavior; validity was higher in real applicant settings. Multimedia SJTs matched text-based validity at lower cognitive load; webcam responses had the lowest load of all.",
+   "why": "Your selection lecture covers biodata, work samples, references, background checks, cybervetting and interviews — <b>but not SJTs</b>, now among the best-evidenced tools available. Your closing slide asks how interviews can be improved; this is the missing third answer, with the largest N in the batch.",
+   "caution": null
+  },
+  {
+   "doi": "10.1037/apl0001425",
+   "category": "priority",
+   "courses": [
+    "PSY170"
+   ],
+   "lectures": "L1 Intro · L13 Future",
+   "finding": "BERTopic modeling of 5,865 empirical JAP articles from 1917 to June 2024: 99 topics, 25 themes. Trends 1980–2024 show growth in health and well-being, flat DEI publication, an inverted-U for justice and legal topics, and the disappearance of labor-related research.",
+   "why": "A far better “History of I/O” slide than Yerkes and WW1 testing alone — a data-driven century of the field’s own priorities. The <b>vanishing of labor research</b> also speaks to your Lecture 5 claim about pensions and union power.",
+   "caution": null
+  },
+  {
+   "doi": "10.1016/j.jvb.2026.104297",
+   "category": "priority",
+   "courses": [
+    "PSY170"
+   ],
+   "lectures": "L13 Future · L4 Motivation",
+   "finding": "Ten-day daily diary, 149 UK employees using Gen-AI daily. Four crafting dimensions linked to engagement via need satisfaction then meaningfulness; the competence pathway was most consistently supported, relatedness least. Employees framed automating hindering demands as reallocating cognitive resources toward valued work, not cutting workload.",
+   "why": "Your AI lecture rests on E0/E1/E2 exposure and EPOCH, both conceptual. This is <b>empirical evidence about what employees actually do with AI</b>, and it maps onto the Job Characteristics Model you already teach.",
+   "caution": null
+  },
+  {
+   "doi": "10.1016/j.jvb.2026.104308",
+   "category": "priority",
+   "courses": [
+    "PSY170"
+   ],
+   "lectures": "L4 Motivation",
+   "finding": "Uses Necessary Condition Analysis because the 30-year necessity claim had never been tested with a method matching necessity logic. Across three studies autonomy, competence and relatedness were confirmed as necessary for job satisfaction, work meaningfulness, positive affect and engagement. Power and status were not.",
+   "why": "This <b>strengthens</b> your SDT slide rather than undermining it, and gives a sharp methods aside: “necessary” and “correlated on average” are different claims needing different statistics.",
+   "caution": null
+  },
+  {
+   "doi": "10.1037/apl0001407",
+   "category": "priority",
+   "courses": [
+    "PSY170"
+   ],
+   "lectures": "L8 Groups",
+   "finding": "Over 3,000 correlations from longitudinal studies, roughly 11,000 teams. Team conflict showed the most inertia, affect the least; team performance formed consistent feedback loops with later states and processes.",
+   "why": "Your teamwork material is static — problems and fixes. <b>“Conflict is the stickiest thing in a team”</b> is memorable and actionable next to your social-loafing remedies.",
+   "caution": null
+  },
+  {
+   "doi": "10.1111/peps.70044",
+   "category": "examples",
+   "courses": [
+    "PSY170"
+   ],
+   "lectures": "L3 Pre-employment",
+   "finding": "Forty curated questions covering DEI foundations, the business case, effectiveness, resistance, legal interpretations, DEI pullback, measurement and programs.",
+   "why": "Maps almost slide-for-slide onto your equality/equity/justice and affirmative-action sequence.",
+   "caution": null
+  },
+  {
+   "doi": "10.1146/annurev-psych-030226-025335",
+   "category": "updates",
+   "courses": [
+    "PSY170"
+   ],
+   "lectures": "L3 Pre-employment",
+   "finding": "Decomposes inclusive culture change into four situational forces, arguing past attempts failed or backfired by over-emphasizing individual effort.",
+   "why": "Your slide asks “Problems with equity?” and lists outcomes. This supplies the <b>mechanisms</b> behind why efforts stall or backfire.",
+   "caution": null
+  },
+  {
+   "doi": "10.1037/apl0001424",
+   "category": "examples",
+   "courses": [
+    "PSY170"
+   ],
+   "lectures": "L6 Worker Stress",
+   "finding": "Two 10-day diary studies (N=345, 1,907 observations; N=321, 1,780 observations) identifying replicable evening recovery activity profiles and their links to recovery experiences, emotional exhaustion and next-morning vigor.",
+   "why": "An evidence-based upgrade to your “Environmental Destressors: nature, music, pets” slide.",
+   "caution": null
+  },
+  {
+   "doi": "10.1111/peps.70043",
+   "category": "examples",
+   "courses": [
+    "PSY170"
+   ],
+   "lectures": "L5 Recognition · L3",
+   "finding": "Time-lagged multi-source field study plus two experiments. Women occupied less central advice-network positions than men; high prosocial motivation closed the gap, with advice centrality supporting leadership emergence and performance ratings.",
+   "why": "Good companion to your Intel “Well Done!” recognition study — and the title’s <b>“carrying the burden”</b> is the point worth discussing.",
+   "caution": null
+  },
+  {
+   "doi": "10.1111/peps.70041",
+   "category": "examples",
+   "courses": [
+    "PSY170"
+   ],
+   "lectures": "L3 Pre-employment",
+   "finding": "FTSE CEOs and CFOs over 2011–2024: virtually no ethnic Chinese, while ethnic Indian representation did not differ significantly from parity.",
+   "why": "A vivid lesson in <b>why disaggregating a demographic category matters</b> — fits your adverse-impact and diversity material.",
+   "caution": null
+  },
+  {
+   "doi": "10.1016/j.copsyc.2026.102468",
+   "category": "updates",
+   "courses": [
+    "PSY170"
+   ],
+   "lectures": "L8 Groups",
+   "finding": "Reviews the conflict expression framework: expressions vary along directness and oppositional intensity, and effects depend on how conflict is expressed rather than what it is about.",
+   "why": "A more current taxonomy than the five resolution styles alone.",
+   "caution": null
+  },
+  {
+   "doi": "10.1146/annurev-psych-031626-100451",
+   "category": "updates",
+   "courses": [
+    "PSY170"
+   ],
+   "lectures": "L11 Persuasion",
+   "finding": "Reviews consensus and contention on definitions, measurement and mechanisms — repetition effects, lack of analytic reasoning, political identity, information environments — and notes fake-news exposure online is less common than many assume.",
+   "why": "Speaks directly to your confirmation-bias and attitude-polarization slides.",
+   "caution": null
+  },
+  {
+   "doi": "10.1016/j.copsyc.2026.102453",
+   "category": "examples",
+   "courses": [
+    "PSY170"
+   ],
+   "lectures": "L13 Future",
+   "finding": "Argues satisfaction-optimized LLMs inhibit rather than facilitate users’ questioning: they affirm assumptions, produce deceptively adequate output, reduce vigilance and confine users to the frame they set. The costs are self-concealing.",
+   "why": "Excellent in-class discussion piece for a room full of AI users.",
+   "caution": null
+  },
+  {
+   "doi": "10.1111/peps.70046",
+   "category": "examples",
+   "courses": [
+    "PSY170"
+   ],
+   "lectures": "L10 Leadership",
+   "finding": "Inductive study of 47 historically marginalized STEM employees and 14 leaders they named as inclusive. Models inclusion efforts, the resistance they draw (skepticism, gatekeeping, fit critiques, non-compliance) and mitigation strategies.",
+   "why": "Adds the resistance half of the story to your leadership styles material.",
+   "caution": null
+  },
+  {
+   "doi": "10.1037/rev0000647",
+   "category": "updates",
+   "courses": [
+    "PSY170",
+    "PSY157"
+   ],
+   "lectures": "L2 Interview Bias · L4",
+   "finding": "A cognitive-ecological theory: people characterize groups by distinguishing attributes, positive information is more frequent and negative information more diverse, so distinguishing attributes skew negative.",
+   "why": "A mechanism for the hiring-bias findings you already present as empirical facts.",
+   "caution": null
+  },
+  {
+   "doi": "10.1177/17456916261443519",
+   "category": "updates",
+   "courses": [
+    "PSY170"
+   ],
+   "lectures": "L13 EPOCH",
+   "finding": "Fifteen empathy scholars built a lexicon distinguishing vicarious affect, emotional contagion, emotion co-sharing, sympathy/compassion, personal distress, perspective taking, accurate inference, mimicry, synchrony and projection.",
+   "why": "Useful for sharpening what the <b>E in EPOCH</b> actually denotes.",
+   "caution": null
+  },
+  {
+   "doi": "10.1037/apl0001433",
+   "category": "examples",
+   "courses": [
+    "PSY170"
+   ],
+   "lectures": "L4 · L5",
+   "finding": "Ten-day experience sampling of full-time employees who personally invest: morning fluctuations in personal stock holdings shifted risk propensity and risk-related workplace behavior.",
+   "why": "A memorable cross-domain spillover example for motivation or attitudes.",
+   "caution": null
+  },
+  {
+   "doi": "10.1016/j.copsyc.2026.102465",
+   "category": "updates",
+   "courses": [
+    "PSY170"
+   ],
+   "lectures": "L3 · L11",
+   "finding": "Takes stock of negotiation propensity, behavior and outcomes: some classic gender gaps replicate, others do not, with moderators including structural ambiguity, representation role and gender salience.",
+   "why": "Good for teaching that <b>evidence moves</b> — not every classic finding holds.",
+   "caution": null
+  },
+  {
+   "doi": "10.1146/annurev-psych-021726-103815",
+   "category": "updates",
+   "courses": [
+    "PSY170"
+   ],
+   "lectures": "L3 · L10",
+   "finding": "Reframes senior women distancing from junior women as strategic compliance within gendered organizational contexts and social identity threat, operating as a self-reinforcing feedback loop.",
+   "why": "Shifts the phenomenon from individual failing to structural response.",
+   "caution": null
+  },
+  {
+   "doi": "10.1111/peps.70047",
+   "category": "examples",
+   "courses": [
+    "PSY170"
+   ],
+   "lectures": "L12 Careers",
+   "finding": "Positions executive retirement in an achievement context, theorizing legacy fulfillment and selective prioritization mechanisms moderated by goal orientations.",
+   "why": "Late-career material for your careers lecture, which currently stops at entry.",
+   "caution": null
+  },
+  {
+   "doi": "10.1016/j.leaqua.2026.102004",
+   "category": "examples",
+   "courses": [
+    "PSY170"
+   ],
+   "lectures": "L13 · L10",
+   "finding": "Title and authors only.",
+   "why": "<b>No abstract available in any open source</b> (Elsevier deposits none). Highly on-topic for your AI lecture — worth retrieving through the library.",
+   "caution": "No abstract in any open source (Elsevier deposits none). Title and authors only — retrieve through the library."
+  },
+  {
+   "doi": "10.1007/s10508-026-03575-2",
+   "category": "priority",
+   "courses": [
+    "PSY175"
+   ],
+   "lectures": "L10 Sex Education · L1",
+   "finding": "393 real anonymized emails from 14–16-year-olds sent to a youth support organization, submitted to ChatGPT-3.5. 17.8% were flagged as potentially violating the content policy. Responses that came through normalized the experience, validated emotions and promoted help-seeking.",
+   "why": "Your lectures argue “porn is becoming the new sex education.” The sequel is already here. The <b>17.8% refusal rate</b> is the number that lands: the tool is least available exactly where teens most need it.",
+   "caution": null
+  },
+  {
+   "doi": "10.1007/s10508-026-03594-z",
+   "category": "priority",
+   "courses": [
+    "PSY175"
+   ],
+   "lectures": "L10 Sex Education",
+   "finding": "N=266 college students randomly assigned to believe identical sexual-health passages came from genAI, an academic expert, a community health professional or a peer influencer. The genAI-attributed version scored lower on accuracy, clarity, warmth, trustworthiness, self-efficacy and willingness to act — largest gaps for pleasure and safety content.",
+   "why": "A clean source-credibility experiment on your own student population, rhyming with the source-credibility material in PSY170 Lecture 11. Teachable conclusion: <b>AI works best paired with a human</b>.",
+   "caution": null
+  },
+  {
+   "doi": "10.1080/00224499.2026.2736663",
+   "category": "priority",
+   "courses": [
+    "PSY175",
+    "PSY157"
+   ],
+   "lectures": "L5 Fertility · L1",
+   "finding": "Nationally representative 2025 survey, n=1,259 people assigned female at birth aged 15–29. Of 633 who had had penile-vaginal sex, 25% used a post-coital strategy at last sex; only 8.9% used an effective one; 16.1% used a non-evidenced strategy, most commonly praying (9.4%). Contraceptive knowledge was negatively associated with use.",
+   "why": "Your Lecture 1 opens with a sexual-illiteracy poll. This is a 2025 nationally representative replacement, and <b>“9.4% prayed”</b> will land harder than any percentage currently on the slide.",
+   "caution": null
+  },
+  {
+   "doi": "10.1007/s10508-026-03544-9",
+   "category": "priority",
+   "courses": [
+    "PSY175",
+    "PSY157"
+   ],
+   "lectures": "L9 Sexual Behavior",
+   "finding": "Representative sample of 3,106 Swedish final-year high school students. Self-perceived problematic use 10.4% overall — 18.8% of boys vs 3.9% of girls — associated with more time spent, exposure to violent content, abuse history, mental health problems, risky behavior and non-suicidal self-injury.",
+   "why": "Your slide says “1 in 3 teens believe porn has negatively influenced them,” which is a belief measure. This gives <b>measured prevalence, a large gender split and a correlate profile</b> from a representative sample.",
+   "caution": null
+  },
+  {
+   "doi": "10.1080/0092623x.2026.2740624",
+   "category": "priority",
+   "courses": [
+    "PSY175"
+   ],
+   "lectures": "L9 Consent · L12",
+   "finding": "Thematic analysis of 31 in-depth interviews with heterosexual men aged 18–32 who came of age in the “age of consent.” The authors’ most striking finding was how rarely these men described enjoying sex. Themes: anxiety and vigilance, moral concern about harming a partner, and shame arising from self-criticism as much as accusation.",
+   "why": "An uncomfortable, high-quality counterpoint about what consent education can feel like from the inside. <b>Excellent discussion material for a mixed-gender classroom</b> precisely because it complicates the standard framing.",
+   "caution": null
+  },
+  {
+   "doi": "10.1007/s10508-026-03527-w",
+   "category": "priority",
+   "courses": [
+    "PSY175",
+    "PSY157"
+   ],
+   "lectures": "L8 Symmetry · L3 Attraction",
+   "finding": "Weak negative correlations between facial asymmetry and recent partner count (ρ=−.23), sociosexual attitude (ρ=−.25) and desire (ρ=−.21) — all non-significant once place of residence (rural vs urban) was controlled (.42 < p < .91).",
+   "why": "The most directly <b>corrective</b> item this month. Your symmetry slides state that symmetry signals health and drives mate selection; this shows how fast such correlates evaporate under one confound. It doubles as a research-methods moment for both courses.",
+   "caution": "The correlations did not survive a single confound control. The teachable point is the fragility, not an effect."
+  },
+  {
+   "doi": "10.1007/s10508-026-03584-1",
+   "category": "examples",
+   "courses": [
+    "PSY175",
+    "PSY157"
+   ],
+   "lectures": "L16 Fetishes · L9",
+   "finding": "367 Australian adults aged 19–87. 26% had used AI-porn; men and younger participants were more likely to be familiar with and use it. Religiosity, political orientation, relationship status and relationship/sexual satisfaction were not associated.",
+   "why": "Useful precisely because it <b>undercuts the intuitive story</b> that AI porn signals a troubled relationship.",
+   "caution": null
+  },
+  {
+   "doi": "10.1080/00224499.2026.2731571",
+   "category": "examples",
+   "courses": [
+    "PSY175"
+   ],
+   "lectures": "L4 Sex and Gender · L1",
+   "finding": "Ace Community Survey, N=11,063. Latent profile analysis identified four ace-spectrum profiles differing in perceived stigma-related impairment across family relationships, socioeconomic disadvantage, social exclusion and health.",
+   "why": "<b>Asexuality appears nowhere in your current lecture set</b>, though Lecture 1 advertises LGBT+ identities. A coverage gap with a large new study attached.",
+   "caution": null
+  },
+  {
+   "doi": "10.1007/s10508-026-03549-4",
+   "category": "examples",
+   "courses": [
+    "PSY175"
+   ],
+   "lectures": "L16 Fetishes · L9 Consent",
+   "finding": "Twenty interviews in British Columbia documenting harm reduction before, during and after events: advance vetting, consent norms such as consent circles and color-coded bracelets, STI prevention and privacy maintenance.",
+   "why": "A concrete modern example of <b>consent infrastructure</b>, fitting your BDSM negotiation material.",
+   "caution": null
+  },
+  {
+   "doi": "10.1080/0092623x.2026.2751549",
+   "category": "updates",
+   "courses": [
+    "PSY175"
+   ],
+   "lectures": "L3 Male Anatomy",
+   "finding": "Scoping review mapping digital masculinity ideals, social media and pornography exposure, male genital self-image, psychological well-being and sexual health.",
+   "why": "Your “45% of men want a bigger penis — linked with viewing porn” slide has no citation on it. <b>This is the current review of exactly that literature.</b>",
+   "caution": null
+  },
+  {
+   "doi": "10.1080/0092623x.2026.2744710",
+   "category": "updates",
+   "courses": [
+    "PSY175"
+   ],
+   "lectures": "L9 Orgasm Gap · L2",
+   "finding": "Dyadic analysis of body appreciation and sexual function among cisgender heterosexual and gender and sexually diverse couples, who face greater risk of sexual difficulties through minority stress.",
+   "why": "<b>Dyadic evidence for the body-shame mechanism</b> you already invoke to explain the orgasm gap — and it includes gender-diverse couples.",
+   "caution": null
+  },
+  {
+   "doi": "10.1080/0092623x.2026.2736685",
+   "category": "examples",
+   "courses": [
+    "PSY175"
+   ],
+   "lectures": "L11 Adult Development",
+   "finding": "2024 survey of n=598 partnered, sexually active German adults aged 65 and older, modeling sexual distress against positive sexual aging with gender comparisons.",
+   "why": "Your Lecture 11 effectively <b>stops at the transition to parenthood</b>. Sexual aging is a clean coverage gap.",
+   "caution": null
+  },
+  {
+   "doi": "10.1080/00224499.2026.2743644",
+   "category": "updates",
+   "courses": [
+    "PSY175"
+   ],
+   "lectures": "L9 · L8",
+   "finding": "RCT, n=129 women with SIAD. Decreases in depressive and PTSD symptoms accompanied improvement in the mindfulness arm; reductions in sexual avoidance accompanied improvement in both arms; partner involvement and homework completion predicted gains.",
+   "why": "Mechanism detail for your vaginismus and sexual-dysfunction treatment slides — and <b>avoidance reduction as the common pathway</b> is the teachable point.",
+   "caution": null
+  },
+  {
+   "doi": "10.1007/s10508-026-03551-w",
+   "category": "examples",
+   "courses": [
+    "PSY175"
+   ],
+   "lectures": "L12 · L11",
+   "finding": "22,292 adult women across 22 countries, Bayesian multilevel modeling. Social media use was positively associated with openness to sugar relationships, modestly more so in culturally looser countries.",
+   "why": "Fits your sexual–economic exchange and cultural-norms material with real cross-national scale.",
+   "caution": null
+  },
+  {
+   "doi": "10.1007/s10508-026-03542-x",
+   "category": "examples",
+   "courses": [
+    "PSY175"
+   ],
+   "lectures": "L8 Flirting",
+   "finding": "Nine focus groups and 20 individual interviews. Flirtation served immediate pleasure, hooking up, working through current or former relationships, and more — beyond playfulness or signaling interest.",
+   "why": "Broadens your flirting section past signal-detection into what flirting is actually <b>for</b>.",
+   "caution": null
+  },
+  {
+   "doi": "10.1007/s10508-026-03545-8",
+   "category": "examples",
+   "courses": [
+    "PSY175"
+   ],
+   "lectures": "L8 · L9",
+   "finding": "First cross-cultural test of intrusive non-erotic thoughts during sex, comparing South Asian and White women in Canada, the USA and the UK.",
+   "why": "Cultural variation in a mechanism your arousal lecture treats as universal.",
+   "caution": null
+  },
+  {
+   "doi": "10.1007/s10508-026-03538-7",
+   "category": "examples",
+   "courses": [
+    "PSY175"
+   ],
+   "lectures": "L12 Attachment",
+   "finding": "186 people practicing polyamory, separated from one partner and cohabiting with another during March–May 2020, examining multi-partner attachment systems and the safe-haven concept.",
+   "why": "Extends your attachment-pairings material beyond the dyad.",
+   "caution": null
+  },
+  {
+   "doi": "10.1007/s10508-026-03540-z",
+   "category": "examples",
+   "courses": [
+    "PSY175"
+   ],
+   "lectures": "L6 Pregnancy · L2",
+   "finding": "Descriptive qualitative study; themes of avoiding sexuality, maintaining sexuality as a responsibility, and coping with breastfeeding’s effects.",
+   "why": "<b>n=10.</b> Small, but on a topic your lecture raises (lactation) and then drops.",
+   "caution": "n = 10 qualitative study."
+  },
+  {
+   "doi": "10.1080/0092623x.2026.2741355",
+   "category": "examples",
+   "courses": [
+    "PSY175"
+   ],
+   "lectures": "L1 Methods · L4",
+   "finding": "Scoping review identifying and grading instruments designed for inclusive measurement of sexual functioning in sexual orientation and gender diverse populations.",
+   "why": "A measurement complement to your history-of-sex-research lecture.",
+   "caution": null
+  },
+  {
+   "doi": "10.1007/s10508-026-03548-5",
+   "category": "examples",
+   "courses": [
+    "PSY175"
+   ],
+   "lectures": "L5 · L11",
+   "finding": "Mixed-methods comparison of BRCA1/2 variant carriers after risk-reducing oophorectomy, with and without estradiol therapy, on sexual function and subjective experience.",
+   "why": "Connects your fertility and hormone material to a real clinical population.",
+   "caution": null
+  },
+  {
+   "doi": "10.1007/s10508-026-03659-z",
+   "category": "updates",
+   "courses": [
+    "PSY175"
+   ],
+   "lectures": "L4 Sex and Gender",
+   "finding": "Nationally representative 2025 survey repeating identical 2018 items. Significant decreases in support for adolescent medical transition, with increased disagreement among all cohorts born 1988 or earlier.",
+   "why": "<b>Contested terrain — your call on framing.</b> As an attitude-change datapoint the design is straightforward; Regnerus’s broader work is widely contested.",
+   "caution": "Contested literature. The design is straightforward as attitude-change data, but Regnerus's broader work is widely disputed. Your call on framing."
+  },
+  {
+   "doi": "10.1007/s10508-026-03669-x",
+   "category": "updates",
+   "courses": [
+    "PSY175"
+   ],
+   "lectures": "L4 Sex and Gender",
+   "finding": "A conceptual argument for framing some detransition experiences within DSM trauma categories.",
+   "why": "<b>Contested terrain — your call on framing.</b> Conceptual rather than empirical; flagged for awareness, not recommended.",
+   "caution": "Contested literature. Conceptual rather than empirical. Flagged for awareness, not recommended."
+  },
+  {
+   "doi": "10.1080/00224499.2026.2733985",
+   "category": "updates",
+   "courses": [
+    "PSY175"
+   ],
+   "lectures": "L4 Sex and Gender",
+   "finding": "Argues 2025 federal policies restricting transgender rights, youth access to gender-affirming care, federal research and classroom discussion pose a greater threat to SGM health than prior state-level policies, because of scope, speed and scale.",
+   "why": "Offered as <b>balance in the same window</b> for the two items above, so Lecture 4 can be taught from more than one position.",
+   "caution": "Offered as balance in the same window for the two items above."
+  }
+ ],
+ "narrative": {
+  "intro": "Every item below carries a real DOI pulled from Crossref, Europe PMC or OpenAlex. Nothing here is reconstructed from memory. Where an abstract was unavailable, that is stated rather than guessed at.\n\nEach article appears in exactly one category, and once, under the course it serves most directly — any other course it touches is noted on the line.",
+  "cross_course": [
+   {
+    "doi": "10.1177/17456916261475589",
+    "serves": "PSY157 L10 (lie detection) and PSY170 L11 (persuasion)"
+   },
+   {
+    "doi": "10.1177/17456916261443519",
+    "serves": "PSY170 L13 (the E in EPOCH) and PSY157 L5 (communication)"
+   },
+   {
+    "doi": "10.1177/17456916261479948",
+    "serves": "PSY157 L3, PSY175 L8 and PSY170 L3"
+   }
+  ],
+  "coverage": [
+   "**No abstract available for 30 items**, concentrated in *Nature Reviews Psychology* (13 — mostly short research-highlight pieces with no abstract deposited anywhere), *Psychology of Sexual Orientation and Gender Diversity* (6, APA, poorly indexed), and the two Elsevier I-O titles. Titles and authors were captured; retrieve through the library if a title looks essential.",
+   "***Psychological Science in the Public Interest*** published nothing this window. Expected — it runs about three articles a year. It stays on the list because when it does publish, it is directly teachable.",
+   "**Abstract coverage is publisher-dependent.** Wiley and SAGE deposit to Crossref; Springer, Taylor & Francis and APA show up in Europe PMC; Elsevier appears in neither and is only partly covered by OpenAlex. Cascading all three reached 82% this month."
+  ],
+  "gaps": [
+   "PSY175 lectures **7, 13, 14 and 15** are absent from the folder. Only 1–6, 8–12 and 16 are present, so matches cannot be proposed for roughly a quarter of that course.",
+   "**Asexuality / the ace spectrum** appears nowhere in the indexed lectures, though PSY175 Lecture 1 advertises LGBT+ identities and this month brought an N = 11,063 study.",
+   "**Sexual aging** past the transition to parenthood is absent from PSY175 Lecture 11."
+  ],
+  "retractions_none": "Nothing qualified this month, which is the expected outcome in most months. The closest candidate was the facial asymmetry study, but it reports a null on a different claim (asymmetry → sexuality) than the one on the slide (symmetry → attractiveness), so it sits in Priority as a correction rather than a retraction. A single null result does not clear this bar; it takes a serious replication failure or a reversal of an accepted effect."
+ }
+}

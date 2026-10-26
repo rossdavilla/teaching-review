@@ -1,0 +1,2689 @@
+{
+  "course": "PSY170",
+  "title": "Industrial/Organizational Psychology",
+  "window": {
+    "since": "2026-09-24",
+    "until": "2026-10-25"
+  },
+  "count": 98,
+  "articles": [
+    {
+      "doi": "10.1146/annurev-psych-020226-034950",
+      "title": "A Conceptual Framework for Understanding the Effects of Stress on Epigenetic Aging",
+      "subtitle": null,
+      "journal": "Annual Review of Psychology",
+      "issn": "0066-4308",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "Annual Reviews",
+      "authors": [
+        "Zachary M. Harvanek",
+        "Rajita Sinha"
+      ],
+      "published": "2026-9-29",
+      "created": "2026-09-29",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1146/annurev-psych-020226-034950",
+      "cited_by": 0,
+      "abstract": "Stress is increasingly recognized as a key determinant of aging-related health outcomes, yet the pathways linking stress to epigenetic aging remain ill-defined. Here, we outline a multilevel conceptual framework of stress, where stressors interact with resilience (e.g., emotion regulation, social support) and vulnerability to shape acute and repeated or sustained stress responses that mediate long-term aging trajectories. In the context of this framework, we evaluate the evidence across childhood adversity, traumatic events, chronic stressors, and social determinants of health and identify generally consistent effects of stressors on increased epigenetic age in second- and third-generation clocks, which are moderated by resilience and vulnerability. We find clear evidence for mediation of these effects via maladaptive behavioral stress responses as well as more nuanced results suggesting links between maladaptive psychological and physiological stress response pathways and increased epigenetic age. We conclude with recommendations to harmonize stress measurement, analytic approaches, and clock selection using this conceptual framework to advance our mechanistic understanding of the relationship between stress and epigenetic aging.",
+      "abstract_source": "crossref"
+    },
+    {
+      "doi": "10.1146/annurev-psych-031626-100451",
+      "title": "Consensus, Disagreements, and Open Questions in the Psychology of Misinformation",
+      "subtitle": null,
+      "journal": "Annual Review of Psychology",
+      "issn": "0066-4308",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "Annual Reviews",
+      "authors": [
+        "Gordon Pennycook",
+        "David G. Rand"
+      ],
+      "published": "2026-10-16",
+      "created": "2026-10-16",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1146/annurev-psych-031626-100451",
+      "cited_by": 0,
+      "abstract": "Research on misinformation has expanded rapidly over the past decade. This review examines areas of consensus and contention within the literature on misinformation, with particular attention to conceptual definitions, measurement approaches, and theoretical explanations. We outline views on what it means to be susceptible to misinformation and advocate for assessing susceptibility by focusing on the ability to discern true from false claims. Although exposure to fake news is less common online than many think, we argue that misinformation\u2014more broadly construed\u2014continues to be a major problem. We review evidence on cognitive and socio-affective mechanisms underlying susceptibility to misinformation, including repetition effects, lack of analytic reasoning, political identity, and information environments. We also evaluate interventions such as fact-checking, prebunking, psychological inoculation, and accuracy prompts. Overall, the literature reveals several robust findings but also significant methodological limitations and theoretical disagreements that suggest fruitful future directions for misinformation research.",
+      "abstract_source": "crossref"
+    },
+    {
+      "doi": "10.1146/annurev-psych-110625-121512",
+      "title": "Culture and Emotion Regulation",
+      "subtitle": null,
+      "journal": "Annual Review of Psychology",
+      "issn": "0066-4308",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "Annual Reviews",
+      "authors": [
+        "Maya Tamir",
+        "Yulia Chentsova-Dutton",
+        "Yuri Miyamoto"
+      ],
+      "published": "2026-9-29",
+      "created": "2026-09-29",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1146/annurev-psych-110625-121512",
+      "cited_by": 0,
+      "abstract": "Emotion regulation involves attempts to influence emotional expressions or experiences. The nature of emotion regulation depends on people's values and theories of emotion, which vary by culture. We argue that there exist distinct cultural differences in the regulation of emotional expressions and of emotional experiences. People in more interdependent cultures (e.g., East Asian cultures) may be more motivated to regulate emotional expressions than people in more independent cultures (e.g., US culture), but the opposite may be true for regulating emotional experiences. Because interdependent cultures prioritize what happens between people, regulating emotional expressions, which happen between people, is prioritized. The \u201cright\u201d expressions in such cultures are typically of low intensity. In contrast, because independent cultures prioritize what happens within people, regulating emotional experiences, which happen within people, may be prioritized. The \u201cright\u201d experiences in such cultures are typically high in pleasure and low in displeasure. These priorities elicit different motivations, strategies, and implications of emotion regulation across cultures.",
+      "abstract_source": "crossref"
+    },
+    {
+      "doi": "10.1146/annurev-psych-042126-090849",
+      "title": "Episodic Memory: Dynamic Modes for Constructing Episodes",
+      "subtitle": null,
+      "journal": "Annual Review of Psychology",
+      "issn": "0066-4308",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "Annual Reviews",
+      "authors": [
+        "Charan Ranganath",
+        "Maureen Ritchey"
+      ],
+      "published": "2026-10-21",
+      "created": "2026-10-21",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1146/annurev-psych-042126-090849",
+      "cited_by": 0,
+      "abstract": "The capacity to re-experience a moment from one's past, known as episodic memory, is critical for our ability to navigate the present and plan for the future. This article reviews and synthesizes over a half century of behavioral and neuroscientific research that has shaped our understanding of how we remember past events. This work has revealed complementary truths about episodic memory: Episodic memories seem to be based on traces of experience, carrying objective information about specific moments in time, and on imaginative reconstructions, built on a scaffold of prior knowledge. We propose that the tension between these perspectives can be reconciled by conceptualizing episodic memory not as a readout from a static memory system but as the outcome of two neurocognitive modes\u2014 a generative mode that facilitates schema-based inference and prediction, and a contextual mode that binds memories to context-specific anchor points. Drawing from experimental findings and computational models, we describe how multiple memory modes arise from dynamic cortico-hippocampal interactions, allowing episodic memory to be at once precise and constructive.",
+      "abstract_source": "crossref"
+    },
+    {
+      "doi": "10.1146/annurev-psych-030325-033036",
+      "title": "From Early Adversity to Lifespan Mental Health: The Interplay of Metabolism, Genetics, and Brain Plasticity",
+      "subtitle": null,
+      "journal": "Annual Review of Psychology",
+      "issn": "0066-4308",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "Annual Reviews",
+      "authors": [
+        "Qizhou Xia",
+        "Patricia Pelufo Silveira"
+      ],
+      "published": "2026-9-29",
+      "created": "2026-09-29",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1146/annurev-psych-030325-033036",
+      "cited_by": 0,
+      "abstract": "Early life adverse experience, whether prenatal or postnatal, is a prevalent risk factor for altered trajectories of biological development, often culminating in comorbid metabolic and psychiatric disorders in adulthood, which represent a substantial public health burden. In this article, we review evidence that adversity-induced metabolic reconfiguration, specifically involving insulin sensitivity and glucose homeostasis, disrupts developmental processes in neural circuits governing stress regulation, reward learning, and executive control. We discuss how this \u201cmetabolic embedding\u201d contributes to specific psychiatric phenotypes, with an emphasis on immuno-metabolic depression. Furthermore, we examine how genomic information can be leveraged to enhance individual-level prediction of at-risk subjects, moving beyond static polygenic risk scores toward biologically informed metrics such as expression-based polygenic scores. We propose a lifespan framework that integrates metabolic, neurobiological, and genomics to advance precision prevention.",
+      "abstract_source": "crossref"
+    },
+    {
+      "doi": "10.1146/annurev-psych-020226-035946",
+      "title": "Language Access and Hemispheric Specialization: A Network Neuroscience Framework for Typical and Atypical Language Development",
+      "subtitle": null,
+      "journal": "Annual Review of Psychology",
+      "issn": "0066-4308",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "Annual Reviews",
+      "authors": [
+        "Heather Bortfeld"
+      ],
+      "published": "2026-9-29",
+      "created": "2026-09-29",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1146/annurev-psych-020226-035946",
+      "cited_by": 0,
+      "abstract": "Neural plasticity in early life underpins the emergence of hemispheric specialization, including left-lateralized networks commonly involved in language. In typical development, neural organization becomes progressively more efficient and specialized across hemispheres, with trajectories shaped by early sensory input and linked to later language outcomes. Because human neuroimaging evidence supports a role for language experience across sensory modalities in shaping neural organization, early sensorineural hearing loss provides a model system for disentangling how sensory and language environments independently influence experience-dependent plasticity. Even when overall brain organization is preserved, early sensory deprivation is associated with altered developmental trajectories of hemispheric specialization. Critically, sensory deprivation does not inevitably result in atypical language or neural development, underscoring an important theoretical distinction between auditory and language deprivation. This review integrates findings from neural, behavioral, and clinical research to propose a framework for understanding how early sensory and language experiences shape language-related developmental outcomes.",
+      "abstract_source": "crossref"
+    },
+    {
+      "doi": "10.1146/annurev-psych-030226-025335",
+      "title": "Psychology of Culture Change: The Power of Situations Returns",
+      "subtitle": null,
+      "journal": "Annual Review of Psychology",
+      "issn": "0066-4308",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "Annual Reviews",
+      "authors": [
+        "Nilanjana Dasgupta"
+      ],
+      "published": "2026-9-30",
+      "created": "2026-09-30",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1146/annurev-psych-030226-025335",
+      "cited_by": 0,
+      "abstract": "Creating inclusive cultures with equal opportunity and belonging is a goal of most communities and organizations, but achieving that goal has been uneven at best. Many attempts at inclusive culture change have not worked, while others have backfired. One reason is that these attempts have exclusively emphasized individual efforts and underestimated the power of situations in nudging individuals\u2019 beliefs, behaviors, interactions, and relationships, which together create local culture. This article disaggregates the power of situations into four distinct types of situational forces, by integrating research from social psychology and adjacent disciplines, to illustrate how some situational forces shift beliefs, behaviors, social interactions, and relationships toward greater inclusion and equality while other situational forces move in the opposite direction. An important goal is to illuminate how individual beliefs and behaviors connect to higher-order changes in local cultures and to identify where research is lacking to chart a future research agenda.",
+      "abstract_source": "crossref"
+    },
+    {
+      "doi": "10.1146/annurev-psych-021726-103815",
+      "title": "Revisiting the Queen Bee Phenomenon: Understanding Self\u2013Group Distancing in Women and Other Groups as Strategic Compliance Within Unequal Systems",
+      "subtitle": null,
+      "journal": "Annual Review of Psychology",
+      "issn": "0066-4308",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "Annual Reviews",
+      "authors": [
+        "Belle Derks",
+        "Jenny Veldman",
+        "Colette van Laar"
+      ],
+      "published": "2026-9-24",
+      "created": "2026-09-24",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1146/annurev-psych-021726-103815",
+      "cited_by": 0,
+      "abstract": "The Queen Bee phenomenon (QBP), whereby senior women in male-dominated contexts distance themselves from junior women, align with masculine norms, and downplay gender inequality, has sparked considerable debate. This contribution reviews evidence for the QBP and argues that it reflects a way of coping with gendered organizational contexts and constrained advancement opportunities that elicit social identity threat and related motives. This contribution provides a multilevel synthesis of the consequences of QBP for individuals, their colleagues, marginalized groups, and organizations. The QBP is conceptualized as a socially embedded, context-dependent, self-reinforcing feedback loop: coping responses that may yield short-term individual benefits but undermine solidarity, legitimize inequality, and reduce pressure for structural change. Integrating insights from psychology, organizational behavior, sociology, and critical diversity research, the QBP is situated alongside related coping strategies, including code-switching, identity bifurcation, and assimilation. These dynamics point to the importance of fixing systems rather than individuals, highlighting implications for research and organizational change.",
+      "abstract_source": "crossref"
+    },
+    {
+      "doi": "10.1146/annurev-psych-061726-090414",
+      "title": "Social Regulation of Human Behavior",
+      "subtitle": null,
+      "journal": "Annual Review of Psychology",
+      "issn": "0066-4308",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "Annual Reviews",
+      "authors": [
+        "Maya Enisman",
+        "Minjae Seo",
+        "Molly G. Smith",
+        "Yubo Zhou",
+        "Benjamin R. Karney",
+        "Dolores Albarrac\u00edn"
+      ],
+      "published": "2026-9-30",
+      "created": "2026-09-30",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1146/annurev-psych-061726-090414",
+      "cited_by": 0,
+      "abstract": "Addressing societal challenges requires goal-directed behavior. To date, research on goal-directed behavior has proceeded along separate tracks emphasizing either self-regulatory processes or social factors. This review synthesizes evidence on how social factors regulate behavior, highlighting their effects on self-regulatory processes that guide goal pursuit. We organize social factors along a continuum from passive (exclusion, social presence, population density), through increasingly intentional (role models, group behavior, group expectations), to active (social support, coercion) factors. Across domains, the evidence suggests that social factors can facilitate or constrain individual self-regulatory processes such as attention, self-efficacy development, and impression management. Yet key gaps remain, including understanding how multiple social factors may interact and how individuals and social environments may influence each other. A priority for future research is to evaluate complete pathways linking social factors, self-regulatory processes, and their interactions to behaviors. Implications for practice include behavior change interventions targeting social environments as well as individual processes.",
+      "abstract_source": "crossref"
+    },
+    {
+      "doi": "10.1146/annurev-psych-020226-033620",
+      "title": "Toward a Unified Theory of Group Connection",
+      "subtitle": null,
+      "journal": "Annual Review of Psychology",
+      "issn": "0066-4308",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "Annual Reviews",
+      "authors": [
+        "Jack W. Klein",
+        "William J. Bingley",
+        "Matthew J. Hornsey",
+        "William B. Swann,"
+      ],
+      "published": "2026-9-29",
+      "created": "2026-09-29",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1146/annurev-psych-020226-033620",
+      "cited_by": 0,
+      "abstract": "Behavioral scientists have long been struck by the human tendency to connect with other individuals and groups. Three major approaches to group connection have been advanced: ( a ) the social cohesion approach, ( b ) the social identity approach, and ( c ) identity fusion theory. While each approach has garnered support, no one has attempted to integrate them. We address the need for integration by proposing a general theoretical framework that specifies the unique contributions of each approach, identifies the psychological phenomena each best explains, and reconciles theoretical inconsistencies. We then propose a network model that spells out how different aspects of the self-concept, in accordance with key insights from the three approaches, engender group connection.",
+      "abstract_source": "crossref"
+    },
+    {
+      "doi": "10.1146/annurev-psych-032526-071359",
+      "title": "Understanding Understanding: Reconnecting Theories of Human Semantic Knowledge",
+      "subtitle": null,
+      "journal": "Annual Review of Psychology",
+      "issn": "0066-4308",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "Annual Reviews",
+      "authors": [
+        "Timothy T. Rogers"
+      ],
+      "published": "2026-10-2",
+      "created": "2026-10-03",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1146/annurev-psych-032526-071359",
+      "cited_by": 0,
+      "abstract": "At the close of the twentieth century, human semantic memory was thought to be organized around dedicated, domain-specific modules operating independently of one another and of perception, action, and much of language. The intervening years have marked a transition toward a more holistic view in which semantics emerges from learned mappings among sensory, motor, and language representations, with recent work beginning to integrate semantic representation with theories of cognitive control and attention. This article reviews the reasons for this remarkable change in perspective, provides a snapshot of our current understanding of semantics in the mind and brain, and considers how this understanding may change in light of new innovations in artificial intelligence.",
+      "abstract_source": "crossref"
+    },
+    {
+      "doi": "10.1016/j.copsyc.2026.102483",
+      "title": "A Critique of the Over-Politicization of CBT: A Voice from the Global South",
+      "subtitle": null,
+      "journal": "Current Opinion in Psychology",
+      "issn": "2352-250X",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "Elsevier",
+      "authors": [
+        "Nimisha Kumar",
+        "Surbhi Consul"
+      ],
+      "published": "2026-10",
+      "created": "2026-10-17",
+      "volume": null,
+      "issue": null,
+      "page": "102483",
+      "url": "https://doi.org/10.1016/j.copsyc.2026.102483",
+      "cited_by": 0,
+      "abstract": "",
+      "abstract_source": null
+    },
+    {
+      "doi": "10.1016/j.copsyc.2026.102478",
+      "title": "A modular review of the evidence for harmful manipulation by large language models",
+      "subtitle": null,
+      "journal": "Current Opinion in Psychology",
+      "issn": "2352-250X",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "Elsevier",
+      "authors": [
+        "Jean-Fran\u00e7ois Bonnefon",
+        "Carina Prunkl"
+      ],
+      "published": "2027-4",
+      "created": "2026-10-14",
+      "volume": "74",
+      "issue": null,
+      "page": "102478",
+      "url": "https://doi.org/10.1016/j.copsyc.2026.102478",
+      "cited_by": 0,
+      "abstract": "Harmful manipulation by large language models (LLMs) is now a regulatory concern, yet the empirical evidence remains difficult to assess. Harmful manipulation involves multiple features: an influence goal, tactics that bypass reasons or exploit vulnerabilities, limited target awareness, successful influence, and harmful outcomes, which existing studies rarely capture together. This review organizes the literature by progressively stronger constellations of these features. Some studies show that LLMs successfully influence beliefs through overt argumentation, without clear harm. Other studies show that LLMs can influence covertly, but without of harm or bypassing reason. Closest current approximations to harmful manipulation come from studies attempting to operationalize harmful outcomes. Some show little behavioral success, Others capture successful harmful influence, but without covert or reason-bypassing moves. Overall, the literature does not yet provide full evidence of harmful manipulation, but establishes several constituent capacities that make harmful manipulation by LLMs an empirically grounded risk rather than a purely speculative one.",
+      "abstract_source": "europepmc",
+      "pmid": "42913340"
+    },
+    {
+      "doi": "10.1016/j.copsyc.2026.102475",
+      "title": "A multilevel framework for distinguishing psychopathy from related disorders",
+      "subtitle": null,
+      "journal": "Current Opinion in Psychology",
+      "issn": "2352-250X",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "Elsevier",
+      "authors": [
+        "Naomi Sadeh"
+      ],
+      "published": "2027-2",
+      "created": "2026-10-07",
+      "volume": "73",
+      "issue": null,
+      "page": "102475",
+      "url": "https://doi.org/10.1016/j.copsyc.2026.102475",
+      "cited_by": 0,
+      "abstract": "Although psychopathy is not a standalone diagnosis in current psychiatric classification systems, it remains widely used in forensic contexts and can have significant consequences for individuals within the legal system. Consequently, it is critical that the field be able to distinguish psychopathy from other mental disorders with over=lapping symptom presentations. This review proposes a multilevel theoretical framework for understanding how psychopathy differs from related disorders when mechanistic and dispositional factors are considered alongside behavioral symptoms. It illustrates how disorders overlapping with psychopathy at one level of analysis (e.g., chronic antisocial behavior and aggression) diverge from it at others, particularly the mechanistic level (e.g., attentional functioning, threat reactivity, empathy processing) and dispositional level (e.g., callous-unemotional traits). It further considers how contextual factors modulate whether psychopathic features are rewarded or criminalized and how this may affect their interpretation. By identifying features that distinguish psychopathy across levels of analysis, the framework clarifies what makes psychopathy a distinct construct, with implications for case formulation, treatment, and forensic assessment.",
+      "abstract_source": "europepmc",
+      "pmid": "42880109"
+    },
+    {
+      "doi": "10.1016/j.copsyc.2026.102480",
+      "title": "A two-layer model of technology lay beliefs and their societal and political consequences: The case of AI",
+      "subtitle": null,
+      "journal": "Current Opinion in Psychology",
+      "issn": "2352-250X",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "Elsevier",
+      "authors": [
+        "Christoph Fuchs",
+        "Armin Granulo"
+      ],
+      "published": "2027-4",
+      "created": "2026-10-22",
+      "volume": "74",
+      "issue": null,
+      "page": "102480",
+      "url": "https://doi.org/10.1016/j.copsyc.2026.102480",
+      "cited_by": 0,
+      "abstract": "Modern technologies such as artificial intelligence (AI) can contribute to economic and societal prosperity. Yet, independent of their actual effects, consumers, workers, and the public often hold negative beliefs about these technologies, which can contribute to aversion to AI and technological change more broadly. This article examines technology lay beliefs, with AI as the focal case, and proposes an interconnected two-layer model to explain their societal impact. Layer 1 captures general psychological predispositions to technological change that provide a baseline for why technology lay beliefs often emphasize potential losses. Layer 2 captures specific contextual interpretations of AI that amplify or attenuate this baseline. We use this model to organize existing research and discuss the societal and political consequences of technology lay beliefs in the age of AI.",
+      "abstract_source": "europepmc",
+      "pmid": "42913339"
+    },
+    {
+      "doi": "10.1016/j.copsyc.2026.102461",
+      "title": "Aesthetic taste in humans and machines",
+      "subtitle": null,
+      "journal": "Current Opinion in Psychology",
+      "issn": "2352-250X",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "Elsevier",
+      "authors": [
+        "Francesca Piovesan",
+        "Jacopo Frascaroli",
+        "Sander Van de Cruys"
+      ],
+      "published": "2027-2",
+      "created": "2026-09-28",
+      "volume": "73",
+      "issue": null,
+      "page": "102461",
+      "url": "https://doi.org/10.1016/j.copsyc.2026.102461",
+      "cited_by": 0,
+      "abstract": "Aesthetic taste remains an elusive phenomenon that has been comparatively underexplored in psychology. We argue that taste integrates four dimensions: sensitivity to fine-grained differences within a domain; valence, through which these differences come to matter affectively; orientation, the selective tendency to seek encounters that may further transform one's sensibility; and normativity, through which judgments of taste become shareable and contestable. These are not separate dimensions but faces of a single underlying capacity: continuously monitoring one's grip on the world and letting that monitoring modulate what happens next. This makes human engagement non-uniform. Throughout, we use current artificial intelligence as a contrast case, exploring how far it can model or replicate human taste. Machines can be sensitive to fine-grained distinctions, predict human preferences, generate apparently tasteful outputs, and shape the environments in which human taste develops. But they do not yet possess taste in the full human sense, because they lack the stake that makes human processing non-uniform: self-directed exploration, online self-transformation, and genuine normative vulnerability. The upshot is a systematic framework for the study of human taste and for assessing how AI may transform its formation.",
+      "abstract_source": "europepmc",
+      "pmid": "42849068"
+    },
+    {
+      "doi": "10.1016/j.copsyc.2026.102470",
+      "title": "Artificial intelligence in negotiation research: From computational negotiators to psychological evidence",
+      "subtitle": null,
+      "journal": "Current Opinion in Psychology",
+      "issn": "2352-250X",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "Elsevier",
+      "authors": [
+        "Deuksin Kwon",
+        "Elena Hayoung Lee",
+        "Gale M. Lucas",
+        "Jonathan Gratch"
+      ],
+      "published": "2027-2",
+      "created": "2026-10-05",
+      "volume": "73",
+      "issue": null,
+      "page": "102470",
+      "url": "https://doi.org/10.1016/j.copsyc.2026.102470",
+      "cited_by": 0,
+      "abstract": "Advances in artificial intelligence are reshaping how negotiation is conducted and studied. AI systems increasingly enter negotiation research in two broad roles: as part of the negotiation process, either as negotiators or as support for human negotiators, and as research instruments that annotate, standardize, and simulate negotiation at scale. As negotiators, these systems range from theory-driven agents to data-driven and hybrid agents, each embedding different assumptions about negotiation. As instruments, they promise scale, consistency, and control, but also raise risks of circular inference, in which AI appears to reveal patterns in human negotiation while actually reproducing patterns learned from its own training data. This review organizes emerging work on AI and negotiation around these two roles and argues that their scientific value depends on psychological grounding. Used naively, AI becomes a mirror of its own assumptions. Used carefully, with grounding in theory and calibration against human evidence, AI can become a transformative tool for advancing negotiation science.",
+      "abstract_source": "europepmc",
+      "pmid": "42892211"
+    },
+    {
+      "doi": "10.1016/j.copsyc.2026.102457",
+      "title": "Bridging the Human-AI preference gap: A persuasion-oriented tripartite framework",
+      "subtitle": null,
+      "journal": "Current Opinion in Psychology",
+      "issn": "2352-250X",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "Elsevier",
+      "authors": [
+        "Mathew S. Isaac",
+        "Ajay T. Abraham",
+        "Ameiya A. Isaac"
+      ],
+      "published": "2027-2",
+      "created": "2026-10-03",
+      "volume": "73",
+      "issue": null,
+      "page": "102457",
+      "url": "https://doi.org/10.1016/j.copsyc.2026.102457",
+      "cited_by": 0,
+      "abstract": "The remarkable performance of artificial intelligence (AI) systems on a wide variety of complex tasks has fueled its rapid adoption in recent years. Yet, many individuals still exhibit a human-AI preference gap, such that they prefer human-generated over AI-generated outputs and follow recommendations made by generative AI (GenAI) less than human advice. We conceptualize the rejection of a superior AI system in favor of an inferior human as a persuasion failure that necessitates psychological rather than technological resolution. Recent research has identified various interventions that compress the human-AI preference gap. We codify these interventions by introducing a persuasion-oriented tripartite framework that delineates three distinct paths by which the preference gap between humans and AI systems may be narrowed: (1) AI-centric interventions, which directly bolster perceptions and evaluations of AI systems; (2) human-centric interventions, which reduce the (often inflated) perceptions and evaluations of humans; and (3) hybrid interventions, which offer an integrated or reformulated alternative that combines human and AI elements. Ultimately, our tripartite framework illustrates how different persuasion tactics fundamentally reshape beliefs and attitudes about both AI and humans, thereby informing system design elements and communication strategies that can bridge the human-AI preference gap.",
+      "abstract_source": "europepmc",
+      "pmid": "42828802"
+    },
+    {
+      "doi": "10.1016/j.copsyc.2026.102468",
+      "title": "Conflict expression: A decade of group conflict research",
+      "subtitle": null,
+      "journal": "Current Opinion in Psychology",
+      "issn": "2352-250X",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "Elsevier",
+      "authors": [
+        "Corinne Bendersky",
+        "Laurie R. Weingart",
+        "Kori Krueger"
+      ],
+      "published": "2027-2",
+      "created": "2026-10-06",
+      "volume": "73",
+      "issue": null,
+      "page": "102468",
+      "url": "https://doi.org/10.1016/j.copsyc.2026.102468",
+      "cited_by": 0,
+      "abstract": "The conflict expression framework was developed to generate new practical and theoretical insights into how conflict communication affects group processes and negotiated outcomes. The framework proposes that conflict expressions vary along two dimensions: directness and oppositional intensity. The framework suggested that the effects of different types of conflict on group processes and outcomes likely depend on how the conflict is expressed, that conflict within groups is likely perceived differently by different members of the same social unit, and that conflict affects negotiation processes dynamically through reciprocated statements and responses. We review research building on the framework - including empirical tests of the main propositions, methodological advances, and as a theoretical foundation for conflict communication research more broadly - and identify directions for the future.",
+      "abstract_source": "europepmc",
+      "pmid": "42880110"
+    },
+    {
+      "doi": "10.1016/j.copsyc.2026.102474",
+      "title": "Cross-cultural and Indigenous perspectives on music and social bonding",
+      "subtitle": null,
+      "journal": "Current Opinion in Psychology",
+      "issn": "2352-250X",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "Elsevier",
+      "authors": [
+        "Danya V. Pavlovich",
+        "Patricia Opondo",
+        "Juan David Leong\u00f3mez",
+        "Yuto Ozaki",
+        "Zixuan Jia",
+        "Suzanne C. Purdy",
+        "Patrick E. Savage"
+      ],
+      "published": "2027-2",
+      "created": "2026-10-07",
+      "volume": "73",
+      "issue": null,
+      "page": "102474",
+      "url": "https://doi.org/10.1016/j.copsyc.2026.102474",
+      "cited_by": 0,
+      "abstract": "Experimental studies of primarily Western participants have suggested that musical synchrony facilitates social bonding. However, critics question the validity and cross-cultural generality of synchrony-bonding relationships, as well as the causal role of music. Drawing on recent data from large-scale Registered Reports co-designed and implemented with over 100 collaborators (\"Many Voices\"), we show that group singing enhances social bonding significantly more than speaking, across 901 participants speaking 30 languages. We share lessons from this collaboration regarding evolutionary hypotheses about the origins of music and language, as well as the importance of collaborating with Indigenous and non-Western researchers. By making the psychology of music research more inclusive, we may broaden our understanding of music and social bonding in humans and beyond. Indigenous knowledge does not oppose science: it improves science.",
+      "abstract_source": "europepmc",
+      "pmid": "42901075"
+    },
+    {
+      "doi": "10.1016/j.copsyc.2026.102467",
+      "title": "Negotiation and relationships: Insights from adjacent, psychologically-grounded literature",
+      "subtitle": null,
+      "journal": "Current Opinion in Psychology",
+      "issn": "2352-250X",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "Elsevier",
+      "authors": [
+        "Amnah Ameen",
+        "Brian C. Gunia",
+        "Nazl\u0131 Bhatia"
+      ],
+      "published": "2027-2",
+      "created": "2026-10-05",
+      "volume": "73",
+      "issue": null,
+      "page": "102467",
+      "url": "https://doi.org/10.1016/j.copsyc.2026.102467",
+      "cited_by": 0,
+      "abstract": "Negotiations often unfold within ongoing relationships, making relationships integral to negotiation processes and outcomes. Yet, despite repeated calls for greater attention to relational dynamics, behavioral negotiation research has largely relied on paradigms that minimize the role of relationships. We review research from adjacent, psychologically-grounded literature (e.g., on close relationships, marketing, strategy, and operations) that conceptualize negotiation as embedded within ongoing relationships. We show that negotiations in relationships unfold under distinct starting conditions that shape negotiators' interpretations, judgments of appropriateness and risk, and the interplay between negotiation processes, outcomes, and the longer-term relationship. As a result, negotiations in relationships often involve managing both objective and relational interests simultaneously, producing beliefs, behaviors, and outcomes that differ from dominant findings in behavioral negotiation research. We conclude by encouraging more dynamic, relationally embedded perspectives and methods that capture how negotiation unfolds across ongoing relationships and repeated interactions.",
+      "abstract_source": "europepmc",
+      "pmid": "42880106"
+    },
+    {
+      "doi": "10.1016/j.copsyc.2026.102477",
+      "title": "Negotiators from High Negotiation Frequency Cultures are More Likely to Initiate, Enjoy, Persist, and Succeed in Negotiations",
+      "subtitle": null,
+      "journal": "Current Opinion in Psychology",
+      "issn": "2352-250X",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "Elsevier",
+      "authors": [
+        "Benjamin Quist",
+        "Maurice E. Schweitzer"
+      ],
+      "published": "2026-10",
+      "created": "2026-10-12",
+      "volume": null,
+      "issue": null,
+      "page": "102477",
+      "url": "https://doi.org/10.1016/j.copsyc.2026.102477",
+      "cited_by": 0,
+      "abstract": "Negotiation frequency, the frequency with which people negotiate in a typical day, is an important cross-cultural difference. Compared to people from Low Negotiation Frequency cultures, people from High Negotiation Frequency cultures are more likely to observe and participate in many negotiations. We propose that compared to people from Low Negotiation Frequency cultures (e.g., the USA, Canada, Germany), people from High Negotiation Frequency cultures (e.g., India, Nigeria, Peru) are more likely to recognize an opportunity to negotiate, initiate a negotiation once they identify an opportunity, enjoy the negotiation process, and more likely to secure favorable deal terms. Even in Low Negotiation Frequency cultures, however, there are likely to be some domains (e.g., buying a car, negotiating a salary) where negotiations are common. As a result, these settings are likely to be characterized by high Asymmetric Negotiation Experience -- novices (e.g., first-time employees) are likely to negotiate with people who have far more experience (e.g., senior HR managers).",
+      "abstract_source": "openalex"
+    },
+    {
+      "doi": "10.1016/j.copsyc.2026.102484",
+      "title": "Open Science in Negotiation Research",
+      "subtitle": null,
+      "journal": "Current Opinion in Psychology",
+      "issn": "2352-250X",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "Elsevier",
+      "authors": [
+        "Joachim H\u00fcffmeier",
+        "Martin Schweinsberg",
+        "Jens Mazei"
+      ],
+      "published": "2026-10",
+      "created": "2026-10-22",
+      "volume": null,
+      "issue": null,
+      "page": "102484",
+      "url": "https://doi.org/10.1016/j.copsyc.2026.102484",
+      "cited_by": 0,
+      "abstract": "We illustrate how negotiation research can benefit from implementing Open Science Practices (OSPs). Among these benefits are a less frequent usage of questionable research practices, fewer false positive findings, yet more reproducible and replicable findings. An analysis of negotiation studies published in 2025 ( k = 50) documents the current multifaceted state of the negotiation literature: First, whereas studies published in \u201cgeneralist\u201d journals frequently feature preregistration and shared data, materials, and analysis code, studies published in \u201cspecialty\u201d journals are characterized by less usage of such OSPs. This difference likely results from more OSP-supportive journal policies that \u201cgeneralist\u201d journals introduced in recent years. As such, \u201cspecialty\u201d journals could support the usage of OSPs by introducing analogous policies. Second, we observe that negotiation research has largely neglected the potential of independent replications, registered reports, and multiverse analyses. To promote transparency and robustness, negotiation research can embrace specifically these (but also all other) OSPs more.",
+      "abstract_source": "openalex"
+    },
+    {
+      "doi": "10.1016/j.copsyc.2026.102460",
+      "title": "Operationalising the arts exposome",
+      "subtitle": null,
+      "journal": "Current Opinion in Psychology",
+      "issn": "2352-250X",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "Elsevier",
+      "authors": [
+        "Pier Luigi Sacco",
+        "Daisy Fancourt"
+      ],
+      "published": "2027-2",
+      "created": "2026-09-24",
+      "volume": "73",
+      "issue": null,
+      "page": "102460",
+      "url": "https://doi.org/10.1016/j.copsyc.2026.102460",
+      "cited_by": 0,
+      "abstract": "A recent arts exposome framework identified 50 transdiagnostic causal mechanisms (emotional, cognitive, self-referential, arousal-stress, inflammatory-epigenetic, social, and behavioural) by which arts engagement may affect mental health, organised around patterned daily exposure to active ingredients across diverse modes of arts engagement. Translating this structure into testable predictions depends on two operational prerequisites that current research has under-addressed. First, the active ingredients must be decomposed into mechanism-aligned exposure dimensions: aggregating activities as varied as receptive consumption, active participation, and cultural attendance under \"arts engagement\" averages mechanistically different effects and yields findings that the framework cannot localise to specific processes. Second, mechanism tractability is unevenly distributed across measurement modalities. Stress-HPA-immune mechanisms are well-served by peripheral measurement, including transcriptomic markers such as the Conserved Transcriptional Response to Adversity. Aesthetic and reward mechanisms are tractable through central measurement and autonomic indices of aesthetic emotion, but not through peripheral biomarkers. Affiliative mechanisms face validity challenges in peripheral measurement that may require pharmacological probes or behavioural proxies. Neither prerequisite suffices alone: a valid biomarker linked to a heterogeneous exposure measures something the framework cannot interpret, and a well-specified exposure linked to an inappropriate modality deteriorates evidence quality. These refinements are best understood as minimum conditions for identifying the core ingredients that matter most for each mechanism, since individual and contextual variation continue to moderate activation in real-world settings. Together, they identify where mechanism research can deliver near-term advances, where alternative methods are needed, and how the framework can move from theoretical mapping toward ecologically grounded testable inference.",
+      "abstract_source": "europepmc",
+      "pmid": "42837859"
+    },
+    {
+      "doi": "10.1016/j.copsyc.2026.102466",
+      "title": "Strategic decision-making in negotiation: Lessons from behavioral game theory",
+      "subtitle": null,
+      "journal": "Current Opinion in Psychology",
+      "issn": "2352-250X",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "Elsevier",
+      "authors": [
+        "Nir Halevy",
+        "Linh Vu",
+        "Valentino Emil Chai",
+        "Ping-Ya Chao",
+        "Temple Landry"
+      ],
+      "published": "2027-2",
+      "created": "2026-10-06",
+      "volume": "73",
+      "issue": null,
+      "page": "102466",
+      "url": "https://doi.org/10.1016/j.copsyc.2026.102466",
+      "cited_by": 0,
+      "abstract": "Game theory provides a language and a set of tools for analyzing behavior in a wide range of strategic interactions, including negotiation. Here, we illustrate behavioral game theory's contributions to the study of negotiation, with a particular focus on the role that communication and emotion play in negotiation. We explain how researchers can use games to study various negotiation phenomena, including the effects of power, information asymmetry, and identity on negotiation processes and outcomes. The concepts, methods, and findings we review offer insights and tools that negotiation scholars and practitioners can harness to advance their understanding of negotiation.",
+      "abstract_source": "europepmc",
+      "pmid": "42901074"
+    },
+    {
+      "doi": "10.1016/j.copsyc.2026.102453",
+      "title": "Suppressed inquiry: The hidden toll of working with satisfaction-optimized AI",
+      "subtitle": null,
+      "journal": "Current Opinion in Psychology",
+      "issn": "2352-250X",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "Elsevier",
+      "authors": [
+        "Ziv Carmon",
+        "Itai Linzen",
+        "Aner Sela",
+        "Yael Steinhart"
+      ],
+      "published": "2027-2",
+      "created": "2026-10-01",
+      "volume": "73",
+      "issue": null,
+      "page": "102453",
+      "url": "https://doi.org/10.1016/j.copsyc.2026.102453",
+      "cited_by": 0,
+      "abstract": "LLMs have become thinking companions for hundreds of millions worldwide, and they often do remarkable work. But their satisfaction-optimized design produces suppressed inquiry: the tendency for LLMs to inhibit rather than facilitate users' questioning process. LLMs appear fluent, confident, and seemingly all-knowing, their near-instant and polished output making non-LLM work feel unacceptably tedious and less eloquent. They affirm rather than interrogate users' assumptions, producing output that is deceptively adequate-shallower, less original, and less carefully reasoned than it appears. Seemingly competent systems also reduce vigilance and the monitoring impulse that independent judgment requires. Their responses also confine users within the frame they establish, narrowing what users think to ask. These costs are self-concealing: detecting them requires the very engagement that they suppress. And repeated delegation gradually atrophies users' capacity to reason independently. Three converging pressures make correction difficult: commercial incentives that reward satisfaction over substance, LLMs' tendency to revert to satisfaction-optimized defaults even when users push back, and a societal drift toward less-effortful engagement. We propose a research agenda to deepen the understanding of suppressed inquiry and how to counter it, to move closer to the remarkable thinking partners LLMs promised to be.",
+      "abstract_source": "europepmc",
+      "pmid": "42822132"
+    },
+    {
+      "doi": "10.1016/j.copsyc.2026.102438",
+      "title": "Technology and the psychology of experience: A temporal framework",
+      "subtitle": null,
+      "journal": "Current Opinion in Psychology",
+      "issn": "2352-250X",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "Elsevier",
+      "authors": [
+        "Will Wei Wu",
+        "Alixandra Barasch"
+      ],
+      "published": "2027-2",
+      "created": "2026-10-05",
+      "volume": "73",
+      "issue": null,
+      "page": "102438",
+      "url": "https://doi.org/10.1016/j.copsyc.2026.102438",
+      "cited_by": 0,
+      "abstract": "Technology is increasingly central to how people experience the world, shaping not only what they do but when and how those experiences are psychologically constructed. We propose that technology does not merely backdrop experiences; it transforms them, stretching what were once bounded episodes into representations that are imagined before, lived through, and relived long after they end. In this article, we offer a temporal framework that synthesizes recent research on how technology reshapes experiences before, during, and after they unfold. Then, we use this framework to evaluate the current state of knowledge. We conclude by highlighting opportunities for future investigation.",
+      "abstract_source": "europepmc",
+      "pmid": "42832848"
+    },
+    {
+      "doi": "10.1016/j.copsyc.2026.102489",
+      "title": "The Complex Relation Between Fiction, Morality, Truth, and Ideology",
+      "subtitle": null,
+      "journal": "Current Opinion in Psychology",
+      "issn": "2352-250X",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "Elsevier",
+      "authors": [
+        "Emanuele Castano"
+      ],
+      "published": "2026-10",
+      "created": "2026-10-24",
+      "volume": null,
+      "issue": null,
+      "page": "102489",
+      "url": "https://doi.org/10.1016/j.copsyc.2026.102489",
+      "cited_by": 0,
+      "abstract": "Research on the effects of reading fiction typically treats fiction as a monolithic entity and interprets its effects as evidence that reading improves social cognition and makes people better. This article questions both the practice and the interpretation. Fiction may exercise and reshape social-cognitive processes, but this does not imply greater accuracy, notably because, with few exceptions, social cognition has no external criterion of correctness. Findings linking reading fiction to empathy, moral reasoning, psychological essentialism, or attributional complexity do not by themselves show that fiction makes us better people. Many of these outcomes are self-reported styles and beliefs associated with ideological orientations, and whether people who score higher or lower on them are better people is a separate, normative question. Moreover, fiction is not monolithic: literary and popular fiction differ systematically in formal and representational properties, including ambiguity, predictability, complexity, and reliance on conventional narrative structures, and may encourage, respectively, more schema-disruptive or more schema-reinforcing modes of social cognition. Situating these effects within the psychology of art highlights a broader point: cognitive change, moral value, truth, political orientation, and aesthetic worth are related, but they should not be treated as equivalent.",
+      "abstract_source": "openalex"
+    },
+    {
+      "doi": "10.1016/j.copsyc.2026.102472",
+      "title": "The Search Orientation Framework: How Consumers Start, Switch, and Stop in AI-Mediated Search",
+      "subtitle": null,
+      "journal": "Current Opinion in Psychology",
+      "issn": "2352-250X",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "Elsevier",
+      "authors": [
+        "Ellie J. Kyung",
+        "Chiara Longoni",
+        "Yu Ding",
+        "Eileen Zhang"
+      ],
+      "published": "2026-10",
+      "created": "2026-10-04",
+      "volume": null,
+      "issue": null,
+      "page": "102472",
+      "url": "https://doi.org/10.1016/j.copsyc.2026.102472",
+      "cited_by": 0,
+      "abstract": "",
+      "abstract_source": null
+    },
+    {
+      "doi": "10.1016/j.copsyc.2026.102471",
+      "title": "The evolving science of negotiation alternatives: New contexts, new perspectives",
+      "subtitle": null,
+      "journal": "Current Opinion in Psychology",
+      "issn": "2352-250X",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "Elsevier",
+      "authors": [
+        "Dustin J. Sleesman",
+        "Robin L. Pinkley"
+      ],
+      "published": "2027-2",
+      "created": "2026-10-04",
+      "volume": "73",
+      "issue": null,
+      "page": "102471",
+      "url": "https://doi.org/10.1016/j.copsyc.2026.102471",
+      "cited_by": 0,
+      "abstract": "We review the past decade (2016 - present) of empirical research on negotiation alternatives across multiple disciplines, including dyadic bargaining, international trade, and civil conflict interventions. Three themes emerged in our analysis: First, research has focused on how the effects of a negotiator's BATNA (best alternative to a negotiated agreement) are not person-invariant but are instead moderated by the characteristics of the party who \"holds\" the BATNA. Second, studies are establishing the conditions under which negotiation alternatives can backfire and hurt a negotiator's performance. Third, an emerging stream of research challenges our conventional understanding of BATNA by highlighting its perceptual nature and the possibility that it may exist on multiple levels within a given negotiation. We close by outlining future directions for each of these emerging themes.",
+      "abstract_source": "europepmc",
+      "pmid": "42854549"
+    },
+    {
+      "doi": "10.1016/j.copsyc.2026.102473",
+      "title": "Toward a greater understanding of profound and complex experiences during engagement with art",
+      "subtitle": null,
+      "journal": "Current Opinion in Psychology",
+      "issn": "2352-250X",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "Elsevier",
+      "authors": [
+        "Pablo P.L. Tinio"
+      ],
+      "published": "2027-2",
+      "created": "2026-10-07",
+      "volume": "73",
+      "issue": null,
+      "page": "102473",
+      "url": "https://doi.org/10.1016/j.copsyc.2026.102473",
+      "cited_by": 0,
+      "abstract": "This review focuses on two contemporary trends in the psychology of art. The first is a shift in research focus from hedonically based judgments of art, such as liking, preference, and beauty, toward more complex and profound outcomes of art engagement, such as experiencing self-transcendent emotions, experiencing a greater sense of meaning in life, and sensing personal transformation (awe, absorption, and being inspired and moved). The second trend involves new approaches to characterizing and conceptualizing art engagement. Examples include network analysis and latent profile analysis that help reveal the hidden and multidimensional nature of the aesthetic experience of art. Together, these trends suggest a shift toward understanding of art engagement as a multidimensional experience that can shape cognition, emotions, and the self.",
+      "abstract_source": "europepmc",
+      "pmid": "42880105"
+    },
+    {
+      "doi": "10.1016/j.copsyc.2026.102469",
+      "title": "Two automatic motivations, two control systems: A neuroscience framework for negotiation",
+      "subtitle": null,
+      "journal": "Current Opinion in Psychology",
+      "issn": "2352-250X",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "Elsevier",
+      "authors": [
+        "Eliran Halali"
+      ],
+      "published": "2027-2",
+      "created": "2026-10-05",
+      "volume": "73",
+      "issue": null,
+      "page": "102469",
+      "url": "https://doi.org/10.1016/j.copsyc.2026.102469",
+      "cited_by": 0,
+      "abstract": "Negotiation often involves a recurring tension between self-interest and social preferences such as fairness, trust, honesty, and reciprocity. A central debate concerns which motive, self-interest or social preferences, constitutes the automatic default and which requires cognitive control to be expressed. Understanding these automatic processes is important because negotiations often tax cognitive resources, increasing reliance on automatic responses. Yet, the evidence remains contradictory: in some contexts, self-interest appears spontaneous and social concern effortful, whereas in others the reverse holds. This review argues that the inconsistency stems from a flawed premise. Drawing on converging evidence from social, affective, and decision neuroscience, I propose that both self-interest and social preferences are automatic motivational processes, driven by distinct motivational systems and regulated by separate prefrontal control mechanisms. The right dorsolateral prefrontal cortex (rDLPFC) is proposed to regulate reward-seeking motivation, facilitating prosocial behavior such as fairness and reciprocity, whereas the right ventrolateral prefrontal cortex (rVLPFC) is proposed to regulate socio-emotional responses, facilitating self-interested choice, together forming a proposed double dissociation within this motivational conflict. This dual-control framework reframes the central question from which motive is automatic to which automatic motivational system dominates a given context. It reconciles conflicting findings and explains why subtle situational shifts can reverse the apparent automatic response. The review considers emerging hormonal, neuromodulation, and hyperscanning evidence from dynamic interactions and discusses how changing circumstances may alter not only which motivation dominates, but also which form of control is needed to act in accordance with one's goals.",
+      "abstract_source": "europepmc",
+      "pmid": "42880108"
+    },
+    {
+      "doi": "10.1016/j.copsyc.2026.102464",
+      "title": "When AI meets DEI: Employee AI-beliefs and their implications for workplace diversity, equity, and inclusion",
+      "subtitle": null,
+      "journal": "Current Opinion in Psychology",
+      "issn": "2352-250X",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "Elsevier",
+      "authors": [
+        "Zihan Xiao",
+        "Seval G\u00fcndemir",
+        "Eleni Georganta",
+        "Inga J. Hoever"
+      ],
+      "published": "2027-2",
+      "created": "2026-10-10",
+      "volume": "73",
+      "issue": null,
+      "page": "102464",
+      "url": "https://doi.org/10.1016/j.copsyc.2026.102464",
+      "cited_by": 0,
+      "abstract": "As artificial intelligence (AI) reshapes the workplace, its impact on diversity, equity, and inclusion (DEI) has been examined primarily through the lens of what AI actually does (i.e., system design, outputs). This review shifts the focus to humans' subjective beliefs about AI, identifying mechanisms through which three dimensions of AI-beliefs (competence, warmth, and morality) may affect DEI goals: improving representation of underrepresented groups, closing career gaps across groups, and fostering inclusion. Our synthesis shows that, independently of what AI does, AI-beliefs can disadvantage underrepresented groups in some contexts, while creating opportunities for bridging human subgroups in others. This suggests that achieving DEI goals in AI-integrated workplaces requires attention not only to the properties and behavior of AI, but also to employees' beliefs about AI itself.",
+      "abstract_source": "europepmc",
+      "pmid": "42858642"
+    },
+    {
+      "doi": "10.1016/j.copsyc.2026.102465",
+      "title": "When and why women ask (or do not): Taking stock of research on gender differences in negotiation propensity, behavior, and outcomes",
+      "subtitle": null,
+      "journal": "Current Opinion in Psychology",
+      "issn": "2352-250X",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "Elsevier",
+      "authors": [
+        "Julia B. Bear",
+        "Jens Mazei",
+        "Joachim H\u00fcffmeier",
+        "Eva Paruch"
+      ],
+      "published": "2027-2",
+      "created": "2026-10-05",
+      "volume": "73",
+      "issue": null,
+      "page": "102465",
+      "url": "https://doi.org/10.1016/j.copsyc.2026.102465",
+      "cited_by": 0,
+      "abstract": "Evidence first emerged several decades ago that women are less likely than men to initiate negotiations and perform less competitively than men in negotiations. Researchers also have discovered moderators of these effects, including structural ambiguity, representation role, and gender salience and relevance. Furthermore, the anticipation of backlash has emerged as a potential mechanism to explain gender differences in negotiations. Yet, more recent research has revealed varied findings concerning whether gender differences, underlying mechanisms, and moderators have shifted, as well as the role of intersectionality. We review the research in this area and find that the nature of gender differences in negotiation is complex, with some recent research replicating certain past findings (e.g., gender gaps in negotiation behavior) but not others (i.e., gender gaps in negotiation propensity or moderation by representation role). Still other recent research has even revealed a reversal of gender gaps in negotiation propensity, with women being more likely than men to negotiate in certain cases, and that female negotiation counterparts are liked more than male negotiation counterparts, leading to greater counterpart satisfaction. We also consider the role of statistical power given the small-to medium-sized effects typically reported: Sample size may be another important reason for inconsistent findings in the gender and negotiation literature. Finally, we consider the potential for changing gender roles. Overall, we conclude that gender differences in negotiation performance outcomes persist and are influenced by situational nuances, but that these differences have been mitigated for propensity to initiate negotiations.",
+      "abstract_source": "europepmc",
+      "pmid": "42868652"
+    },
+    {
+      "doi": "10.1016/j.copsyc.2026.102485",
+      "title": "Your gain, my loss? Zero-sum thinking in negotiation",
+      "subtitle": null,
+      "journal": "Current Opinion in Psychology",
+      "issn": "2352-250X",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "Elsevier",
+      "authors": [
+        "Uri Zak",
+        "Gal Smitizsky"
+      ],
+      "published": "2026-10",
+      "created": "2026-10-19",
+      "volume": null,
+      "issue": null,
+      "page": "102485",
+      "url": "https://doi.org/10.1016/j.copsyc.2026.102485",
+      "cited_by": 0,
+      "abstract": "",
+      "abstract_source": null
+    },
+    {
+      "doi": "10.1037/apl0001407",
+      "title": "A meta-analysis of the dynamism of emergent states and team processes.",
+      "subtitle": null,
+      "journal": "Journal of Applied Psychology",
+      "issn": "0021-9010",
+      "courses": [
+        "PSY170"
+      ],
+      "publisher": "APA",
+      "authors": [
+        "Andrew C. Loignon",
+        "Brent N. Reed",
+        "Andrew J. Knoblich",
+        "Karoline M. Summerville",
+        "Elizabeth Clayton",
+        "George C. Banks",
+        "Scott Tonidandel"
+      ],
+      "published": "2026-10-5",
+      "created": "2026-10-05",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1037/apl0001407",
+      "cited_by": 0,
+      "abstract": "Prevailing theories of teamwork propose that a team's cognitive, affective, and motivational states (i.e., emergent states) and its members' interdependent actions (i.e., team processes) are inherently dynamic. Nevertheless, much of the existing literature overlooks critical components of theories on system dynamics (e.g., inertia, coevolution, feedback) and has largely failed to consider how time operates, ultimately leading to a predominantly static view of teams. To extend our understanding of team dynamism, we synthesized over 3,000 correlation coefficients from longitudinal studies, representing more than 11,000 teams on average. Using cross-lagged, meta-analytic structural equation models, we found that (a) emergent states and team processes exhibit inertia over time, although this varies by construct (affect exhibits the least inertia, while conflict exhibits the most); (b) some constructs (team affect and team cognition) tend to coevolve with team processes over time, whereas others (team motivation and team conflict) are consistently predicted by earlier team processes; (c) team performance exhibits consistent feedback loops, predicting subsequent emergent states and processes, which, in turn, predict later performance; and (d) the length of time between observations moderates these dynamics. Drawing on these results, we outline several key theoretical considerations for understanding team dynamics, highlight important methodological considerations for conducting longitudinal causally identified teams research, and offer recommendations for advancing beyond the current static perspective to a more dynamic understanding of teams. (PsycInfo Database Record (c) 2026 APA, all rights reserved).",
+      "abstract_source": "europepmc",
+      "pmid": "42831814"
+    },
+    {
+      "doi": "10.1037/apl0001420",
+      "title": "A meta-analytic examination of the criterion-related validity and cognitive loading associated with traditional and new situational judgment test paradigms.",
+      "subtitle": null,
+      "journal": "Journal of Applied Psychology",
+      "issn": "0021-9010",
+      "courses": [
+        "PSY170"
+      ],
+      "publisher": "APA",
+      "authors": [
+        "Filip Lievens",
+        "You Zhou",
+        "Jomel Wei Xuan Ng",
+        "Liyan Xi",
+        "Yixin Tian",
+        "Paul R. Sackett",
+        "Michelle Martin-Raugh"
+      ],
+      "published": "2026-9-28",
+      "created": "2026-09-28",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1037/apl0001420",
+      "cited_by": 0,
+      "abstract": "Traditionally, situational judgment tests (SJTs) include text-based situations and ask candidates to pick the best and worst response option. Over the years, various new SJT paradigms have been developed to increase validity, reduce incidental cognitive load, and/or lower costs. Examples are multimedia SJTs, constructed response SJTs, and single-response SJTs. First, this study investigates how the traditional SJT paradigm performs in terms of criterion-related validity by updating prior meta-analyses. Second, this study provides initial, meta-analytic evidence on the criterion-related validity and cognitive load of several new SJT paradigms. On the basis of 457 independent samples from 302 studies (total N = 244,257), results showed that SJTs were not only predictive of job performance but also of academic performance, organizational citizenship behavior, and counterproductive work behavior. SJT validity was higher in operational (i.e., applicant) settings than in nonoperational settings and could also be expanded to new content (e.g., emotion and cross-cultural management). In terms of comparing traditional and new SJT paradigms, multimedia SJTs had validity equal to text-based ones but lower cognitive load. Importantly, the multiple-choice modality did not significantly outperform written constructed response modalities in terms of validity, and the cognitive loading of webcam-constructed responses was even lower than that of other response modalities. The implications of these findings are among others discussed in the context of the cost effectiveness of SJTs vis-\u00e0-vis other selection procedures. (PsycInfo Database Record (c) 2026 APA, all rights reserved).",
+      "abstract_source": "europepmc",
+      "pmid": "42804245"
+    },
+    {
+      "doi": "10.1037/apl0001425",
+      "title": "Industrial-organizational science that matters: Social impact and policy implications in the Journal of Applied Psychology.",
+      "subtitle": null,
+      "journal": "Journal of Applied Psychology",
+      "issn": "0021-9010",
+      "courses": [
+        "PSY170"
+      ],
+      "publisher": "APA",
+      "authors": [
+        "Wendy J. Casper",
+        "Stephanie Brooke Escudero",
+        "Lillian T. Eby",
+        "Tianjun Sun",
+        "Talya N. Bauer",
+        "Bryan D. Edwards",
+        "Allison S. Gabriel",
+        "Jia Jasmine Hu"
+      ],
+      "published": "2026-10",
+      "created": "2026-10-13",
+      "volume": "111",
+      "issue": "10",
+      "page": "1225-1239",
+      "url": "https://doi.org/10.1037/apl0001425",
+      "cited_by": 0,
+      "abstract": "This introductory article to the special issue \"Social Impact Research\" examines the extent to which research published in the Journal of Applied Psychology has addressed pressing social issues related to work and employment. Using BERTopic modeling on 5,865 empirical articles published from the journal's inception in 1917 through June 2024, we identified 99 topics organized into 25 higher order themes, five of which directly reflect social impact: workplace stress, health, and well-being; workplace diversity, equity, and inclusion; organizational justice, ethics, and legal issues; work and employment transitions across the lifespan; and social justice and labor opinions . Trend analyses from 1980 to 2024 revealed growth in health and well-being research, relatively stable publication of diversity, equity, and inclusion scholarship, an inverted-U trajectory for justice and legal topics, and the disappearance of labor-related research. We then introduce the 19 special issue articles (appearing in the October and November 2026 issues) which address employment barriers facing marginalized and economically disadvantaged workers, medical benefits and leave policies, gender and women's employment, and macrolevel societal disruptions, each offering actionable implications related to work that can benefit the greater good. We conclude by proposing a future social impact research agenda that suggests industrial-organizational (I-O) psychologists conduct research that addresses key issues such as economic insecurity, immigrant and refugee workers, generative artificial intelligence, climate change, and political instability. (PsycInfo Database Record (c) 2026 APA, all rights reserved).",
+      "abstract_source": "europepmc",
+      "pmid": "42867459"
+    },
+    {
+      "doi": "10.1037/apl0001424",
+      "title": "The shape of recovery activities: A person-centered study of evening recovery activity profiles, their work antecedents, and outcomes.",
+      "subtitle": null,
+      "journal": "Journal of Applied Psychology",
+      "issn": "0021-9010",
+      "courses": [
+        "PSY170"
+      ],
+      "publisher": "APA",
+      "authors": [
+        "Khalid M. Alameer",
+        "Ute R. H\u00fclsheger",
+        "Mo Wang",
+        "Sabine Sonnentag",
+        "Jan Schepers",
+        "Sjir Uitdewilligen"
+      ],
+      "published": "2026-9-28",
+      "created": "2026-09-28",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1037/apl0001424",
+      "cited_by": 0,
+      "abstract": "Evening off-job activities play a crucial role in recovery from work. Although previous research has provided valuable insights into the role of recovery activities, little is known about the complex interplay of multiple characteristics of recovery activities and how this relates to well-being and work outcomes. Building on a dimensional approach to differentiate key characteristics of recovery activities (physical, social, creative, mental, spiritual, virtual, and outdoor), we adopt a person-centered perspective to identify distinct recovery activity profiles that capture the various ways these characteristics co-occur in daily life. We further investigate the extent to which these profiles shape recovery experiences, well-being, and work outcomes. Using data from two 10-day daily diary studies, Study 1 ( N = 345, 1,907 observations) identified daily profiles and demonstrated their associations with recovery experiences, emotional exhaustion, and next-morning vigor. In Study 2 ( N = 321, 1,780 observations), we assessed to what extent these profiles replicated in an independent sample and extended the investigation by including work-related antecedents and next-day work outcomes. Results indicated that daily recovery activities cluster together into identifiable profiles that largely replicated across samples. The identified profiles exhibited unique relationships with recovery experiences, well-being, and work outcomes. Our findings add to the recovery literature by illustrating the merits of considering profiles of recovery activities and their characteristics rather than studying recovery activities in isolation. (PsycInfo Database Record (c) 2026 APA, all rights reserved).",
+      "abstract_source": "europepmc",
+      "pmid": "42804246"
+    },
+    {
+      "doi": "10.1037/apl0001433",
+      "title": "When the market moves: How stock market fluctuations shape risk-related behaviors at work.",
+      "subtitle": null,
+      "journal": "Journal of Applied Psychology",
+      "issn": "0021-9010",
+      "courses": [
+        "PSY170"
+      ],
+      "publisher": "APA",
+      "authors": [
+        "Joseph Kichul Kim",
+        "Joel Koopman",
+        "Kyoung Yong Kim",
+        "Ran Ahn",
+        "Youngduk Lee"
+      ],
+      "published": "2026-9-24",
+      "created": "2026-09-24",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1037/apl0001433",
+      "cited_by": 0,
+      "abstract": "How employees' personal stock holdings perform during the day has become increasingly visible and accessible, yet research has rarely examined how fluctuations in those holdings shape employees' experiences at work. Integrating cross-domain spillover and regulatory focus theories, we propose that morning fluctuation in personal stock holdings spills over into the workplace by influencing employees' risk propensity-their willingness to take or avoid risks-and, in turn, their risk-related workplace behaviors. Specifically, drawing from regulatory focus theory, we propose that a more positive (vs. negative) fluctuation in personal stock holdings than usual is associated with subsequent increases (vs. decreases) in employees' willingness to engage in risk. In a 10-day experience sampling study of full-time employees who personally invest in the South Korean stock market, a more positive morning fluctuation in stock holding value than they typically experience predicted higher state risk propensity, which subsequently led to greater risk-taking behavior and voice. These indirect effects were moderated by long-term orientation, such that employees lower (vs. higher) in long-term orientation showed greater sensitivity to morning fluctuation in stock holding value. We then conducted two complementary experiments that supported the theorized regulatory focus mechanism by demonstrating that more positive fluctuation in personal stock holdings elicited promotion focus, whereas more negative fluctuation heightened prevention focus, and that these motivational states subsequently shaped employees' willingness to engage in risk. Together, these findings highlight employees' personal stock holdings as an overlooked source of daily behavioral variability at work. (PsycInfo Database Record (c) 2026 APA, all rights reserved).",
+      "abstract_source": "europepmc",
+      "pmid": "42782622"
+    },
+    {
+      "doi": "10.1002/job.70132",
+      "title": "Linking Leader Overqualification to Employee Organizational Citizenship Behaviors Toward the Leader: A Personal Identification Process Model",
+      "subtitle": null,
+      "journal": "Journal of Organizational Behavior",
+      "issn": "0894-3796",
+      "courses": [
+        "PSY170"
+      ],
+      "publisher": "Wiley",
+      "authors": [
+        "Yuanyuan Gong",
+        "Fang Liu",
+        "Junbang Lan",
+        "Cao Zhang",
+        "Chun Hui",
+        "Jinxin Li"
+      ],
+      "published": "2026-9-29",
+      "created": "2026-09-29",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1002/job.70132",
+      "cited_by": 0,
+      "abstract": "Overqualification has important implications not only for the overqualified but also those who work under the overqualified. Leaders are an influential source of self\u2010identity for followers and employee\u2010perceived leader overqualification impacts how followers view themselves and behave to the overqualified leader. Perceived leader overqualification, however, has both positive and negative impacts on followers. Yet, research on effects of follower perceived leader overqualification is limited. From an identification construction perspective, and drawing on personal identification (PI) process model, we theorize that perceiving a leader as overqualified can strengthen followers' identification with that leader and, in turn, their organizational citizenship behavior directed toward the leader (OCBL). Because identification depends on how followers construe a leader's attributes in relation to their own self\u2010concept, we position follower narcissism as a boundary condition. We argue that narcissistic admiration strengthens the positive link between perceived leader overqualification and leader identification, whereas narcissistic rivalry weakens it, producing divergent indirect effects on OCBL. Results from one vignette\u2010based experiment in the United States and two multi\u2010wave, multi\u2010source surveys in China consistently support this moderated\u2010mediation model. The findings reposition overqualification as a relationally consequential leader attribute and clarify when, and for whom, it elicits rather than undermines supportive follower behavior.",
+      "abstract_source": "crossref"
+    },
+    {
+      "doi": "10.1002/job.70131",
+      "title": "When and Why Do Leaders Endorse Radical Ideas? A Transactional Theory of Stress Perspective",
+      "subtitle": null,
+      "journal": "Journal of Organizational Behavior",
+      "issn": "0894-3796",
+      "courses": [
+        "PSY170"
+      ],
+      "publisher": "Wiley",
+      "authors": [
+        "Xuting Jiang",
+        "Chak Fu Lam",
+        "Yaping Gong",
+        "Wenxing Liu"
+      ],
+      "published": "2026-9-25",
+      "created": "2026-09-26",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1002/job.70131",
+      "cited_by": 0,
+      "abstract": "Extant research has focused on the strategies that employees use to obtain leaders' endorsement of creative ideas that vary in radicalness, overlooking the possibility that these employee\u2010centric factors may backfire by increasing leaders' sense of threat. Drawing on the transactional theory of stress, we offer a leader\u2010centric perspective by identifying leader creative personality as a resource that influences when creative ideas with varying radicalness levels are more or less likely to be endorsed. We predict that (1) idea radicalness will exhibit a negative indirect relationship with endorsement through increased leader threat appraisal when leader creative personality is low, and (2) idea radicalness will have a positive indirect relationship with endorsement through increased leader challenge appraisal when leader creative personality is high. Results from a three\u2010wave field study of 167 leader\u2013employee dyads showed that the indirect relationship between idea radicalness and endorsement was negative via increased leader threat appraisal when leader creative personality was low, and the indirect relationship was positive via decreased leader threat appraisal when leader creative personality was high. A scenario\u2010based experiment with 300 leader participants replicated the negative indirect relationship between idea radicalness and endorsement via leader threat appraisal when leader creative personality was low. Our findings suggest the importance of addressing leaders' threat appraisals of radical ideas, and we provide insights into how organizations can effectively leverage employees' radical ideas by managing leaders' sense of threat.",
+      "abstract_source": "crossref"
+    },
+    {
+      "doi": "10.1037/pspa0000497",
+      "title": "Change perception at zero tolerance: How protected values bias sensitivity to social improvement.",
+      "subtitle": null,
+      "journal": "Journal of Personality and Social Psychology",
+      "issn": "0022-3514",
+      "courses": [
+        "PSY157",
+        "PSY170"
+      ],
+      "publisher": "APA",
+      "authors": [
+        "Tobias Vogel",
+        "Andr\u00e9 Mata"
+      ],
+      "published": "2026-9-28",
+      "created": "2026-09-28",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1037/pspa0000497",
+      "cited_by": 0,
+      "abstract": "Across six experiments, we examined how sensitivity to change varies with protected values (PVs). In Experiment 1, vegetarians were less appreciative than meat-eaters of large (but only partial) reductions in other people's meat consumption, but they were more appreciative than meat-eaters of smaller but absolute reductions (i.e., reduction to zero meat consumption). In Experiment 2, a similar pattern emerged in political groups: Republicans, who value immigration control more than Democrats, were relatively less sensitive to large but partial reductions in illegal immigration than to its elimination; the reverse pattern was observed for gun possession. In Experiment 3, we manipulated participants' values regarding child labor. Individuals who generated arguments in defense of child labor held less protected values and were comparatively more sensitive to change in child labor numbers. Further studies showed that protected values make people focus on the outcome (i.e., the present state) more than on the trajectory of change (i.e., the difference from the past; Experiment 4) and that they inspire stricter thresholds for what is considered acceptable (Experiment 5). Experiment 6 shows that protected values cause a heightened sensitivity to absolute changes to zero, rather than insensitivity to changes overall. These findings indicate that protected values amplify sensitivity to absolute changes to zero, compared to partial changes-even larger ones-that fall short of zero. The results have theoretical implications for theories of progress perception and quantity (in)sensitivity. (PsycInfo Database Record (c) 2026 APA, all rights reserved).",
+      "abstract_source": "europepmc",
+      "pmid": "42804249"
+    },
+    {
+      "doi": "10.1037/pspp0000619",
+      "title": "Contextual predictors of state loneliness: The role of social company, activity, location, and duration of contextual exposure.",
+      "subtitle": null,
+      "journal": "Journal of Personality and Social Psychology",
+      "issn": "0022-3514",
+      "courses": [
+        "PSY157",
+        "PSY170"
+      ],
+      "publisher": "APA",
+      "authors": [
+        "Ina Busch",
+        "Debora Brickau",
+        "Maike Luhmann"
+      ],
+      "published": "2026-9-28",
+      "created": "2026-09-28",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1037/pspp0000619",
+      "cited_by": 0,
+      "abstract": "Loneliness is not only a stable dispositional trait but also a momentary state that can fluctuate within individuals. However, empirical studies on how contextual factors relate to state loneliness remain scarce. This study investigated how state loneliness varies depending on social company, everyday activities, physical locations, and the duration of exposure to these contextual factors. Drawing on preregistered and exploratory analyses, we examined data from the Day Reconstruction Method module of the German Socio-Economic Panel Innovation Sample, collected across four waves between 2012 and 2015. The representative sample comprised 22,031 episodes nested within 2,508 participants (52.6% female, age range 17-95 years, M age = 50.0, SD age = 18.9). Multilevel logistic regression models showed that being alone consistently predicted higher odds of state loneliness, while the presence of others showed opposing associations. Participants were more likely to feel lonely when at home than when at work or elsewhere. Watching television was linked to a higher probability of reporting state loneliness, whereas self-care/health and media use showed a negative relationship. For some activities, this relationship was moderated by the duration of the activities: Reporting state loneliness was more likely during prolonged episodes of care work but less likely during prolonged episodes of social contact and television consumption. Overall, these findings contribute to a more robust, nuanced understanding of the contextual and temporal features tied to momentary feelings of loneliness, underscoring the need for dynamic, time-sensitive approaches in both research and interventions addressing everyday experiences of loneliness. (PsycInfo Database Record (c) 2026 APA, all rights reserved).",
+      "abstract_source": "europepmc",
+      "pmid": "42804250"
+    },
+    {
+      "doi": "10.1037/pspp0000615",
+      "title": "Shades of traits across languages: Comparisons of Dutch, Polish, Czech, and Serbian structures of behavioral items.",
+      "subtitle": null,
+      "journal": "Journal of Personality and Social Psychology",
+      "issn": "0022-3514",
+      "courses": [
+        "PSY157",
+        "PSY170"
+      ],
+      "publisher": "APA",
+      "authors": [
+        "Boele De Raad",
+        "Nasturcja Toruj",
+        "Oleg Gorbaniuk",
+        "Martina H\u0159eb\u00ed\u010dkov\u00e1",
+        "Petar \u010colovi\u0107",
+        "Biljana Roganovi\u0107",
+        "Snezana Smederevac"
+      ],
+      "published": "2026-10-22",
+      "created": "2026-10-22",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1037/pspp0000615",
+      "cited_by": 0,
+      "abstract": "While trait adjectives may be regarded as convenient summary labels for varieties of behavioral expressions with common themes and outcomes, in turn, behaviors typical of a person may be considered as expressions of personality dispositions. In fact, in daily life, behavioral descriptions are way more frequent than the more abstract adjectival descriptors. For the present study, behavioral, verb-based data sets collected in four languages were used for comparison. The data sets each consisted of ratings from 400 participants on 543 Dutch personality verbs, 1,247 participants on 414 Polish personality verbs, 951 participants on 289 Czech personality verbs, and 512 participants on 319 Serbian personality verbs. Principal component analysis-based structures (of different dimensionalities) were compared pairwise across the languages, making use of congruence coefficients. Moreover, using simultaneous component analysis, the verb-based structure common to the four languages, based on a shared data set with ratings from 3,110 participants on 324 personality verbs, was analyzed. Three- and six-component structures based on the common set are discussed in some detail, both showing portions of the Big Five but with no reference to the Intellect-Imagination factor. It is concluded that verb-based behavioral items, in comparison to adjective- and noun-based items, give rise to a diluted and reduced trait-semantic space. To arrive at a full trait-semantic representation, all linguistic categories should be exploited in a joint operation. (PsycInfo Database Record (c) 2026 APA, all rights reserved).",
+      "abstract_source": "europepmc",
+      "pmid": "42911773"
+    },
+    {
+      "doi": "10.1037/pspp0000616",
+      "title": "The temporal dynamics of narcissism and aggression: Timescales, moderators, and generalizations in diverse samples.",
+      "subtitle": null,
+      "journal": "Journal of Personality and Social Psychology",
+      "issn": "0022-3514",
+      "courses": [
+        "PSY157",
+        "PSY170"
+      ],
+      "publisher": "APA",
+      "authors": [
+        "Yuping Liu",
+        "Tengwei Sun",
+        "Bingtao Zhou",
+        "Sander Thomaes",
+        "Bo Yang",
+        "Jaap J. A. Denissen"
+      ],
+      "published": "2026-10-1",
+      "created": "2026-10-01",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1037/pspp0000616",
+      "cited_by": 0,
+      "abstract": "The relationship between narcissism and aggression has received considerable research attention, with the main conclusion being that individuals with higher levels of narcissism tend to exhibit more aggressive behavior. However, most evidence comes from cross-sectional and experimental studies using between-person analyses and relies heavily on Western convenience samples, leaving the temporal dynamics and within-person processes largely unexplored. This preregistered study examined four large-scale data sets of Chinese undergraduates and offenders: two ambulatory assessment samples (427 undergraduates and 775 offenders; 19,331 and 42,820 observations, respectively) and two long-term longitudinal samples ( N = 1,404, 969, 822, 613 for undergraduates and 2,064, 1,716, 1,609, 1,393 for offenders, each with four assessments over a year). Results indicated that narcissism and aggression prospectively predicted one another at the momentary level, but not the long-term level. These reciprocal effects were largely replicated across undergraduate and offender samples. Person-level narcissism and aggression moderated several of these dynamic associations, with the most robust pattern showing that higher person-level aggression consistently strengthened the effects of narcissistic states on subsequent aggression among offenders. Overall, this study provides, to our knowledge, the first within-person evidence for dynamic reciprocal associations between narcissism and aggression, while also offering stronger support for the robustness, cultural generalizability, and population representativeness of these processes. (PsycInfo Database Record (c) 2026 APA, all rights reserved).",
+      "abstract_source": "europepmc",
+      "pmid": "42821415"
+    },
+    {
+      "doi": "10.1016/j.jvb.2026.104308",
+      "title": "Are the basic psychological needs of self-determination theory necessary for employee well-being?",
+      "subtitle": null,
+      "journal": "Journal of Vocational Behavior",
+      "issn": "0001-8791",
+      "courses": [
+        "PSY170"
+      ],
+      "publisher": "Elsevier",
+      "authors": [
+        "Haien Ding",
+        "Frida Karine Feyer",
+        "Ann Sophie Lauterbach"
+      ],
+      "published": "2026-12",
+      "created": "2026-10-19",
+      "volume": "171",
+      "issue": null,
+      "page": "104308",
+      "url": "https://doi.org/10.1016/j.jvb.2026.104308",
+      "cited_by": 0,
+      "abstract": "The basic psychological needs for autonomy, competence, and relatedness in self-determination theory (SDT) were originally defined and interpreted as necessary for well-being. Although this necessity assumption has been a cornerstone of SDT for over three decades, no systematic evidence has yet emerged to support it. This knowledge gap largely stems from a theory-method misfit. Most empirical studies use regression-based analytical techniques that do not align with necessity logic because they reflect a probabilistic \u201caverage-effect\u201d logic. Necessary condition analysis (NCA) is an appropriate method specifically designed for identifying necessary conditions. In the present research, we adopt NCA to examine whether autonomy, competence, and relatedness are necessary for employee evaluative well-being (job satisfaction and work meaningfulness), affective well-being (positive affect), and conative well-being (work engagement). Across three studies, we found consistent support for the necessary role of psychological need satisfaction in all four well-being indicators, with nuanced variations in these necessity relationships. In contrast, power and status were not found to be necessary. These findings advance our understanding of basic psychological needs through a necessity-oriented lens and underscore the importance of fostering a need-supportive work environment in organizations.",
+      "abstract_source": "openalex"
+    },
+    {
+      "doi": "10.1016/j.jvb.2026.104297",
+      "title": "Daily job crafting with generative artificial intelligence: Implications for work meaningfulness and engagement",
+      "subtitle": null,
+      "journal": "Journal of Vocational Behavior",
+      "issn": "0001-8791",
+      "courses": [
+        "PSY170"
+      ],
+      "publisher": "Elsevier",
+      "authors": [
+        "Neris G\u00fcven",
+        "Wendelien van Eerde",
+        "Almasa Sarabi",
+        "Corine Boon"
+      ],
+      "published": "2026-12",
+      "created": "2026-10-05",
+      "volume": "171",
+      "issue": null,
+      "page": "104297",
+      "url": "https://doi.org/10.1016/j.jvb.2026.104297",
+      "cited_by": 0,
+      "abstract": "As Generative Artificial Intelligence (Gen-AI) becomes embedded in daily work, understanding how employees proactively engage with these tools to shape their work experiences is increasingly important. Building on self-determination theory and the job crafting literature, this study introduces the concept of daily Gen-AI-driven job crafting: employees' self-initiated use of Gen-AI to modify their daily job demands and resources. We examine whether Gen-AI-driven job crafting is associated with daily work engagement through psychological need satisfaction and work meaningfulness. We employed a daily diary design with 149 UK-based full-time employees (M age = 36.7, SD age = 10.4; 63.8% male) who used Gen-AI at work daily or multiple times per day over ten consecutive workdays, incorporating a brief open-ended question to examine whether employees experienced their Gen-AI use as intentional work modification. Quantitative results showed that the dimensions of Gen-AI-driven job crafting (augmenting instrumental resources, augmenting social resources, augmenting challenging demands, and automating hindering demands) were differentially associated with daily work engagement through need satisfaction (autonomy, competence, relatedness) and, in turn, work meaningfulness: the competence pathway received the most consistent support, while the relatedness pathway was the most limited. Open-ended responses were consistent with intentional work modification, for instance, automating hindering demands was framed as a strategic reallocation of cognitive resources toward more valued work rather than simple workload reduction. Together, these findings suggest that Gen-AI may function as a bottom-up work design tool associated with daily need satisfaction and engagement.",
+      "abstract_source": "openalex"
+    },
+    {
+      "doi": "10.1016/j.jvb.2026.104299",
+      "title": "Decoding fairness: Unveiling the cognitive processes that determine pay rises and promotions",
+      "subtitle": null,
+      "journal": "Journal of Vocational Behavior",
+      "issn": "0001-8791",
+      "courses": [
+        "PSY170"
+      ],
+      "publisher": "Elsevier",
+      "authors": [
+        "Gabriele Boccoli",
+        "Benedetta Colaiacovo",
+        "Francesco Candia",
+        "Luca Gastaldi",
+        "Mariano Corso"
+      ],
+      "published": "2026-12",
+      "created": "2026-10-10",
+      "volume": "171",
+      "issue": null,
+      "page": "104299",
+      "url": "https://doi.org/10.1016/j.jvb.2026.104299",
+      "cited_by": 0,
+      "abstract": "Drawing on attribution theory, this study explores how employees explain organizational decisions concerning pay rises and promotions, conceptualizing these attributional processes as an interpretive layer that precedes fairness evaluations, and how distinct configurations of causal explanations are associated with work-related attitudes. The research was conducted in an Italian bank, leveraging on a two-wave design and a two-study structure. The full sample ( N = 3193) was randomly split into two equivalent subsamples. Study 1 ( n = 1540) used latent profile analysis to identify three attribution profiles: meritocratic attributors profile , the institutional attributors profile, and the relational-structural attributors profile. Study 2 ( n = 1599) replicated the profile structure, assessed their longitudinal stability and tested associations with demographic and work-related predictors as well as key work outcomes. Study 2 shows that the meritocratic attributors profile and the relational-structural attributors profile are both stable over time, while the institutional attributors profile is more fluid. Demographic and work-related factors were associated with profile membership. Older employees and those in higher positions were more likely to belong to profiles emphasizing competence-based or institutionalized explanations, whereas younger employees and women were more often associated with profiles emphasizing relational and structural explanations, such as networks and gender dynamics. Our findings also reveal that attribution profiles are associated with different attitudes toward work. Employees in the meritocratic attributors profile reported the highest levels of work engagement, affective organizational commitment, distributive justice, and trust in management. These levels were lowest among employees in the relational-structural attributors profile, consistent with the idea that explanations centered on relational dynamics and structural constraints are associated with less favourable evaluations of organizational decisions.",
+      "abstract_source": "openalex"
+    },
+    {
+      "doi": "10.1016/j.jvb.2026.104300",
+      "title": "How and when mentoring affects newcomer pro-organizational proactive behavior? An organizational identification perspective",
+      "subtitle": null,
+      "journal": "Journal of Vocational Behavior",
+      "issn": "0001-8791",
+      "courses": [
+        "PSY170"
+      ],
+      "publisher": "Elsevier",
+      "authors": [
+        "Jia Liu",
+        "Han Meng",
+        "Di Cai",
+        "Baoyi Feng",
+        "Zhaopeng Liu",
+        "Jih-Yu Mao"
+      ],
+      "published": "2026-12",
+      "created": "2026-10-14",
+      "volume": "171",
+      "issue": null,
+      "page": "104300",
+      "url": "https://doi.org/10.1016/j.jvb.2026.104300",
+      "cited_by": 0,
+      "abstract": "",
+      "abstract_source": null
+    },
+    {
+      "doi": "10.1016/j.jvb.2026.104310",
+      "title": "Job crafting at home versus in the office: The roles of job demands and resources and need discrepancies",
+      "subtitle": null,
+      "journal": "Journal of Vocational Behavior",
+      "issn": "0001-8791",
+      "courses": [
+        "PSY170"
+      ],
+      "publisher": "Elsevier",
+      "authors": [
+        "Sevgi Emirza",
+        "Maria Tims",
+        "Maral Darouei"
+      ],
+      "published": "2026-10",
+      "created": "2026-10-24",
+      "volume": null,
+      "issue": null,
+      "page": "104310",
+      "url": "https://doi.org/10.1016/j.jvb.2026.104310",
+      "cited_by": 0,
+      "abstract": "",
+      "abstract_source": null
+    },
+    {
+      "doi": "10.1016/j.jvb.2026.104298",
+      "title": "Qualitative examination of future decent work perceptions among Nigerian college students: A psychology of working perspective",
+      "subtitle": null,
+      "journal": "Journal of Vocational Behavior",
+      "issn": "0001-8791",
+      "courses": [
+        "PSY170"
+      ],
+      "publisher": "Elsevier",
+      "authors": [
+        "Gabriel N. Ezema",
+        "Kelsey L. Autin",
+        "Chika D. Obiano",
+        "Alexander Ozoani",
+        "Preciousrose Ekeocha"
+      ],
+      "published": "2026-12",
+      "created": "2026-10-09",
+      "volume": "171",
+      "issue": null,
+      "page": "104298",
+      "url": "https://doi.org/10.1016/j.jvb.2026.104298",
+      "cited_by": 0,
+      "abstract": "",
+      "abstract_source": null
+    },
+    {
+      "doi": "10.1016/j.jvb.2026.104309",
+      "title": "Socialization pathways: A longitudinal investigation of newcomers' onboarding profiles",
+      "subtitle": null,
+      "journal": "Journal of Vocational Behavior",
+      "issn": "0001-8791",
+      "courses": [
+        "PSY170"
+      ],
+      "publisher": "Elsevier",
+      "authors": [
+        "Kelly Carciente",
+        "Simon A. Houle",
+        "Joon J. Lee",
+        "Cassiopeia Sylvestre",
+        "Alexandre J.S. Morin"
+      ],
+      "published": "2026-10",
+      "created": "2026-10-24",
+      "volume": null,
+      "issue": null,
+      "page": "104309",
+      "url": "https://doi.org/10.1016/j.jvb.2026.104309",
+      "cited_by": 0,
+      "abstract": "",
+      "abstract_source": null
+    },
+    {
+      "doi": "10.1038/s44159-026-00624-4",
+      "title": "Empathy as a dyadic process",
+      "subtitle": null,
+      "journal": "Nature Reviews Psychology",
+      "issn": "2731-0574",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "Nature",
+      "authors": [
+        "Shir Genzer",
+        "Anat Perry"
+      ],
+      "published": "2026-10-14",
+      "created": "2026-10-14",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1038/s44159-026-00624-4",
+      "cited_by": 0,
+      "abstract": "",
+      "abstract_source": null
+    },
+    {
+      "doi": "10.1038/s44159-026-00636-0",
+      "title": "From sample diversity to interpretive convergence",
+      "subtitle": null,
+      "journal": "Nature Reviews Psychology",
+      "issn": "2731-0574",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "Nature",
+      "authors": [
+        "Yusuke Moriguchi",
+        "Yasuhiro Kanakogi",
+        "Taro Murakami"
+      ],
+      "published": "2026-10-22",
+      "created": "2026-10-22",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1038/s44159-026-00636-0",
+      "cited_by": 0,
+      "abstract": "",
+      "abstract_source": null
+    },
+    {
+      "doi": "10.1038/s44159-026-00628-0",
+      "title": "How physical information explains infants\u2019 supposed psychological world",
+      "subtitle": null,
+      "journal": "Nature Reviews Psychology",
+      "issn": "2731-0574",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "Nature",
+      "authors": [
+        "Deon T. Benton",
+        "Kelsey L. West"
+      ],
+      "published": "2026-10-7",
+      "created": "2026-10-07",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1038/s44159-026-00628-0",
+      "cited_by": 1,
+      "abstract": "",
+      "abstract_source": null
+    },
+    {
+      "doi": "10.1038/s44159-026-00621-7",
+      "title": "Integrating the Hierarchical Taxonomy of Psychopathology and computational psychiatry",
+      "subtitle": null,
+      "journal": "Nature Reviews Psychology",
+      "issn": "2731-0574",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "Nature",
+      "authors": [
+        "Timothy A. Allen",
+        "Alison M. Schreiber",
+        "Scott D. Blain",
+        "Christina Carlisi",
+        "Colin G. DeYoung",
+        "Alex Fornito",
+        "Claire M. Gillan",
+        "Vina M. Goghari",
+        "Nathan T. Hall",
+        "Philipp Homan",
+        "Antonia N. Kaczkurkin",
+        "Roman Kotov"
+      ],
+      "published": "2026-10-9",
+      "created": "2026-10-09",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1038/s44159-026-00621-7",
+      "cited_by": 0,
+      "abstract": "",
+      "abstract_source": null
+    },
+    {
+      "doi": "10.1038/s44159-026-00634-2",
+      "title": "People perceive AI as White",
+      "subtitle": null,
+      "journal": "Nature Reviews Psychology",
+      "issn": "2731-0574",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "Nature",
+      "authors": [
+        "Jenn Richler"
+      ],
+      "published": "2026-10-16",
+      "created": "2026-10-16",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1038/s44159-026-00634-2",
+      "cited_by": 0,
+      "abstract": "",
+      "abstract_source": null
+    },
+    {
+      "doi": "10.1038/s44159-026-00635-1",
+      "title": "Reframing impulsivity as beneficial risk-taking",
+      "subtitle": null,
+      "journal": "Nature Reviews Psychology",
+      "issn": "2731-0574",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "Nature",
+      "authors": [
+        "Shelby Rideout-Andrews"
+      ],
+      "published": "2026-10-16",
+      "created": "2026-10-16",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1038/s44159-026-00635-1",
+      "cited_by": 0,
+      "abstract": "",
+      "abstract_source": null
+    },
+    {
+      "doi": "10.1038/s44159-026-00629-z",
+      "title": "Reply to \u2018How physical information explains infants\u2019 supposed inner psychological world\u2019",
+      "subtitle": null,
+      "journal": "Nature Reviews Psychology",
+      "issn": "2731-0574",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "Nature",
+      "authors": [
+        "Shari Liu",
+        "Seda Karakose-Akbiyik",
+        "Joseph Outa",
+        "Minjae J. Kim"
+      ],
+      "published": "2026-10-9",
+      "created": "2026-10-09",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1038/s44159-026-00629-z",
+      "cited_by": 0,
+      "abstract": "",
+      "abstract_source": null
+    },
+    {
+      "doi": "10.1038/s44159-026-00625-3",
+      "title": "Science-informed opinion on generative AI for young children",
+      "subtitle": null,
+      "journal": "Nature Reviews Psychology",
+      "issn": "2731-0574",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "Nature",
+      "authors": [
+        "Kathy Hirsh-Pasek",
+        "Roberta Michnick Golinkoff"
+      ],
+      "published": "2026-10-2",
+      "created": "2026-10-02",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1038/s44159-026-00625-3",
+      "cited_by": 0,
+      "abstract": "",
+      "abstract_source": null
+    },
+    {
+      "doi": "10.1038/s44159-026-00627-1",
+      "title": "The bat, the ball and the ecology of AI decision support",
+      "subtitle": null,
+      "journal": "Nature Reviews Psychology",
+      "issn": "2731-0574",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "Nature",
+      "authors": [
+        "Marvin Kopka"
+      ],
+      "published": "2026-10-1",
+      "created": "2026-10-01",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1038/s44159-026-00627-1",
+      "cited_by": 0,
+      "abstract": "",
+      "abstract_source": null
+    },
+    {
+      "doi": "10.1038/s44159-026-00633-3",
+      "title": "The households that energy policy overlooks",
+      "subtitle": null,
+      "journal": "Nature Reviews Psychology",
+      "issn": "2731-0574",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "Nature",
+      "authors": [
+        "Marjan Nikoloski"
+      ],
+      "published": "2026-10-13",
+      "created": "2026-10-13",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1038/s44159-026-00633-3",
+      "cited_by": 0,
+      "abstract": "",
+      "abstract_source": null
+    },
+    {
+      "doi": "10.1038/s44159-026-00626-2",
+      "title": "The role of long-term memory, flexible templates and learning in attentional guidance",
+      "subtitle": null,
+      "journal": "Nature Reviews Psychology",
+      "issn": "2731-0574",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "Nature",
+      "authors": [
+        "Nancy B. Carlisle",
+        "Geoffrey F. Woodman"
+      ],
+      "published": "2026-10-23",
+      "created": "2026-10-23",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1038/s44159-026-00626-2",
+      "cited_by": 0,
+      "abstract": "",
+      "abstract_source": null
+    },
+    {
+      "doi": "10.1038/s44159-026-00618-2",
+      "title": "Understanding the bidirectional associations between parenting and child anxiety",
+      "subtitle": null,
+      "journal": "Nature Reviews Psychology",
+      "issn": "2731-0574",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "Nature",
+      "authors": [
+        "Marie B. H. Yap",
+        "Mairead C. Cardamone-Breen",
+        "Ronald M. Rapee"
+      ],
+      "published": "2026-10-9",
+      "created": "2026-10-09",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1038/s44159-026-00618-2",
+      "cited_by": 0,
+      "abstract": "",
+      "abstract_source": null
+    },
+    {
+      "doi": "10.1038/s44159-026-00631-5",
+      "title": "When music becomes personally significant",
+      "subtitle": null,
+      "journal": "Nature Reviews Psychology",
+      "issn": "2731-0574",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "Nature",
+      "authors": [
+        "Shannon Skeffington"
+      ],
+      "published": "2026-10-6",
+      "created": "2026-10-06",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1038/s44159-026-00631-5",
+      "cited_by": 0,
+      "abstract": "",
+      "abstract_source": null
+    },
+    {
+      "doi": "10.1177/01461672261483312",
+      "title": "A Safe Town? Ostensible State or County Racial Climate Impacts Perceptions of Town-Level Racial Identity-Safety Cues",
+      "subtitle": null,
+      "journal": "Personality and Social Psychology Bulletin",
+      "issn": "0146-1672",
+      "courses": [
+        "PSY157",
+        "PSY170"
+      ],
+      "publisher": "SAGE",
+      "authors": [
+        "Izilda Pereira-Jorge",
+        "Kim E. Chaney"
+      ],
+      "published": "2026-9-28",
+      "created": "2026-09-28",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1177/01461672261483312",
+      "cited_by": 0,
+      "abstract": "Identity-safety cues (ISCs) are environmental signals that indicate one\u2019s marginalized identity is valued. ISC contextual information may impact town evaluations. Over three experiments ( N = 1,107), we examine how single or multiple ISCs posted across storefronts (i.e., Black lives matter flag, Study 1\u20133) and the racial climate surrounding a hypothetical town (Study 2\u20133) impact attributions of ISC motives and town evaluations. Racial minorities and Black Americans perceived greater external diversity motives (e.g., social pressure) of a storefront with an ISC when all other storefronts had an ISC compared to when no other storefronts had an ISC (Study 1\u20133). Ostensible state- and county-level racially egalitarian climates elicited greater expectations of internal diversity motives and positive town evaluations (e.g., greater progressive policies, quality of life, Black residents) compared to prejudicial racial climates and towns with a single ISC (Study 2\u20133). Findings demonstrate the need to consider multiple levels of ISCs.",
+      "abstract_source": "crossref"
+    },
+    {
+      "doi": "10.1177/01461672261485365",
+      "title": "Grateful for What and Whom? How Gratitude List Content Varies and Is Associated With Affective Responses",
+      "subtitle": null,
+      "journal": "Personality and Social Psychology Bulletin",
+      "issn": "0146-1672",
+      "courses": [
+        "PSY157",
+        "PSY170"
+      ],
+      "publisher": "SAGE",
+      "authors": [
+        "Yoobin Park",
+        "Elissa S. Epel",
+        "Emiliana Simon-Thomas"
+      ],
+      "published": "2026-9-29",
+      "created": "2026-09-29",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1177/01461672261485365",
+      "cited_by": 0,
+      "abstract": "A gratitude list activity, whereby one recalls and writes down things they are grateful for, is a well-studied intervention known to confer an immediate and even prolonged boost in well-being. However, the specific content people reflect on, and how it relates to affective evaluations and the impact of the intervention, remains underexplored. Using data from a global online study ( N = 19,265), we applied natural language processing to examine the content of gratitude lists, identifying 16 thematic clusters, with the most common one focused on social relationships. Next, we examined and found various sociodemographic and psychological differences in people\u2019s gratitude list content. Further, mentioning themes related to family or nature was associated with greater increases in positivity following the activity. Overall, our findings highlight individual differences in what people naturally think of during this popular intervention and suggest opportunities for personalized modifications to enhance adherence to and effectiveness of the intervention.",
+      "abstract_source": "crossref"
+    },
+    {
+      "doi": "10.1177/01461672261494655",
+      "title": "Implicit Prejudice Differentially Predicts Placement Into Valuable and Scarce Opportunities",
+      "subtitle": null,
+      "journal": "Personality and Social Psychology Bulletin",
+      "issn": "0146-1672",
+      "courses": [
+        "PSY157",
+        "PSY170"
+      ],
+      "publisher": "SAGE",
+      "authors": [
+        "Yeji Park",
+        "Stacey Sinclair"
+      ],
+      "published": "2026-10-21",
+      "created": "2026-10-21",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1177/01461672261494655",
+      "cited_by": 0,
+      "abstract": "Racial excellence gaps persist, partly due to unequal participation in advanced learning opportunities. Guided by the opportunity hoarding framework, this research investigates whether White Americans\u2019 pro-White/anti-Black prejudice differentially predict simulated Advanced Placement (AP) course admission decisions, and under what conditions\u2014when the opportunity is valuable, scarce, or both. Across two experiments, we observed an unexpected overall pattern in which Black students were placed into higher priority tiers than White students. Nonetheless, greater implicit prejudice predicted larger White\u2013Black differences in placement decisions, explained by placing Black students into lower tiers rather than White students into higher tiers. Critically, we found preliminary evidence that this pattern emerges only when AP participation was described as both valuable and scarce. Explicit prejudice showed less consistent associations with differences in placement decisions across studies. The valuable and scarce nature of advanced learning opportunities may amplify the effect of implicit prejudice in deciding who deserves access.",
+      "abstract_source": "crossref"
+    },
+    {
+      "doi": "10.1177/01461672261489310",
+      "title": "Impressions of Deviant Disgust Expressions Are Functionally Specific",
+      "subtitle": null,
+      "journal": "Personality and Social Psychology Bulletin",
+      "issn": "0146-1672",
+      "courses": [
+        "PSY157",
+        "PSY170"
+      ],
+      "publisher": "SAGE",
+      "authors": [
+        "Kaelyn Sabree",
+        "Joshua M. Ackerman"
+      ],
+      "published": "2026-10-13",
+      "created": "2026-10-14",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1177/01461672261489310",
+      "cited_by": 0,
+      "abstract": "How do people perceive those who violate emotional expression norms? Across four studies, impressions of people displaying disgust \u201cinappropriately\u201d depended on how the deviation occurred. Targets who failed to show disgust toward disgust-eliciting stimuli (\u201cflat deviants\u201d) were judged as less healthy and lower in social status. Conversely, targets who expressed disgust to neutral stimuli (\u201creact deviants\u201d) were judged as less open-minded and less cooperative. These impressions tracked inferred behavioral affordances: flat deviants were seen as more likely to engage in pathogen-risky behaviors, whereas react deviants were not. Consistent with these judgments, affective deviants were differentially \u201cpunished\u201d: flat deviants were rated as less fit and less likely to be recommended for jobs emphasizing health and hygiene, whereas react deviants faced these penalties for jobs emphasizing cooperativeness. Thus, perceivers do not simply condemn emotional norm violations; instead, they draw on expression\u2013environment mismatches to make functionally specific trait judgments and potentially discriminatory decisions.",
+      "abstract_source": "crossref"
+    },
+    {
+      "doi": "10.1177/01461672261481957",
+      "title": "Is Authenticity Perceptible? Accuracy in Judgments of State Authenticity From Expressive Behavior",
+      "subtitle": null,
+      "journal": "Personality and Social Psychology Bulletin",
+      "issn": "0146-1672",
+      "courses": [
+        "PSY157",
+        "PSY170"
+      ],
+      "publisher": "SAGE",
+      "authors": [
+        "Vanessa K. Castro",
+        "Serena Chen",
+        "Joseph M. Ocampo",
+        "Amie M. Gordon",
+        "Emily A. Impett",
+        "Max Weisbuch"
+      ],
+      "published": "2026-9-23",
+      "created": "2026-09-24",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1177/01461672261481957",
+      "cited_by": 0,
+      "abstract": "Substantial research provides evidence that being perceived as authentic benefits well-being and relationships, but under-examined is whether perceptions of authenticity are accurate. Across five studies, we tested whether perceivers can accurately discern others\u2019 state authenticity. In Studies 1 to 3, we investigated correspondence between perceived and felt authenticity within acquainted dyads. Romantic partners accurately discerned each other\u2019s authenticity after making sacrifices (Study 1) and after discussing a topic of personal distress and desired partner change (Study 2). However, partners failed to accurately perceive each other\u2019s felt authenticity when discussing relationship conflict (Study 3), possibly impacted by cognitive or motivational processes elicited by the relatively high interpersonal stakes at play in conflict. In Studies 4A and 4B, outside observers were sensitive to authenticity differences in participants from Study 3 when watching thin-slice videos of the conflict conversations. Overall, we discuss the importance of authenticity for impression formation and close relationships.",
+      "abstract_source": "crossref"
+    },
+    {
+      "doi": "10.1177/01461672261494236",
+      "title": "Less Is More: Why and When Having Less Signals Competence",
+      "subtitle": null,
+      "journal": "Personality and Social Psychology Bulletin",
+      "issn": "0146-1672",
+      "courses": [
+        "PSY157",
+        "PSY170"
+      ],
+      "publisher": "SAGE",
+      "authors": [
+        "Ruobing Fu",
+        "Jingyi Lu"
+      ],
+      "published": "2026-10-21",
+      "created": "2026-10-21",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1177/01461672261494236",
+      "cited_by": 0,
+      "abstract": "Living with less has become increasingly popular in contemporary culture. It can simplify people\u2019s lives and enhance their well-being. Beyond these intrapersonal benefits, we document a novel, interpersonal benefit of having less: individuals who own fewer possessions are perceived as more competent than those who own more. This effect arises because observers infer that they rely more on reasoning rather than feelings in decision-making. We further develop a three-condition descriptive model specifying that the effect emerges when having fewer possessions appears voluntary, when the possessions are primarily non-hedonic, and when the quantity of possessions is sufficient to meet minimum needs. This research extends the literature on the benefits of having less from an intrapersonal to an interpersonal perspective and identifies possession quantity as a new cue for perceived competence.",
+      "abstract_source": "crossref"
+    },
+    {
+      "doi": "10.1177/01461672261488891",
+      "title": "Should I Stay or Should I Go? Preference for Consistency Predicts Choice Perseveration in the Monty Hall Problem",
+      "subtitle": null,
+      "journal": "Personality and Social Psychology Bulletin",
+      "issn": "0146-1672",
+      "courses": [
+        "PSY157",
+        "PSY170"
+      ],
+      "publisher": "SAGE",
+      "authors": [
+        "Agata Gasiorowska",
+        "Dariusz Dolinski",
+        "Michal Folwarczny",
+        "Tobias Otterbring"
+      ],
+      "published": "2026-10-7",
+      "created": "2026-10-08",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1177/01461672261488891",
+      "cited_by": 1,
+      "abstract": "Five incentivized studies ( N = 5,354) tested whether preference for consistency (PfC) predicts staying with one\u2019s initial choice in the Monty Hall problem, despite the fact that switching maximizes the probability of winning. Studies 1 and 2 found that higher PfC predicts staying, even after controlling for need for closure, preference for structure, intolerance of uncertainty, conspiracy beliefs, and numerical competence. Studies 3 and 4 provided experimental evidence that incentives moderated the link between PfC and staying, but higher (vs. lower) PfC only attenuated rather than eliminated incentive sensitivity. Study 5 identified anticipated regret over switching and losing as a mechanism underlying the effect, showing that the link between PfC and staying held across cultural contexts, although its magnitude was culturally calibrated. Together, this research shows that consistency motivation governs choice perseverance in a task that is intentionally impersonal and assumed to be driven by probabilistic reasoning rather than motivational forces.",
+      "abstract_source": "crossref"
+    },
+    {
+      "doi": "10.1111/peps.70043",
+      "title": "Closing the Gap, Carrying the Burden: How Gender and Prosocial Motivation Shape Workplace Recognition",
+      "subtitle": null,
+      "journal": "Personnel Psychology",
+      "issn": "0031-5826",
+      "courses": [
+        "PSY170"
+      ],
+      "publisher": "Wiley",
+      "authors": [
+        "Hanho Lee",
+        "Jia (Jasmine) Hu",
+        "Pengcheng Zhang"
+      ],
+      "published": "2026-9-25",
+      "created": "2026-09-25",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1111/peps.70043",
+      "cited_by": 0,
+      "abstract": "Despite progress toward gender equity, women remain disadvantaged in gaining workplace recognition. We theorize that prosocial motivation helps women achieve parity in workplace recognition by providing a role\u2010congruent path to becoming valued advice sources. Drawing on social role theory and role congruity theory, we propose that women are less likely than men to occupy central positions in advice networks, but that high prosocial motivation closes this gap. Advice centrality, in turn, functions as a peer\u2010conferred signal of workplace recognition that supports leadership emergence and performance ratings. Across a time\u2010lagged, multi\u2010source field study and two online experiments, we find support for this model. Study 1 ( n = 275) shows that women occupy less central positions in advice networks than men, but that high prosocial motivation closes this gap. Advice network centrality further mediates the interactive effects of gender and prosocial motivation on leadership emergence and performance ratings. Two online experiments (Study 2a, n = 247; Study 2b, n = 248) provide converging causal evidence for these effects. These findings show that prosocial motivation helps women achieve parity with men in workplace recognition, while raising the possibility that such parity may rest on demands that fall asymmetrically on women.",
+      "abstract_source": "crossref"
+    },
+    {
+      "doi": "10.1111/peps.70046",
+      "title": "Inclusive Leadership as a Site of Struggle: Resistance and Mitigation Strategies for Sustaining Inclusion for Historically Marginalized Employees",
+      "subtitle": null,
+      "journal": "Personnel Psychology",
+      "issn": "0031-5826",
+      "courses": [
+        "PSY170"
+      ],
+      "publisher": "Wiley",
+      "authors": [
+        "Katina B. Sawyer",
+        "Judith Clair",
+        "Christian N. Thoroughgood",
+        "Kelly P. Gabriel",
+        "Jacob A. Brown"
+      ],
+      "published": "2026-10-15",
+      "created": "2026-10-15",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1111/peps.70046",
+      "cited_by": 0,
+      "abstract": "Scholars emphasize inclusive leadership's benefits for leaders and employees, yet existing theory largely overlooks the challenges leaders face when addressing disparities experienced by historically marginalized employees. Drawing on an inductive study of 47 historically marginalized STEM employees and 14 leaders they identified as inclusive, we model inclusive leadership as a three\u2010part process: (1) leaders\u2019 inclusion efforts (attentive learning, talent amplification, and structural debiasing); (2) resistance to these efforts (skepticism, gatekeeping, fit critiques, and non\u2010compliance); and (3) leader strategies to mitigate resistance and protect inclusion (explaining value, co\u2010crafting strategies, evaluating fit critiques, and managing change momentum). We triangulate findings and test our theory's boundary conditions using qualitative data from three additional STEM samples: racial minority men, lower\u2010ranking women, and White males. The first two samples replicate our model; the third reveals that White men may perceive inclusive leadership differently than historically marginalized employees. By centering the perspectives of those most affected by bias, our study extends inclusive leadership theory. We offer a processual view that moves beyond detailing inclusive behaviors to highlight the challenges leaders face enacting them.",
+      "abstract_source": "crossref"
+    },
+    {
+      "doi": "10.1111/peps.70047",
+      "title": "Leaving on a High or Low Note? An Achievement Goal Perspective on Executive Retirement",
+      "subtitle": null,
+      "journal": "Personnel Psychology",
+      "issn": "0031-5826",
+      "courses": [
+        "PSY170"
+      ],
+      "publisher": "Wiley",
+      "authors": [
+        "Zhefan Huang",
+        "Kaidi Wang",
+        "Bingjie Lu",
+        "Mo Wang",
+        "Aaron D. Hill",
+        "Christopher Pryor"
+      ],
+      "published": "2026-10-20",
+      "created": "2026-10-21",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1111/peps.70047",
+      "cited_by": 0,
+      "abstract": "Executive retirement represents a pivotal career transition with significant implications. However, our understanding of the antecedents of executive retirement remains limited. We contend that, different from the retirement of general employees, it is important to position executive retirement within an achievement context and consider factors such as firm performance and achievement goal orientations. Drawing on late adulthood developmental psychology, we propose an achievement goal framework to theorize the relationship between firm performance and executive retirement, and the moderating roles of goal orientations. We theorize that firm performance is associated with two distinct mechanisms: the legacy fulfillment mechanism (salient for executives with high performance) and the selective prioritization mechanism (salient for executives with low performance), which together result in a U\u2010shaped relationship between firm performance and the likelihood of executive retirement. We further consider executives\u2019 goal orientations as boundary conditions to probe the underlying mechanisms. We found general support for our theory using an archival dataset of 1840 chief executive officers from S&P 1500 firms (Study 1) and a two\u2010wave survey of 363 executives (Study 2). By integrating developmental psychology theories into the executive retirement literature, our research sheds light on executive retirement decisions through a developmental psychology lens.",
+      "abstract_source": "crossref"
+    },
+    {
+      "doi": "10.1111/peps.70044",
+      "title": "Personnel Psychology's 40 Questions Series: Diversity, Equity, and Inclusion in Organizations",
+      "subtitle": null,
+      "journal": "Personnel Psychology",
+      "issn": "0031-5826",
+      "courses": [
+        "PSY170"
+      ],
+      "publisher": "Wiley",
+      "authors": [
+        "Derek R. Avery",
+        "Tiffany L. Owens",
+        "Larissa R. Garcia"
+      ],
+      "published": "2026-10-7",
+      "created": "2026-10-08",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1111/peps.70044",
+      "cited_by": 0,
+      "abstract": "This article presents a curated set of 40 questions on diversity, equity, and inclusion in organizations (DEI) to address myths and misperceptions about its role in Industrial/Organizational (I/O) Psychology and Management research and practice. We crowdsourced questions from our professional networks and organized the responses into themes including foundations of DEI, the business case, DEI effectiveness, DEI resistance, legal interpretations, DEI pullback, measurement, and programs and vehicles. Though the review is not entirely comprehensive, the aim is to utilize the most up\u2010to\u2010date literature to answer many of the most pressing questions about DEI.",
+      "abstract_source": "crossref"
+    },
+    {
+      "doi": "10.1111/peps.70041",
+      "title": "The Bamboo Ceiling in the UK: Ethnicity\u2013Gender Intersectionality, Risk Tolerance, and Leadership Attainment",
+      "subtitle": null,
+      "journal": "Personnel Psychology",
+      "issn": "0031-5826",
+      "courses": [
+        "PSY170"
+      ],
+      "publisher": "Wiley",
+      "authors": [
+        "Jackson G. Lu",
+        "Qian Li",
+        "Shuang Liang",
+        "Wanqin Mu",
+        "Shiyang Gong"
+      ],
+      "published": "2026-10-6",
+      "created": "2026-10-06",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1111/peps.70041",
+      "cited_by": 0,
+      "abstract": "In the UK, Asians are often perceived as the \u201cmodel minority\u201d who face few hardships due to their strong educational performance and economic success. We question this perception by uncovering a \u201cBamboo Ceiling\u201d in leadership attainment for certain Asian subgroups in the UK. Whereas many researchers and practitioners treat Asians as a monolith, we recognize heterogeneity among Asian subgroups and focus on comparing ethnic Chinese (the largest East Asian group) and ethnic Indians (the largest South Asian group). In Study 1, we analyzed CEOs and CFOs of the Financial Times Stock Exchange (FTSE) companies\u2014the largest publicly listed companies in the UK\u2014over a 14\u2010year period (2011\u20132024). There were virtually no ethnic Chinese CEOs or CFOs, whereas the representation of ethnic Indians in these positions did not differ significantly from that of Whites. In Study 2, we analyzed a large, nationwide dataset from the UK Biobank ( N = 322,734) to further investigate the moderating role of gender and the mediating role of risk tolerance. While ethnic Chinese overall experienced a Bamboo Ceiling (thus confirming Study 1's results), this main effect was moderated by gender: Ethnic Chinese men were significantly less likely than ethnic Indian and White men to attain leadership positions, a pattern partly mediated by ethnic differences in risk tolerance; by contrast, ethnic Chinese, Indian, and White women did not differ significantly and were each disadvantaged relative to their male counterparts. These effects were robust across survey\u2010based and polygenic measures of risk tolerance. Together, these findings underscore the importance of distinguishing among Asian subgroups and examining how ethnicity and gender intersect in leadership attainment.",
+      "abstract_source": "crossref"
+    },
+    {
+      "doi": "10.1111/peps.70045",
+      "title": "The Inclusion Hangover: A Daily Diary Study of the Reflective Mechanisms for Employee Well\u2010Being",
+      "subtitle": null,
+      "journal": "Personnel Psychology",
+      "issn": "0031-5826",
+      "courses": [
+        "PSY170"
+      ],
+      "publisher": "Wiley",
+      "authors": [
+        "Niamh Dawson",
+        "Stacey L. Parker",
+        "Charlotte Keenan",
+        "Sabine Sonnentag",
+        "Andrew Neal",
+        "Nerina L. Jimmieson",
+        "Lisa Blockx"
+      ],
+      "published": "2026-10-8",
+      "created": "2026-10-09",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1111/peps.70045",
+      "cited_by": 0,
+      "abstract": "How included employees feel at work fluctuates meaningfully from day to day. Emerging research demonstrates that these fluctuations have important implications for employee well\u2010being. Yet little is known about the cognitive processes through which these effects extend beyond the workday. Drawing on Ilies and colleagues' (2024) model of work\u2010derived well\u2010being, we propose that evening work reflection constitutes a key mechanism linking daily perceptions of workgroup inclusion to next\u2010morning well\u2010being. We further argue that daily fluctuations in perceived workgroup inclusion carry greater psychological significance for employees who perceive themselves as underrepresented or non\u2010prototypical within their immediate work environment (i.e., contextual minorities), thereby exerting a stronger influence on subsequent work reflection and well\u2010being. Using a daily diary design with morning, afternoon, and evening surveys ( n = 3480 days; N = 389 employees), multilevel path analyses supported the proposed model, demonstrating that positive and negative evening work reflection explain how daily workgroup inclusion carries over to next\u2010morning well\u2010being. By identifying positive and negative work reflection as distinct pathways linking daily workgroup inclusion to employee well\u2010being, and establishing contextual minority status as a boundary condition of these processes, we advance understanding of how , and for whom , the effects of daily workgroup inclusion extend beyond the workday. Together, these findings underscore the importance of fostering day to day workgroup inclusion to support employee well\u2010being in increasingly diverse workplaces.",
+      "abstract_source": "crossref"
+    },
+    {
+      "doi": "10.1177/17456916261459902",
+      "title": "Bias at Scale: Global Disparities in the Representativeness and Contextualization of Childhood Research",
+      "subtitle": null,
+      "journal": "Perspectives on Psychological Science",
+      "issn": "1745-6916",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "SAGE",
+      "authors": [
+        "Roman Stengelin",
+        "Karri Neldner",
+        "Luise Hornoff",
+        "Luke Maurits",
+        "Ljubica Petrovi\u0107",
+        "Dustin Eirdosh",
+        "Frankie T. K. Fong",
+        "Paula Hagen",
+        "Ya\u011fmur Deniz K\u0131sa",
+        "Sarah Leisterer-Peoples",
+        "Marie M. G. Michael",
+        "Wilson Vieira"
+      ],
+      "published": "2026-10-7",
+      "created": "2026-10-07",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1177/17456916261459902",
+      "cited_by": 0,
+      "abstract": "Psychological science, including research on child cognition, behavior, and development, has traditionally relied on convenience samples drawn from a narrow range of sociocultural communities. Moving beyond the simplifying WEIRD/non-WEIRD dichotomy, this study estimates the global representativeness of children participating in developmental research across multiple metrics of human cultural experience. A systematic review of studies published between 2016 and 2020 in five leading journals reveals a disproportionate focus on children from communities situated at the extremes of all selected metrics. This bias is coupled with a selective disregard for cultural context in research originating from these overrepresented settings, reflecting a persistent double standard in how culture is treated across the field. Notably, studies involving children from underrepresented communities do not receive greater recognition (e.g., citations) unless they are embedded within larger, multinational research projects. We discuss the implications for representativeness, contextualization, and epistemic inclusion of these patterns, and we advocate for systemic change toward a genuinely global science of child development and psychological science more broadly.",
+      "abstract_source": "crossref"
+    },
+    {
+      "doi": "10.1177/17456916261490574",
+      "title": "Depth or Breadth? Domain-Specific Expertise and Cross-Domain Engagement in the Development of Scholarly Excellence",
+      "subtitle": null,
+      "journal": "Perspectives on Psychological Science",
+      "issn": "1745-6916",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "SAGE",
+      "authors": [
+        "Lorne M. Hartman"
+      ],
+      "published": "2026-10-20",
+      "created": "2026-10-20",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1177/17456916261490574",
+      "cited_by": 0,
+      "abstract": "Scholarly excellence is often equated with deep specialization within a single domain, a premise embedded in doctoral training, peer review, and academic-evaluation systems. However, research from the emerging \u201cscience of science,\u201d drawing on large-scale analyses of publications, citations, and career trajectories, suggests a more complex relationship between expertise, cross-domain engagement, and scholarly impact. This conceptual article synthesizes insights from the science of science, cognitive research on expertise, and organizational studies to examine the roles of domain-specific depth and different forms of cross-domain engagement in the development of scholarly excellence. We argue that depth and breadth are complementary capacities whose contributions vary across career stages and institutional contexts. We distinguish between multidisciplinary exposure, interdisciplinary integration, and, in rarer cases, transdisciplinary contributions that extend beyond existing boundaries. Domain-specific expertise supports technical mastery, credibility, and efficient knowledge accumulation, whereas integrative forms of cross-domain engagement facilitate recombination, problem reframing, and long-term intellectual influence. We further show how academic-reward structures favor depth while discounting integrative contributions. We conclude by outlining implications for doctoral education, faculty evaluation, and research policy, and by proposing a developmental framework that supports diverse trajectories of scholarly excellence.",
+      "abstract_source": "crossref"
+    },
+    {
+      "doi": "10.1177/17456916261475589",
+      "title": "Extending Truth-Default Theory to Misinformation: Connecting Misinformation Scholarship and Deception Research",
+      "subtitle": null,
+      "journal": "Perspectives on Psychological Science",
+      "issn": "1745-6916",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "SAGE",
+      "authors": [
+        "Ryan C. Moore",
+        "Jeffrey T. Hancock"
+      ],
+      "published": "2026-10-13",
+      "created": "2026-10-13",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1177/17456916261475589",
+      "cited_by": 0,
+      "abstract": "This article connects deception research, specifically truth-default theory (TDT), to misinformation scholarship. Through TDT\u2019s propositions and supporting empirics, we demonstrate how central questions in misinformation scholarship can benefit from deeper engagement with deception research and in particular TDT. Findings in the misinformation literature that have been surprising or unexpected (e.g., relatively few people are exposed to and share misinformation online) are predicted and explained by TDT. Robust conclusions from TDT about deception in human communication (e.g., people are truth-biased) are challenged by findings from misinformation research, prompting deeper investigation. Deception-detection research paradigms provide conceptual and empirical reference points relevant to the design of misinformation-detection tasks and interpretation of their results (e.g., true\u2013false base rates, prompted vs. unprompted veracity judgments). Analytic approaches from TDT (e.g., analyzing accuracy for truthful and deceptive messages independently) support existing misinformation research aiming to understand the detection of misinformation and can holistically evaluate the outcomes of misinformation interventions, and TDT\u2019s findings on how to improve deception-detection accuracy also suggest strategies for interventions that improve the detection of misinformation without undermining trust in credible news and information.",
+      "abstract_source": "crossref"
+    },
+    {
+      "doi": "10.1177/17456916261470783",
+      "title": "Flow and Similar Attentional States in Autism and ADHD: A Scoping Review of Similarities and Differences",
+      "subtitle": null,
+      "journal": "Perspectives on Psychological Science",
+      "issn": "1745-6916",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "SAGE",
+      "authors": [
+        "Carleigh Pace-Tonna",
+        "Manahil Murtaza",
+        "Terri Rodak",
+        "Norman Farb",
+        "William Ryan",
+        "Meng-Chuan Lai"
+      ],
+      "published": "2026-10-1",
+      "created": "2026-10-01",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1177/17456916261470783",
+      "cited_by": 0,
+      "abstract": "Flow is a state of optimal engagement. Autistic individuals and individuals with attention-deficit/hyperactivity disorder (ADHD) might have variations in flow-like experiences, such as hyperfocus, autistic inertia, and monotropism, that diverge from traditional or typical definitions. Following the Preferred Reporting Items for Systematic reviews and Meta-Analyses extension for Scoping Reviews (PRISMA-ScR) guidelines, we systematically reviewed 43 publications, including empirical studies, reviews, and other literature, to examine these constructs. Results showed that attentional experiences associated with neurodivergence overlap with, but also differ notably from, typical flow. Autistic inertia hinders task initiation and transitions, in contrast to flow\u2019s seamless engagement. Monotropism involves rigid, directed focus and repetitive, tenacious engagement, whereas flow allows for flexible adaptations to challenges. Hyperfocus is like flow regarding intense concentration and immersion but is often involuntary, lacks clear goals, and is associated with emotional dysregulation. Although commonalities exist across these attentional experiences, the greatest overlap occurs within autistic inertia, monotropism, and hyperfocus. Attention in autistic and ADHD individuals might be more dynamic than previously believed, with potential for transitions between these experiences. This fluidity can enhance focus and productivity but may also lead to negative outcomes, such as overly rigid fixation or difficulty engaging with and disengaging from tasks. Clarifying these differences and overlaps can inform tailored interventions and supports, helping neurodivergent individuals manage focus, reduce task-related stress, and optimize productivity.",
+      "abstract_source": "crossref"
+    },
+    {
+      "doi": "10.1177/17456916261479948",
+      "title": "How Sexually Objectifying Others Undermines Connection and Collaboration",
+      "subtitle": null,
+      "journal": "Perspectives on Psychological Science",
+      "issn": "1745-6916",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "SAGE",
+      "authors": [
+        "Orly Bareket",
+        "Sarah Ariel Lamer",
+        "Susan T. Fiske"
+      ],
+      "published": "2026-10-7",
+      "created": "2026-10-07",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1177/17456916261479948",
+      "cited_by": 0,
+      "abstract": "Sexual objectification is widely recognized as a driver of gender inequality, harming women by reducing them to bodies and undermining their agency. Yet psychological science has rarely asked a consequential question: Does sexual objectification also harm the individuals who objectify? In this theoretical article, we reframe objectification as not only oppressive but also self-undermining. Drawing from social, cognitive, organizational, and relationship science, we argue that objectifying others can compromise the capacity to form close relationships, collaborate effectively, and function well in social and professional life. These costs are traced to four mechanisms\u2014cognitive load, face\u2013body attentional trade-off, goal-based perception, and dehumanization. These mechanisms are proposed to operate as parallel, mutually reinforcing pathways that converge on social miscalibration. The framework further motivates a methodological agenda for studying objectification as a dynamic, dyadic process embedded in ongoing interaction. By foregrounding the objectifiers\u2019 costs, we extend existing theories and highlight objectification as a mode of social perception that degrades the very relationships and institutions on which objectifiers rely. Identifying these costs offers an additional reason to reduce objectification, one that complements rather than replaces concern for the harms it inflicts on targets.",
+      "abstract_source": "crossref"
+    },
+    {
+      "doi": "10.1177/17456916261474857",
+      "title": "Inclusion That Excludes: Rethinking the Ecological Model for Mental Disability Through Defensive Dynamics, Institutional Power, and Capital Asymmetries",
+      "subtitle": null,
+      "journal": "Perspectives on Psychological Science",
+      "issn": "1745-6916",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "SAGE",
+      "authors": [
+        "Miriam Belluzzo",
+        "Giorgia Tiscini"
+      ],
+      "published": "2026-9-28",
+      "created": "2026-09-28",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1177/17456916261474857",
+      "cited_by": 0,
+      "abstract": "This article offers a critical reworking of ecological and social-ecological models as applied to intellectual and developmental disabilities, autism, and severe mental illness. Drawing on a qualitative synthesis of 18 studies, we show that ecological frameworks are predominantly used as descriptive mapping devices, that power and inequalities enter analyses in partial and fragmented ways, and that intersystemic connections often generate formally inclusive yet experientially exclusionary arrangements. To address these limitations, we propose an Integrated Ecological Model for Mental Disability, which retains Bronfenbrenner\u2019s multilevel architecture but introduces four structural extensions: asymmetry of reciprocity in the microsystem, the defensive mesosystem, capital-modulated exosystemic permeability, and the performative and normalizing exosystem. These concepts integrate Bourdieu\u2019s theory of capital and field, Foucault\u2019s genealogy of dispositifs , 1 and group psychoanalysis, and they are grounded in recurrent patterns observed across school transitions, family-service relations, residential services, and autism employment programs. The framework has implications for research designs that move beyond barriers and facilitators for multilevel clinical and educational interventions, and for normative debates on relational justice and psychopolitical validity in mental-disability policy.",
+      "abstract_source": "crossref"
+    },
+    {
+      "doi": "10.1177/17456916261471413",
+      "title": "Moving on From Simple Operationalism: Anchoring Theoretical Constructs in Rich Relational Models",
+      "subtitle": null,
+      "journal": "Perspectives on Psychological Science",
+      "issn": "1745-6916",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "SAGE",
+      "authors": [
+        "Peter D. Kvam",
+        "Abhay Alaukik"
+      ],
+      "published": "2026-10-7",
+      "created": "2026-10-07",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1177/17456916261471413",
+      "cited_by": 0,
+      "abstract": "Operational definitions have long been a core approach to measuring and relating observed data to theoretical constructs in psychological science. However, many contemporary modeling approaches conflict with the tacit assumptions of operationalism as it is implemented in psychology. Counterintuitively, these departures imbue model-based definitions of constructs with superior measurement properties, such as improved reliability and validity, when compared with their operationalizations based directly on observables. Instead of relying on operational definitions of constructs, we instead suggest that psychology should adopt relational definitions or relational operationalizations, representing constructs as latent variables in a multilevel generative model of behavior, self-report, or neuroimaging data. These model-based metrics can better reflect measurement error at multiple levels, account for the interactions between measurement devices (tasks, scales) and measurement objects (participants, processes), provide a holistic account of latent constructs and how they manifest across different measurements, facilitate convergence or discrimination tests among different tasks seeking to measure the same construct, and improve scientific communication by clarifying core psychological concepts. Relational definitions of important constructs should naturally emerge as researchers apply models more regularly, and these definitions and models will improve as researchers discover mathematical approaches that are suited to describing psychological processes.",
+      "abstract_source": "crossref"
+    },
+    {
+      "doi": "10.1177/17456916261473152",
+      "title": "Searching for the Pattern: Understanding, Assessing, and Transforming Social Settings",
+      "subtitle": null,
+      "journal": "Perspectives on Psychological Science",
+      "issn": "1745-6916",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "SAGE",
+      "authors": [
+        "Edward Seidman"
+      ],
+      "published": "2026-10-20",
+      "created": "2026-10-20",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1177/17456916261473152",
+      "cited_by": 0,
+      "abstract": "A historical analysis of systems theory ideas from the biological and physical sciences reveals their infusion into sociology and action-oriented subfields of psychology, including social, organizational, developmental, and community psychology. Constructs and processes are identified that are useful for creating a framework to understand, assess, and transform social settings. The central theoretical concept that surfaces is the emergent pattern of dynamic transactions that communicates critical information and meaning, referred to as \u201csocial regularity.\u201d This is followed by an examination of the varying definitions and frameworks of proximal social settings (e.g., classrooms, community-based organizations, workplaces) in which individuals derive the bulk of their experiences in forming their character, identity, learning, and well-being. Social regularity is at the core of an evolving social-setting model that communicates meaning through several channels\u2014control and power, modes of expressing communication, and the flow of information\u2014that result in corresponding distributional equity outcomes. From these communication channels, an action model for transforming social settings to create more equitable aggregate-level individual outcomes and improved setting outcomes is explicated. Corresponding methods of measurement are described. Various strategies and tactics are suggested to directly target social regularities. Relational-, norm-, and structural-focused examples are provided.",
+      "abstract_source": "crossref"
+    },
+    {
+      "doi": "10.1177/17456916261479653",
+      "title": "Social-Cognitive Frameworks for Understanding the Connection Between Social Isolation and Psychosis Risk",
+      "subtitle": null,
+      "journal": "Perspectives on Psychological Science",
+      "issn": "1745-6916",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "SAGE",
+      "authors": [
+        "David Dodell-Feder",
+        "Katie Gibbs",
+        "Steven M. Silverstein",
+        "Diana I. Tamir"
+      ],
+      "published": "2026-9-30",
+      "created": "2026-09-30",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1177/17456916261479653",
+      "cited_by": 0,
+      "abstract": "Increasing evidence demonstrates an association between social isolation and psychosis risk. In this perspective, we attempt to account for why that is. Drawing from work in social psychology, social neuroscience, and clinical psychological science, we present two frameworks for understanding the association between social isolation and psychosis risk: the \u201csocial-needs\u201d framework and the \u201csocial-processing\u201d framework. Social needs states that because of people\u2019s inherent social needs, isolation produces increased social attention, perception, and thought to fill the social void, resulting in the perception of anomalous social information and social meaning. Social processing states that the lack of exposure to social stimuli during isolation diminishes social processing (i.e., social thought, social perceptions) and may lead isolated individuals to turn their attention inward, blurring internal and external worlds and intensifying self-focus in a way that creates reality-monitoring disturbances and anomalous self-experiences. Conveniently, these frameworks can be empirically arbitrated. We review the literature connecting social isolation to psychosis, describe the frameworks, their empirical support, and the predictions they make, and discuss clinical implications. Ultimately, a better accounting of isolation\u2019s pro-psychotic effects might lead to better efforts at psychosis prevention.",
+      "abstract_source": "crossref"
+    },
+    {
+      "doi": "10.1177/17456916261473855",
+      "title": "The Developing Aesthetic Brain and Its Social Origins",
+      "subtitle": null,
+      "journal": "Perspectives on Psychological Science",
+      "issn": "1745-6916",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "SAGE",
+      "authors": [
+        "Tobias Grossmann"
+      ],
+      "published": "2026-9-24",
+      "created": "2026-09-24",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1177/17456916261473855",
+      "cited_by": 0,
+      "abstract": "Neuroaesthetics has mapped the mature brain networks underlying aesthetic experience but lacks a developmental mechanism explaining how these networks become tuned to produce culturally specific preferences. The developmental-neuroaesthetics framework developed here centers on a two-system model: biological perceptual primitives (System A) and socially gated cultural tuning (System B). Cultural aesthetics are acquired through social gating during infancy, via mechanisms analogous to language acquisition. This process leverages infant-directed pedagogical signals and shared experience to flag culturally specific stimuli for affective learning. Neuroimaging evidence demonstrates that the infant medial prefrontal cortex (mPFC) plays a specialized role in social perception from early in life, serving as the ontogenetic foundation for the adult mPFC\u2019s aesthetic-valuation system. Interbrain synchrony during adult-infant interactions may provide a candidate mechanism through which shared experiences support aesthetic-value learning. The default mode network, of which the mPFC is a core component, is itself shaped by early social interaction, linking social experience directly to the neural substrate of aesthetic valuation. This framework reconciles cultural diversity with biological universals, generating testable predictions linking early social-neural responsivity to later cultural-aesthetic conformity.",
+      "abstract_source": "crossref"
+    },
+    {
+      "doi": "10.1177/17456916261468309",
+      "title": "The Responsibility\u2013Power\u2013Justice Nexus: A Framework for Reorienting Behavioral Science Toward Power and Justice",
+      "subtitle": null,
+      "journal": "Perspectives on Psychological Science",
+      "issn": "1745-6916",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "SAGE",
+      "authors": [
+        "Gulnaz Anjum",
+        "Mudassar Aziz"
+      ],
+      "published": "2026-9-24",
+      "created": "2026-09-24",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1177/17456916261468309",
+      "cited_by": 0,
+      "abstract": "Behavioral science has achieved remarkable policy influence, yet the problems it addresses, such as climate change, health inequality, and financial precarity, have worsened. We argue this is no coincidence. The field suffers from systematic power-blindness: it treats individuals as abstract decision makers while bracketing the structural forces that shape their behavioral possibilities. This article develops the responsibility\u2013power\u2013justice (RPJ) nexus framework as a corrective, advancing two foundational claims. First, power is not external to behavior but constitutive of it; every behavioral intervention embeds claims about who bears responsibility for problems and solutions. Second, justice is not a normative standard applied after behavioral analysis, but a causal mechanism operating within it: Tax compliance depends on perceived fairness, health behaviors reflect institutional trust, and cooperation requires beliefs about equitable burden-sharing. Across climate policy, public health, and economic governance, we demonstrate a consistent pattern: powerful actors reframe structural problems as individual failures, behavioral science supplies the intellectual tool kit, and interventions redistribute responsibility downward while leaving power structures intact. We trace this pattern to the field\u2019s roots in methodological individualism, its privileging of individual-level experiments, and its institutional entanglement with prevailing governance arrangements. We conclude by outlining what a justice-oriented behavioral science would require.",
+      "abstract_source": "crossref"
+    },
+    {
+      "doi": "10.1177/17456916261479287",
+      "title": "Toward a Psychology of Science: A Dynamic Cognitive Model of the Evolution of Scientific Theories",
+      "subtitle": null,
+      "journal": "Perspectives on Psychological Science",
+      "issn": "1745-6916",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "SAGE",
+      "authors": [
+        "Benjamin Aubert-Teillaud",
+        "Kenzo Nera",
+        "Aur\u00e9lien Brest",
+        "Olivier Klein"
+      ],
+      "published": "2026-10-19",
+      "created": "2026-10-19",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1177/17456916261479287",
+      "cited_by": 0,
+      "abstract": "Responding to a recent call for the development of a psychology of science, we examine how scientists manage empirical anomalies, a routine yet consequential challenge in scientific practice, and how their responses shape theory development. We argue that defensive anomaly-reduction strategies, which allow researchers to preserve an initial theoretical claim, can generate important secondary benefits. During the emergence phase of a theory, they foster auxiliary revisions that may reduce underfitting and place a fragile theory on a growth trajectory. During the exploitation phase of established theories, they help sustain attention to problems derived from the theory and support cumulative research. However, their accumulation may also increase the risk of overfitting, reduce predictive power, and set the theory on a degenerative trajectory. We illustrate these dynamics primarily through examples drawn from psychological theories, with a focus on responses to replication failures. Last, we derive several implications for peer review aimed at fostering scientific innovation. In particular, we propose shifting evaluation away from the consistency of findings, which may penalize emerging research programs and hinder innovation, and toward how inconsistencies are managed, thereby fostering growth trajectories, including for mature programs confronted with anomalies.",
+      "abstract_source": "crossref"
+    },
+    {
+      "doi": "10.1177/17456916261482033",
+      "title": "Two Practices That Understate the Mental Health Risks Associated With Adolescent Social-Media Use",
+      "subtitle": null,
+      "journal": "Perspectives on Psychological Science",
+      "issn": "1745-6916",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "SAGE",
+      "authors": [
+        "Jonathan Haidt",
+        "Zachary Rausch"
+      ],
+      "published": "2026-10-20",
+      "created": "2026-10-20",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1177/17456916261482033",
+      "cited_by": 0,
+      "abstract": "Why do researchers analyzing the same body of evidence reach different conclusions about whether social-media use poses risks to adolescent mental health? We offer a partial explanation: Two common practices can lead researchers to underestimate harm and reach divergent conclusions. First, studies often do not account for risk elevations, relying instead only on correlation coefficients, which are more prone to misinterpretation. Second, researchers often rely on highly blended analyses that combine heterogeneous exposures (e.g., multiple digital activities, including \u201cTV watching\u201d), outcomes (e.g., depression with life satisfaction), and populations (e.g., girls with boys), and then treat weak aggregate associations as evidence that specific risks are negligible. This is especially problematic when the central question is whether heavy social-media use is associated with internalizing symptoms among adolescent girls. We illustrate how sequential blending can transform a large and clinically relevant association into a negligible one, which helps explain the persistent disagreement in the literature. We conclude by urging researchers to present their findings in more practically interpretable terms, including elevated risks, and to investigate heterogeneity across platforms, usage levels, populations, and outcomes.",
+      "abstract_source": "crossref"
+    },
+    {
+      "doi": "10.1177/17456916261443519",
+      "title": "What We Talk About When We Talk About Empathy: Toward a Common Lexicon of Empathy-Related Constructs",
+      "subtitle": null,
+      "journal": "Perspectives on Psychological Science",
+      "issn": "1745-6916",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "SAGE",
+      "authors": [
+        "Mark H. Davis",
+        "Sara Konrath",
+        "Fritz Breithaupt",
+        "C. Daryl Cameron",
+        "Jean Decety",
+        "Frans B. M. de Waal",
+        "Nancy Eisenberg",
+        "Judith A. Hall",
+        "Sara D. Hodges",
+        "Suzanne Keen",
+        "Birgit Koopmann-Holm",
+        "Heidi L. Maibom"
+      ],
+      "published": "2026-9-25",
+      "created": "2026-09-25",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1177/17456916261443519",
+      "cited_by": 1,
+      "abstract": "Almost since the term \u201cempathy\u201d was coined, there has been scholarly disagreement about its meaning. Today it can best be viewed as an umbrella term encompassing a host of more specific constructs, almost all of which are regularly referred to as \u201cempathy\u201d in some form or fashion. Promiscuous use of this global label to denote very different constructs has impaired communication among and between scholars, practitioners, and the general public. A team of 15 empathy scholars assessed this issue and created a lexicon for these specific lower-order constructs. In this article we report the result of this effort. The lower-order constructs making up this lexicon are vicarious affect , emotional contagion , emotion co-sharing , sympathy / compassion , personal distress , perspective taking , accurate inference , mimicry , synchrony , projection , and transportation . We recommend that this more specific language be used more frequently and that the umbrella term \u201cempathy\u201d be used more sparingly.",
+      "abstract_source": "crossref"
+    },
+    {
+      "doi": "10.1037/rev0000648",
+      "title": "Carving stories at their natural joints.",
+      "subtitle": null,
+      "journal": "Psychological Review",
+      "issn": "0033-295X",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "APA",
+      "authors": [
+        "Edgar Dubourg",
+        "Valentin Thouzeau",
+        "Thomas Beuchot",
+        "Constant Bonard",
+        "Pascal Boyer",
+        "Coralie Chevallier",
+        "Mathias Clasen",
+        "M\u00e9lusine Boon-Falleur",
+        "Gr\u00e9gory Fiorio",
+        "L\u00e9o Fitouchi",
+        "Maryanne L. Fisher",
+        "Ana Gantman"
+      ],
+      "published": "2026-10-1",
+      "created": "2026-10-01",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1037/rev0000648",
+      "cited_by": 0,
+      "abstract": "Over the past three decades, psychology has documented the recurrence of specific themes in stories across cultures (e.g., love, alliances, monsters, and imaginary worlds) and linked them to identifiable motivational mechanisms (e.g., mate choice, cooperation, threat detection, and exploration). Yet this body of work has remained fragmented, organized around individual themes rather than integrated into a unified account of what makes narrative content psychologically engaging. Here, we propose the Motivational-Ingredient Framework. We identify a set of motivational ingredients: core narrative features, each defined by the specific motivational mechanism it activates. Drawing on evolutionary psychology, affective neuroscience, and the study of human motivation, we compile a comprehensive table of ingredients grounded in the current understanding of human motivational architecture. This framework offers a theory-driven, cross-culturally applicable foundation for the empirical study of narrative content, with implications for fields ranging from media psychology and computational humanities to education and public policy. (PsycInfo Database Record (c) 2026 APA, all rights reserved).",
+      "abstract_source": "europepmc",
+      "pmid": "42821416"
+    },
+    {
+      "doi": "10.1037/rev0000645",
+      "title": "Dynamics of variability and bias in working memory.",
+      "subtitle": null,
+      "journal": "Psychological Review",
+      "issn": "0033-295X",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "APA",
+      "authors": [
+        "Ivan Tomi\u0107",
+        "Sebastian Schneegans",
+        "Paul M. Bays"
+      ],
+      "published": "2026-9-24",
+      "created": "2026-09-24",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1037/rev0000645",
+      "cited_by": 0,
+      "abstract": "Visual working memory performance declines with the quantity of material stored and the duration of its maintenance, but it is disputed whether these constraints are independent or interact. Specifically, different studies have reached contradictory conclusions on whether greater memory load accelerates deterioration of the stored information during retention, a question with implications for storage mechanisms. Meanwhile, prominent models of visual working memory based on stable attractors predict that recall should become increasingly biased toward a fixed set of canonical features with longer retention, but empirical support is mixed. Uncertainty is further exacerbated by limited data, methodological variation, and inconsistent analytical approaches across studies. Moreover, previous studies have not always distinguished response variability from stimulus-specific biases nor considered the possibility of swap errors (intrusions). To address these issues, we conducted six new experiments and reanalyzed data from seven published experiments using consistent analytical methods to examine the effects of set size and delay on variability and bias. Our results show that recall variability increased with longer delays and higher set sizes, consistent with prior findings, and importantly, that these effects did not operate independently: The effect of delay was amplified at higher set sizes. We also observed consistent evidence for systematic biases across stimuli, but unlike variability, bias amplitude did not change with either set size or retention interval. These results support diffusion accounts of visual working memory maintenance, in which variability grows through the accumulation of random error, while challenging stable attractor accounts that predict systematic drift toward canonical values during maintenance. (PsycInfo Database Record (c) 2026 APA, all rights reserved).",
+      "abstract_source": "europepmc",
+      "pmid": "42782713"
+    },
+    {
+      "doi": "10.1037/rev0000651",
+      "title": "Idea generation during emotion regulation: A proposed framework.",
+      "subtitle": null,
+      "journal": "Psychological Review",
+      "issn": "0033-295X",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "APA",
+      "authors": [
+        "Lucas Bellaiche",
+        "Kevin S. LaBar"
+      ],
+      "published": "2026-10-12",
+      "created": "2026-10-13",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1037/rev0000651",
+      "cited_by": 0,
+      "abstract": "The field of emotion regulation (ER) is increasingly recognizing the influence of context on an individual's regulatory processes, prompting researchers to examine how specific circumstances dynamically shape ER. Well-accepted theoretical models and supporting empirical studies frame such situation-specific ER as a sequence of stages involving decision points: choosing to regulate, selecting a strategy, deciding whether to maintain current regulatory efforts, and so forth. These frameworks, however, omit an underappreciated process that we argue underscores ER at its highest specificity: idea generation. In other words, individuals do not just select properties of their regulatory attempt, but must actually generate an attempt-a distinction that leverages an underexplored level of analysis in ER known as techniques. In this article, we integrate multiple theoretical perspectives across domains to demonstrate the feasibility in (and insight afforded by) measuring idea generation in ER. Next, we review how existing empirical paradigms already utilize generation-related principles in largely unacknowledged manners, with some studies that have specifically targeted these generative operations during ER. We combine these observations into a novel framework called Emotion Regulation Generation of Techniques, which serves to deepen the study of ER by delineating a generation stage that follows and informs selection mechanisms. To help study idea generation in practice, this framework is equipped with methodological protocols that draw from neighboring domains (e.g., divergent thinking), paired with future directions and testable hypotheses that can inform the role of idea generation in healthy regulation and in dysregulated affective disorders. (PsycInfo Database Record (c) 2026 APA, all rights reserved).",
+      "abstract_source": "europepmc",
+      "pmid": "42867465"
+    },
+    {
+      "doi": "10.1037/rev0000647",
+      "title": "Why most stereotypes are negative.",
+      "subtitle": null,
+      "journal": "Psychological Review",
+      "issn": "0033-295X",
+      "courses": [
+        "PSY157",
+        "PSY170",
+        "PSY175"
+      ],
+      "publisher": "APA",
+      "authors": [
+        "Christian Unkelbach",
+        "Anne Irena Weitzel",
+        "Hans Alves"
+      ],
+      "published": "2026-10-1",
+      "created": "2026-10-01",
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "url": "https://doi.org/10.1037/rev0000647",
+      "cited_by": 1,
+      "abstract": "Stereotypes are a foundational construct in psychological science, often defined as beliefs concerning characteristic group attributes. We present a cognitive-ecological theory of social perception that predicts and explains why such characteristic attributes are likely negative, that is, why most stereotypes are negative. The theory assumes that, cognitively, people characterize groups by attributes that distinguish them from other groups. Ecologically, positive social information is more frequent (i.e., positivity prevalence), and negative social information is more diverse (i.e., negativity diversity). If negative attributes are less frequent and more diverse relative to positive attributes, then they must be more likely to distinguish one group from another. Consequently, the attributes people see as characteristic of a group are likely to be negative. We illustrate the predicted stereotype negativity across two studies and two existing data sets. We then formalize the theory and illustrate it with simulations showing that rare attributes can be highly diagnostic of group membership while applying to only a minority of group members. Thus, the theory explains why most stereotype content is likely negative, despite the well-documented positivity prevalence, and why stereotypes may be diagnostic and comparatively accurate, despite being descriptively inaccurate. The theory explains stereotype negativity without requiring motivational derogation, essentialist group differences, or a general negativity bias, and it clarifies when positive stereotypes should occur. We also discuss the theory's relation to dimensional models of stereotype content and consequences for interventions aimed at reducing stereotype negativity. (PsycInfo Database Record (c) 2026 APA, all rights reserved).",
+      "abstract_source": "europepmc",
+      "pmid": "42821417"
+    },
+    {
+      "doi": "10.1016/j.leaqua.2026.102004",
+      "title": "Psychological Reactions to Subordinates\u2019 LLM Use at Work",
+      "subtitle": null,
+      "journal": "The Leadership Quarterly",
+      "issn": "1048-9843",
+      "courses": [
+        "PSY170"
+      ],
+      "publisher": "Elsevier",
+      "authors": [
+        "Samuel Meyers",
+        "Roman Briker",
+        "Yochanan E. Bigman"
+      ],
+      "published": "2026-12",
+      "created": "2026-09-30",
+      "volume": "37",
+      "issue": "6",
+      "page": "102004",
+      "url": "https://doi.org/10.1016/j.leaqua.2026.102004",
+      "cited_by": 0,
+      "abstract": "",
+      "abstract_source": null
+    }
+  ]
+}

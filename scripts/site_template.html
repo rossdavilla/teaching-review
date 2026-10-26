@@ -1,0 +1,471 @@
+<title>Teaching Review Archive</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: month rail at top, then category tabs, then a single column of article cards. */
+:root{
+  --paper:#f7f6f3; --card:#fffffe; --sunk:#efeee9; --ink:#1a1d24; --ink-soft:#5b6170; --line:#dfdcd4;
+  --accent:#31467a; --accent-soft:#e8ebf4;
+  --pri:#31467a; --pri-bg:#e8ebf4;
+  --upd:#8a3324; --upd-bg:#f6e8e4;
+  --exa:#15605c; --exa-bg:#e2efed;
+  --ret:#6b2d6b; --ret-bg:#f1e6f1;
+  --warn:#7a5a12; --warn-bg:#f6eedb;
+  --display:"Newsreader",Georgia,"Times New Roman",serif;
+  --body:"Public Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#14161b; --card:#1b1e25; --sunk:#191c22; --ink:#e8e9ec; --ink-soft:#a0a6b4; --line:#2e323c;
+  --accent:#9db2e8; --accent-soft:#232a3d;
+  --pri:#9db2e8; --pri-bg:#232a3d; --upd:#e9a394; --upd-bg:#33211d;
+  --exa:#86c8c0; --exa-bg:#152927; --ret:#d4a3d4; --ret-bg:#2b1b2b;
+  --warn:#d9bb73; --warn-bg:#2b2516; color-scheme:dark;
+}}
+:root[data-theme="dark"]{
+  --paper:#14161b; --card:#1b1e25; --sunk:#191c22; --ink:#e8e9ec; --ink-soft:#a0a6b4; --line:#2e323c;
+  --accent:#9db2e8; --accent-soft:#232a3d;
+  --pri:#9db2e8; --pri-bg:#232a3d; --upd:#e9a394; --upd-bg:#33211d;
+  --exa:#86c8c0; --exa-bg:#152927; --ret:#d4a3d4; --ret-bg:#2b1b2b;
+  --warn:#d9bb73; --warn-bg:#2b2516; color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:var(--body);line-height:1.5;margin:0;
+  -webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);
+  z-index:20;background:var(--paper)}
+.wrap{max-width:64rem;margin:0 auto;
+  padding-left:max(16px,env(safe-area-inset-left,0px));
+  padding-right:max(16px,env(safe-area-inset-right,0px));
+  padding-block:2rem 4rem}
+h1{font-family:var(--display);font-weight:600;font-size:clamp(1.8rem,5vw,2.7rem);line-height:1.08;
+  margin:0 0 .45rem;letter-spacing:-.015em;text-wrap:balance}
+.lede{font-family:var(--display);font-size:1.05rem;color:var(--ink-soft);max-width:46rem;margin:0;line-height:1.55}
+
+/* month rail */
+.railwrap{overflow-x:auto;margin:1.6rem 0 0;border-bottom:1px solid var(--line)}
+.rail{display:flex;gap:.3rem;min-width:min-content;padding-bottom:.55rem}
+.rail button{font-family:var(--mono);font-size:.82rem;font-weight:500;white-space:nowrap;
+  color:var(--ink-soft);background:var(--sunk);border:1px solid var(--line);border-radius:7px;
+  padding:.45rem .85rem;cursor:pointer}
+.rail button:hover{color:var(--ink);border-color:var(--accent)}
+.rail button[aria-selected="true"]{background:var(--accent);border-color:var(--accent);color:var(--card)}
+.rail button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+.facts{display:flex;flex-wrap:wrap;gap:.35rem 1.5rem;padding:.8rem 0;border-bottom:1px solid var(--line)}
+.fact{display:flex;align-items:baseline;gap:.4rem}
+.fact b{font-family:var(--mono);font-size:.98rem;font-weight:500;font-variant-numeric:tabular-nums}
+.fact span{font-size:.74rem;color:var(--ink-soft);text-transform:uppercase;letter-spacing:.07em}
+
+/* class tier */
+.classes{display:flex;gap:.35rem;flex-wrap:wrap;margin:.95rem 0 0}
+.classes button{font-family:var(--body);font-size:.84rem;font-weight:600;color:var(--ink-soft);
+  background:transparent;border:1px solid var(--line);border-radius:999px;padding:.4rem .85rem;
+  cursor:pointer;display:flex;align-items:center;gap:.4rem}
+.classes button .n{font-family:var(--mono);font-size:.7rem;font-weight:500;color:var(--ink-soft);
+  font-variant-numeric:tabular-nums}
+.classes button:hover{color:var(--ink);border-color:var(--accent)}
+.classes button[aria-selected="true"]{background:var(--accent-soft);border-color:var(--accent);color:var(--accent)}
+.classes button[aria-selected="true"] .n{color:var(--accent)}
+.classes button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+/* category tabs */
+.cats{display:flex;gap:.35rem;flex-wrap:wrap;margin:1.1rem 0 0}
+.cats button{font-family:var(--body);font-size:.88rem;font-weight:600;color:var(--ink-soft);
+  background:var(--sunk);border:1px solid var(--line);border-radius:8px;padding:.5rem .9rem;cursor:pointer;
+  display:flex;align-items:center;gap:.45rem}
+.cats button .n{font-family:var(--mono);font-size:.74rem;font-weight:500;background:var(--card);
+  border-radius:4px;padding:.08rem .34rem;font-variant-numeric:tabular-nums}
+.cats button:hover{color:var(--ink)}
+.cats button[aria-selected="true"]{color:var(--card);border-color:transparent}
+.cats button[data-cat="priority"][aria-selected="true"]{background:var(--pri)}
+.cats button[data-cat="updates"][aria-selected="true"]{background:var(--upd)}
+.cats button[data-cat="examples"][aria-selected="true"]{background:var(--exa)}
+.cats button[data-cat="retractions"][aria-selected="true"]{background:var(--ret)}
+.cats button[aria-selected="true"] .n{background:rgba(255,255,255,.22);color:var(--card)}
+.cats button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.catnote{font-family:var(--display);font-size:1rem;color:var(--ink-soft);margin:.9rem 0 0;max-width:46rem}
+
+.controls{position:sticky;top:env(safe-area-inset-top,0px);z-index:9;background:var(--paper);
+  padding-block:.85rem;border-bottom:1px solid var(--line);margin:.9rem 0 1.3rem}
+#q{width:100%;font-family:var(--body);font-size:.9rem;color:var(--ink);background:var(--card);
+  border:1px solid var(--line);border-radius:8px;padding:.55rem .7rem}
+#q:focus-visible{outline:2px solid var(--accent);outline-offset:1px;border-color:var(--accent)}
+.chiprow{display:flex;flex-wrap:wrap;gap:.3rem;margin-top:.55rem;align-items:center}
+.chiprow .lbl{font-size:.7rem;text-transform:uppercase;letter-spacing:.07em;color:var(--ink-soft)}
+.chip{font-family:var(--body);font-size:.78rem;font-weight:500;color:var(--ink-soft);background:var(--card);
+  border:1px solid var(--line);border-radius:999px;padding:.28rem .66rem;cursor:pointer}
+.chip:hover{color:var(--ink);border-color:var(--accent)}
+.chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--card)}
+.chip:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.selbar{display:flex;flex-wrap:wrap;gap:.45rem;align-items:center;margin-top:.6rem}
+.selbar .cnt{font-family:var(--mono);font-size:.78rem;color:var(--ink-soft);font-variant-numeric:tabular-nums}
+.btn{font-family:var(--body);font-size:.8rem;font-weight:600;cursor:pointer;border-radius:7px;
+  padding:.38rem .75rem;border:1px solid var(--accent);background:var(--accent);color:var(--card)}
+.btn:hover{filter:brightness(1.08)}
+.btn:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.btn.ghost{background:var(--card);color:var(--ink-soft);border-color:var(--line)}
+.btn.claude{background:var(--card);color:var(--accent);border-color:var(--accent)}
+.btn.claude:hover{background:var(--accent-soft);filter:none}
+.btn.ghost:hover{color:var(--ink);border-color:var(--accent)}
+.btn[disabled]{opacity:.45;cursor:not-allowed;filter:none}
+
+.count{font-size:.76rem;color:var(--ink-soft);font-family:var(--mono);margin:0 0 .6rem}
+ol.items{list-style:none;padding:0;margin:0;display:grid;gap:.7rem}
+li.item{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:1rem 1.05rem;
+  display:grid;grid-template-columns:auto 1fr;gap:0 .8rem;min-width:0}
+li.item.sel{border-color:var(--accent);box-shadow:inset 3px 0 0 var(--accent)}
+.pickwrap{padding-top:.18rem}
+input.pick{width:1.05rem;height:1.05rem;accent-color:var(--accent);cursor:pointer;margin:0}
+input.pick:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.main{min-width:0}
+.itop{display:flex;flex-wrap:wrap;gap:.35rem;align-items:center;margin-bottom:.4rem}
+.lec{font-family:var(--mono);font-size:.71rem;color:var(--ink-soft);border:1px solid var(--line);
+  border-radius:4px;padding:.16rem .38rem}
+.crs{font-family:var(--mono);font-size:.71rem;border-radius:4px;padding:.16rem .38rem;
+  background:var(--accent-soft);color:var(--accent)}
+li.item h3{font-family:var(--display);font-weight:500;font-size:1.08rem;line-height:1.3;
+  margin:0 0 .28rem;letter-spacing:-.005em}
+.src{font-size:.8rem;color:var(--ink-soft);margin:0 0 .5rem}
+.src em{font-style:italic}
+.finding{font-size:.88rem;margin:0 0 .5rem}
+.why{font-size:.88rem;margin:0;padding-left:.65rem;border-left:2px solid var(--line);color:var(--ink-soft)}
+.why b{color:var(--ink);font-weight:600}
+.warn{display:flex;gap:.45rem;font-size:.82rem;background:var(--warn-bg);color:var(--warn);
+  border-radius:7px;padding:.5rem .6rem;margin:.55rem 0 0}
+.warn b{font-weight:700;white-space:nowrap}
+.acts{display:flex;flex-wrap:wrap;gap:.35rem;align-items:center;margin-top:.7rem}
+.acts .doilink{font-family:var(--mono);font-size:.72rem;margin-left:auto}
+.acts .doilink a{color:var(--accent);text-decoration:none;border-bottom:1px solid transparent;word-break:break-all}
+.acts .doilink a:hover{border-bottom-color:var(--accent)}
+.panel{margin-top:.6rem;background:var(--sunk);border:1px solid var(--line);border-radius:8px;padding:.75rem .85rem}
+.panel h4{font-family:var(--body);font-size:.7rem;text-transform:uppercase;letter-spacing:.08em;
+  color:var(--ink-soft);margin:0 0 .4rem;font-weight:700}
+.panel p{font-size:.86rem;margin:0}
+.panel .absmeta{font-family:var(--mono);font-size:.7rem;color:var(--ink-soft);margin-top:.5rem}
+pre.slide{font-family:var(--mono);font-size:.76rem;line-height:1.5;white-space:pre-wrap;word-break:break-word;
+  margin:0;color:var(--ink)}
+.slidelbl{font-family:var(--body);font-size:.68rem;font-weight:700;text-transform:uppercase;
+  letter-spacing:.07em;border-radius:4px;padding:.14rem .36rem;display:inline-block;margin-bottom:.3rem}
+.lbl-cur{background:var(--warn-bg);color:var(--warn)}
+.lbl-new{background:var(--exa-bg);color:var(--exa)}
+
+.empty{background:var(--card);border:1px dashed var(--line);border-radius:10px;padding:2rem 1.3rem;
+  text-align:center;color:var(--ink-soft)}
+.empty h3{font-family:var(--display);font-size:1.2rem;font-weight:600;color:var(--ink);margin:0 0 .5rem}
+.empty p{font-size:.9rem;margin:0 auto;max-width:34rem}
+#dlpanel{background:var(--card);border:1px solid var(--accent);border-radius:10px;padding:1rem 1.05rem;
+  margin:0 0 1.3rem}
+#dlpanel h3{font-family:var(--display);font-size:1.15rem;font-weight:600;margin:0 0 .35rem}
+#dlpanel p{font-size:.86rem;color:var(--ink-soft);margin:0 0 .6rem}
+#dltext{width:100%;min-height:15rem;font-family:var(--mono);font-size:.74rem;line-height:1.5;
+  color:var(--ink);background:var(--sunk);border:1px solid var(--line);border-radius:8px;padding:.7rem;
+  resize:vertical}
+footer{margin-top:3rem;padding-top:1.1rem;border-top:1px solid var(--line);font-size:.78rem;color:var(--ink-soft)}
+footer code{font-family:var(--mono);font-size:.74rem;background:var(--accent-soft);padding:.1rem .28rem;border-radius:4px}
+@media (max-width:30rem){li.item{padding:.85rem .8rem;gap:0 .6rem}.acts .doilink{margin-left:0;width:100%}}
+</style>
+
+<div class="wrap">
+  <h1>Teaching Review Archive</h1>
+  <p class="lede">New psychology research matched to your lectures. Pick a month, then a class, then a
+  category. Tick articles to build download instructions.</p>
+
+  <div class="railwrap"><div class="rail" id="rail" role="tablist"></div></div>
+  <div class="facts" id="facts"></div>
+  <nav class="classes" id="classes" role="tablist" aria-label="Class"></nav>
+  <nav class="cats" id="cats" role="tablist" aria-label="Category"></nav>
+  <p class="catnote" id="catnote"></p>
+
+  <div class="controls">
+    <input id="q" type="search" placeholder="Search title, journal, author, finding…" autocomplete="off" aria-label="Search within this category">
+    <div class="selbar">
+      <span class="cnt" id="selcnt">0 selected</span>
+      <button class="btn" id="dlbtn" disabled>Build download instructions</button>
+      <button class="btn ghost" id="clrbtn" disabled>Clear selection</button>
+    </div>
+  </div>
+
+  <section id="dlpanel" hidden>
+    <h3>Download instructions</h3>
+    <p>Paste this to Claude in Chrome. It names every file for you.</p>
+    <textarea id="dltext" readonly spellcheck="false"></textarea>
+    <div class="acts" style="margin-top:.6rem">
+      <button class="btn" id="dlcopy">Copy instructions</button>
+      <button class="btn ghost" id="dlclose">Close</button>
+    </div>
+  </section>
+
+  <p class="count" id="count"></p>
+  <div id="list"></div>
+
+  <footer>
+    Built from <code>data/curation_*.json</code> + <code>data/refs_*.json</code> + <code>data/slides_*.json</code>
+    by <code>scripts/build_site.py</code>. Every DOI is verified present in the fetched Crossref metadata.
+  </footer>
+</div>
+
+<script>
+/*__DATA__*/
+
+const CATS=[["priority","Priority"],["updates","Updates"],["examples","Examples"],["retractions","Retractions"]];
+const CATNOTE={
+ priority:"The reads worth your time first — biggest consequence for what you teach.",
+ updates:"Findings that change, sharpen or complicate a claim already on a slide.",
+ examples:"Stronger classroom material than what the slide uses now, where nothing is wrong.",
+ retractions:"Findings that invalidate something you teach — a failed replication of an accepted effect, or a claim that should come off the slide."
+};
+const RETRACT_EMPTY="Nothing this month. This is the category you want to stay empty: it fills only when new work means a claim should come off a slide rather than be revised. A single null result does not qualify — it takes a serious replication failure or a reversal of an accepted effect.";
+
+const COURSE_ORDER=["all","PSY157","PSY170","PSY175"];
+const COURSE_LABEL={all:"All classes",PSY157:"PSY157 \u00b7 Relationships",
+                    PSY170:"PSY170 \u00b7 I/O",PSY175:"PSY175 \u00b7 Sexuality"};
+
+let mi=0, cat="priority", fCourse="all", fQ="";
+const picked=new Set();
+const ls={get(k,d){try{const v=localStorage.getItem(k);return v===null?d:v}catch(e){return d}},
+          set(k,v){try{localStorage.setItem(k,v)}catch(e){}}};
+
+(function restore(){
+  const m=ls.get("tr-month",null);
+  const i=MONTHS.findIndex(x=>x.month===m); if(i>=0) mi=i;
+  const c=ls.get("tr-cat",null); if(c&&CATS.some(x=>x[0]===c)) cat=c;
+  const co=ls.get("tr-course",null); if(co==="all"||(co&&/^PSY1(57|70|75)$/.test(co))) fCourse=co;
+  try{JSON.parse(ls.get("tr-picked","[]")).forEach(d=>picked.add(d))}catch(e){}
+})();
+
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const M=()=>MONTHS[mi];
+const allItems=()=>M().items;
+const inCourse=(it,c)=>c==="all"||it.courses.includes(c);
+const countCat=(c,k)=>allItems().filter(it=>it.cat===k&&inCourse(it,c)).length;
+const countClass=c=>allItems().filter(it=>inCourse(it,c)).length;
+
+async function copyText(txt,btn,label){
+  const done=t=>{const o=btn.textContent;btn.textContent=t;setTimeout(()=>btn.textContent=o,2200)};
+  const ok=label||"Copied";
+  try{ await navigator.clipboard.writeText(txt); done(ok); return }catch(e){}
+  const ta=document.createElement("textarea");
+  ta.value=txt; ta.style.position="fixed"; ta.style.opacity="0";
+  document.body.appendChild(ta); ta.select();
+  try{ done(ok) }catch(e){ done("Select and copy") }
+  setTimeout(()=>ta.remove(),8000);
+}
+
+function slideText(it){
+  const s=it.slide; if(!s) return "";
+  const head=`${it.courses.join(" / ")} · ${it.lectures}`;
+  let out=head+"\n"+"=".repeat(head.length)+"\n\n";
+  if(s.current){
+    out+="CURRENT SLIDE\n"+s.current.title+"\n"+s.current.lines.map(l=>"  • "+l).join("\n")+"\n\n";
+    out+="PROPOSED REPLACEMENT\n";
+  } else {
+    out+="NEW SLIDE\n";
+  }
+  out+=s.proposed.title+"\n"+s.proposed.bullets.map(b=>"  • "+b).join("\n")+"\n";
+  if(s.note) out+="\nNote: "+s.note+"\n";
+  out+="\nSource: "+it.apa;
+  return out;
+}
+
+const CLAUDE_INTRO=
+ "I'm a psychology professor preparing undergraduate lectures. I want to think through one new "+
+ "article and what it should change about a specific lecture of mine. Everything below comes from "+
+ "my monthly journal review.";
+const CLAUDE_ASK=
+ "That is the whole briefing. Don't summarise it back to me and don't start analysing it yet \u2014 "+
+ "just reply with the single word Ready, then wait for my questions. I'll be asking things like how "+
+ "solid the finding actually is, how to present it to undergraduates, what students are likely to push "+
+ "back on, and how to rework the slide. Pull up the article at the DOI above if you can reach it.";
+
+/* The review's prose is written TO Ross ("your slides"). In this prompt Ross is the one
+   speaking, so the second person has to flip. Every "you/your" in the curation refers to
+   his own teaching, so a blanket swap is safe. */
+const toFirstPerson=t=>t.replace(/<\/?b>/g,"")
+  .replace(/\bYour\b/g,"My").replace(/\byour\b/g,"my")
+  .replace(/\bYou\b/g,"I").replace(/\byou\b/g,"I");
+const titleCase=t=>t.charAt(0).toUpperCase()+t.slice(1);
+
+function claudePrompt(it,withAbstract){
+  const s=it.slide, L=[CLAUDE_INTRO,"","ARTICLE",it.title,
+    `${it.authorsShort} \u00b7 ${it.journal}${it.year?" ("+it.year+")":""}`,
+    `https://doi.org/${it.doi}`,""];
+  if(withAbstract&&it.abstract){ L.push("ABSTRACT",it.abstract,"") }
+  else if(!it.abstract){ L.push("ABSTRACT","(none published in any open source)","") }
+  L.push("WHERE IT FITS",`Course(s): ${it.courses.join(", ")}`,`Lecture: ${it.lectures}`,
+         `Flagged in my review as: ${titleCase(it.cat)}`,"");
+  L.push("THE FINDING",it.finding,"");
+  L.push("WHY IT MATTERS FOR MY LECTURE",toFirstPerson(it.why),"");
+  if(s&&s.current){
+    L.push("WHAT MY SLIDE SAYS NOW",s.current.title);
+    s.current.lines.forEach(x=>L.push("\u2022 "+x)); L.push("");
+  }
+  if(s){
+    L.push(s.current?"SUGGESTED REPLACEMENT":"SUGGESTED NEW SLIDE",s.proposed.title);
+    s.proposed.bullets.forEach(x=>L.push("\u2022 "+x)); L.push("");
+  }
+  if(it.caution){ L.push("CAVEAT FLAGGED IN THE REVIEW",toFirstPerson(it.caution),"") }
+  L.push(CLAUDE_ASK);
+  return L.join("\n");
+}
+
+
+function dlInstructions(items){
+  const L=[];
+  L.push(`Please download the full text of these ${items.length} journal article${items.length>1?"s":""}.`);
+  L.push("");
+  L.push("For each one: open the DOI link, find the full-text PDF, and save it using the exact filename given.");
+  L.push("If you hit a paywall, use my institutional library access (UC Merced) rather than any other source.");
+  L.push("Keep the .pdf extension. Do not rename anything else.");
+  L.push("");
+  items.forEach((it,n)=>{
+    L.push(`${n+1}. ${it.title}`);
+    L.push(`   URL:      https://doi.org/${it.doi}`);
+    L.push(`   Save as:  ${it.file}.pdf`);
+    L.push("");
+  });
+  L.push("Filename convention, for reference: first author's surname (plus \"et al\" for three or more authors,");
+  L.push("or \"X & Y\" for exactly two), then the year, then \" - \", then a short sentence-case title.");
+  return L.join("\n");
+}
+
+function card(it){
+  const on=picked.has(it.doi);
+  const s=it.slide;
+  return `<li class="item${on?" sel":""}" data-doi="${esc(it.doi)}">
+   <div class="pickwrap"><input class="pick" type="checkbox" ${on?"checked":""}
+     id="p-${esc(it.doi)}" aria-label="Select ${esc(it.title)}"></div>
+   <div class="main">
+    <div class="itop">
+      ${it.courses.map(c=>`<span class="crs">${esc(c)}</span>`).join("")}
+      <span class="lec">${esc(it.lectures)}</span>
+    </div>
+    <h3>${esc(it.title)}</h3>
+    <p class="src">${esc(it.authorsShort)} · <em>${esc(it.journal)}</em>${it.year?" · "+it.year:""}</p>
+    <p class="finding">${esc(it.finding)}</p>
+    <p class="why">${it.why}</p>
+    ${it.caution?`<p class="warn"><b>Note</b><span>${esc(it.caution)}</span></p>`:""}
+    <div class="acts">
+      ${it.abstract?`<button class="btn ghost" data-tog="abs">Abstract</button>`:
+        `<button class="btn ghost" disabled title="No abstract published in any open source">No abstract</button>`}
+      ${s?`<button class="btn ghost" data-tog="slide">Slide text</button>`:""}
+      <button class="btn ghost" data-copy="apa">Copy APA reference</button>
+      <button class="btn claude" data-copy="claude"
+         title="Copies a full briefing on this article and the lecture it affects. Paste it into a new Claude chat as your first message; Claude replies &quot;Ready&quot; and waits for your questions.">Continue in Claude</button>
+      <span class="doilink"><a href="https://doi.org/${encodeURIComponent(it.doi)}" target="_blank" rel="noopener">${esc(it.doi)}</a></span>
+    </div>
+    ${it.abstract?`<div class="panel" data-pane="abs" hidden><h4>Full abstract</h4>
+      <p>${esc(it.abstract)}</p><p class="absmeta">source: ${esc(it.absSrc||"—")}</p></div>`:""}
+    ${s?`<div class="panel" data-pane="slide" hidden>
+      <h4>PowerPoint text</h4>
+      <pre class="slide">${esc(slideText(it))}</pre>
+      <div class="acts" style="margin-top:.55rem"><button class="btn ghost" data-copy="slide">Copy slide text</button></div>
+    </div>`:""}
+   </div></li>`;
+}
+
+function visible(){
+  return allItems().filter(it=>{
+    if(it.cat!==cat) return false;
+    if(fCourse!=="all" && !it.courses.includes(fCourse)) return false;
+    if(fQ){
+      const hay=(it.title+" "+it.journal+" "+it.authorsShort+" "+it.finding+" "+it.why+" "+it.lectures+" "+it.doi+" "+(it.abstract||"")).toLowerCase();
+      if(!fQ.split(/\s+/).every(w=>hay.includes(w))) return false;
+    }
+    return true;
+  });
+}
+
+function renderRail(){
+  document.getElementById("rail").innerHTML=MONTHS.map((m,i)=>
+    `<button role="tab" data-mi="${i}" aria-selected="${i===mi}">${esc(m.label)}</button>`).join("");
+  const m=M(), st=m.stats;
+  document.getElementById("facts").innerHTML=
+    `<div class="fact"><b>${st.new}</b><span>new articles</span></div>
+     <div class="fact"><b>${st.abstracts}</b><span>abstracts</span></div>
+     <div class="fact"><b>${st.flagged}</b><span>flagged</span></div>
+     <div class="fact"><b>${st.journals}</b><span>journals</span></div>
+     <div class="fact"><b>${esc(m.window.since)} → ${esc(m.window.until)}</b><span>window</span></div>`;
+  document.getElementById("classes").innerHTML=COURSE_ORDER.map(c=>
+    `<button role="tab" data-course="${c}" aria-selected="${c===fCourse}">${esc(COURSE_LABEL[c])}<span class="n">${countClass(c)}</span></button>`).join("");
+  document.getElementById("cats").innerHTML=CATS.map(([k,lbl])=>
+    `<button role="tab" data-cat="${k}" aria-selected="${k===cat}">${lbl}<span class="n">${countCat(fCourse,k)}</span></button>`).join("");
+  document.getElementById("catnote").textContent=CATNOTE[cat];
+}
+
+function render(){
+  renderRail();
+  const keep=visible(), total=countCat(fCourse,cat);
+  document.getElementById("count").textContent =
+    total===0 ? "" : `${keep.length} of ${total} shown`;
+  const host=document.getElementById("list");
+  if(!keep.length){
+    host.innerHTML = total===0
+      ? `<div class="empty"><h3>No ${CATS.find(c=>c[0]===cat)[1].toLowerCase()}${fCourse==="all"?"":" for "+fCourse} this month</h3><p>${esc(cat==="retractions"?RETRACT_EMPTY:"Nothing landed in this category for "+(fCourse==="all"?M().label:fCourse+" in "+M().label)+".")}</p></div>`
+      : `<div class="empty"><h3>Nothing matches</h3><p>No article in this category matches the current search or course filter.</p></div>`;
+  } else {
+    host.innerHTML=`<ol class="items">${keep.map(card).join("")}</ol>`;
+  }
+  const n=picked.size;
+  document.getElementById("selcnt").textContent=`${n} selected`;
+  document.getElementById("dlbtn").disabled=!n;
+  document.getElementById("clrbtn").disabled=!n;
+}
+
+/* events */
+document.getElementById("rail").addEventListener("click",e=>{
+  const b=e.target.closest("button[data-mi]"); if(!b) return;
+  mi=+b.dataset.mi; ls.set("tr-month",M().month); render();
+});
+document.getElementById("cats").addEventListener("click",e=>{
+  const b=e.target.closest("button[data-cat]"); if(!b) return;
+  cat=b.dataset.cat; ls.set("tr-cat",cat); render();
+});
+document.getElementById("q").addEventListener("input",e=>{fQ=e.target.value.trim().toLowerCase();render()});
+document.getElementById("classes").addEventListener("click",e=>{
+  const b=e.target.closest("button[data-course]"); if(!b) return;
+  fCourse=b.dataset.course; ls.set("tr-course",fCourse); render();
+});
+document.getElementById("list").addEventListener("click",e=>{
+  const li=e.target.closest("li.item"); if(!li) return;
+  const it=allItems().find(x=>x.doi===li.dataset.doi); if(!it) return;
+  const tog=e.target.closest("button[data-tog]");
+  if(tog){ const pane=li.querySelector(`[data-pane="${tog.dataset.tog}"]`);
+    if(pane){ pane.hidden=!pane.hidden; tog.setAttribute("aria-expanded",String(!pane.hidden)); } return; }
+  const cp=e.target.closest("button[data-copy]");
+  if(cp){
+    const k=cp.dataset.copy;
+    if(k==="claude") copyText(claudePrompt(it,true),cp,"Copied \u2014 paste into Claude");
+    else copyText(k==="apa"?it.apa:slideText(it),cp);
+    return;
+  }
+});
+document.getElementById("list").addEventListener("change",e=>{
+  const box=e.target.closest("input.pick"); if(!box) return;
+  const li=box.closest("li.item"), doi=li.dataset.doi;
+  box.checked?picked.add(doi):picked.delete(doi);
+  li.classList.toggle("sel",box.checked);
+  ls.set("tr-picked",JSON.stringify([...picked]));
+  const n=picked.size;
+  document.getElementById("selcnt").textContent=`${n} selected`;
+  document.getElementById("dlbtn").disabled=!n;
+  document.getElementById("clrbtn").disabled=!n;
+});
+document.getElementById("dlbtn").addEventListener("click",()=>{
+  const chosen=[];
+  MONTHS.forEach(m=>m.items.forEach(it=>{ if(picked.has(it.doi)) chosen.push(it) }));
+  document.getElementById("dltext").value=dlInstructions(chosen);
+  const p=document.getElementById("dlpanel"); p.hidden=false;
+  p.scrollIntoView({behavior:"smooth",block:"start"});
+});
+document.getElementById("dlcopy").addEventListener("click",e=>
+  copyText(document.getElementById("dltext").value,e.target));
+document.getElementById("dlclose").addEventListener("click",()=>
+  document.getElementById("dlpanel").hidden=true);
+document.getElementById("clrbtn").addEventListener("click",()=>{
+  picked.clear(); ls.set("tr-picked","[]");
+  document.getElementById("dlpanel").hidden=true; render();
+});
+
+render();
+</script>
