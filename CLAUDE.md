@@ -71,6 +71,16 @@ imports them so both surfaces agree. Editing a generated file by hand gets overw
 The report's "Slides to update" table is derived automatically from every item whose `slide` entry has a
 `current` block — so adding current wording to an item is what puts it in that table.
 
+### Reading state
+
+Read / unread / dismissed per article lives in `localStorage` under `tr-state-v1`, keyed by DOI
+(absent = unread). It is per browser, never in the repo, and not visible to Claude. The page has
+Back up / Restore buttons that move it between browsers as a JSON blob.
+
+Because DOIs are unique, state carries across months automatically — no migration needed when a
+new month is added. Browser storage is wrapped in try/catch throughout: the page must still work
+when storage is unavailable (it is disabled on `data:` URLs, which is how local previews load).
+
 ### Card actions on the site
 
 Each card offers **Abstract**, **Slide text**, **Copy APA reference** and **Continue in Claude**, plus a

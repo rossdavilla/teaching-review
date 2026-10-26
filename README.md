@@ -35,6 +35,22 @@ reads the articles and decides what matters for your lectures.
 Either way the public page updates about a minute after step 2:
 https://rossdavilla.github.io/teaching-review/
 
+## Working through the list
+
+Each article has **Mark read** and **Dismiss**. The **Show** row filters to Unread, All, Read or
+Dismissed, and a progress line tracks how much of the current category you've cleared. Dismissed
+articles are hidden but never lost — switch Show to Dismissed and press Restore.
+
+Your progress is saved in the browser, so closing the tab and coming back days later picks up where
+you left off. Two things to know about that:
+
+- It is **per browser and per device**. Chrome on your laptop and Safari on your iPad keep separate
+  progress. **Back up** at the bottom of the page copies your progress as text; **Restore from
+  backup** pastes it into another browser.
+- Clearing your browser's site data erases it. Back up first if you are about to do that.
+
+Progress never leaves your device — it is not in the repo and Claude cannot see it.
+
 ## What's here
 
 ```
