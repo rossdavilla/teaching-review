@@ -3,6 +3,20 @@
 Scans 21 top-tier psychology journals for new articles relevant to Ross's three courses, then maps the
 findings to specific lectures and flags lecture content that should be updated.
 
+## When Ross says "do this month's review"
+
+**Do the whole thing yourself. Ross does not use the terminal and should never be told to run a
+command unless he asks for one.** In order:
+
+1. Run `./start-month.sh` with the Bash tool. It takes a few minutes; say so.
+2. Do the review (playbook below): write `data/curation_YYYY-MM.json` and `data/slides_YYYY-MM.json`.
+3. Show him what you found and take his changes before publishing.
+4. Run `./finish-month.sh` with the Bash tool.
+5. Publish the artifact so the private copy matches the public page.
+
+He has double-clickable `.command` files as a backup for when he doesn't want to open a session,
+but the normal path is asking you.
+
 ## Courses
 
 | Code | Course | Lectures present |

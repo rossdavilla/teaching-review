@@ -12,35 +12,28 @@ A monthly review of new psychology research, mapped to the lectures of three cou
 Scans 21 top-tier journals, pulls new articles with abstracts, and produces a report saying which lecture
 each relevant finding belongs in — and which existing slides a new finding should change.
 
-## Once a month, three steps
+## Once a month
 
-**1. Scan for new articles.** In Terminal:
+**The easy way — just ask.** Open this folder in Claude Code and say:
 
-```bash
-cd ~/GitHub/Journal\ Scraper && ./start-month.sh
-```
+> do this month's journal review
 
-Takes a few minutes. It asks 21 journals what they published in the last 31 days, skips anything
-already reported, and fetches abstracts.
+Claude runs the scan, reads the new articles against your lectures, shows you what it found,
+makes any changes you want, then publishes everything. You don't run anything yourself.
 
-**2. Ask Claude for the review.** Open this folder in Claude Code and say:
+**The backup way — double-click.** If you'd rather not open a session, this folder has two files
+you can double-click in Finder:
 
-> write this month's teaching review
+| Double-click | When | What happens |
+|---|---|---|
+| **1 Scan for new articles** | Start of the month | A black window opens and shows progress for a few minutes, then tells you what to do next |
+| **2 Publish the review** | After Claude has written the review | Builds the report and the web page and puts them online |
 
-Claude reads the new articles against your lecture index, sorts them into Priority / Updates /
-Examples / Retractions, and writes the slide text. Read it, push back, ask for changes.
+Between those two you still need to ask Claude for the review itself — that's the part that
+reads the articles and decides what matters for your lectures.
 
-**3. Publish.** When you're happy with it:
-
-```bash
-./finish-month.sh
-```
-
-Builds the report and the web page, marks the month as seen so it never reappears, and pushes.
-The public page updates by itself a minute later. If you also want the private Claude version
-refreshed, say "publish the artifact" in that session.
-
-That's the whole routine. Steps 1 and 3 are one command each; the thinking happens in step 2.
+Either way the public page updates about a minute after step 2:
+https://rossdavilla.github.io/teaching-review/
 
 ## What's here
 
