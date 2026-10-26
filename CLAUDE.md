@@ -131,6 +131,21 @@ per-item `caution` field instead, which renders as a note on the card.
 5. End each course section with a **"Lecture material to update"** table: current slide content → suggested change.
 6. Close with cross-course items and coverage notes.
 
+### Writing the synopsis (`finding`)
+
+Write it from the published abstract, not from the title. Aim for roughly 600–700 characters —
+four to six sentences — covering the design, the sample with its real numbers, the headline result,
+and any secondary result that changes how the finding should be read. Ross asked for this length
+explicitly after the first pass came back too condensed to follow.
+
+Do not compress away the second half of a paper. The October pass originally reported only Study 1
+of the Bamboo Ceiling paper and missed the UK Biobank analysis that found the effect was moderated
+by gender, and it described the attachment/social-anxiety study as "tests whether" without saying
+that negative dyadic coping mediated while supportive coping did not. Read the whole abstract.
+
+Where no abstract exists, say so plainly and say what can still be inferred from the title — do not
+pad to length.
+
 ### Writing slide text
 
 Every item gets a `slide` entry. `proposed` is a slide title plus 4–7 short bullets — write them as spoken
