@@ -13,6 +13,10 @@ findings to specific lectures and flags lecture content that should be updated.
 
 ## Monthly run
 
+Ross runs `./start-month.sh`, then asks for the review, then runs `./finish-month.sh`. Those two
+wrappers cover every command below — so when he asks what to do, point him at the wrappers rather
+than the individual scripts. The steps below are what they call, for when something breaks.
+
 ```bash
 python3 -I scripts/fetch_articles.py              # last 31 days
 ```

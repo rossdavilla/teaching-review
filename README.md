@@ -12,25 +12,41 @@ A monthly review of new psychology research, mapped to the lectures of three cou
 Scans 21 top-tier journals, pulls new articles with abstracts, and produces a report saying which lecture
 each relevant finding belongs in — and which existing slides a new finding should change.
 
-## Use it
+## Once a month, three steps
+
+**1. Scan for new articles.** In Terminal:
 
 ```bash
-export CROSSREF_MAILTO="you@example.com"   # optional: polite rate limits from Crossref/OpenAlex
-python3 -I scripts/fetch_articles.py
+cd ~/GitHub/Journal\ Scraper && ./start-month.sh
 ```
 
-That writes `data/candidates_YYYY-MM.json` plus one file per course. Then ask Claude in this directory to
-"write this month's teaching review"; it produces `reports/YYYY-MM.md`. Accept it and run:
+Takes a few minutes. It asks 21 journals what they published in the last 31 days, skips anything
+already reported, and fetches abstracts.
+
+**2. Ask Claude for the review.** Open this folder in Claude Code and say:
+
+> write this month's teaching review
+
+Claude reads the new articles against your lecture index, sorts them into Priority / Updates /
+Examples / Retractions, and writes the slide text. Read it, push back, ask for changes.
+
+**3. Publish.** When you're happy with it:
 
 ```bash
-python3 -I scripts/commit_seen.py
+./finish-month.sh
 ```
 
-so the same articles don't come back next month.
+Builds the report and the web page, marks the month as seen so it never reappears, and pushes.
+The public page updates by itself a minute later. If you also want the private Claude version
+refreshed, say "publish the artifact" in that session.
+
+That's the whole routine. Steps 1 and 3 are one command each; the thinking happens in step 2.
 
 ## What's here
 
 ```
+start-month.sh                step 1 — scan the journals
+finish-month.sh               step 3 — build, mark seen, push
 config/journals.json          21 journals with ISSNs, course tags, abstract-source notes
 scripts/extract_lectures.py   lecture PDFs -> data/lecture_text/ (run only when decks change)
 scripts/fetch_articles.py     Crossref -> Europe PMC -> OpenAlex cascade, dedupe, junk filter
